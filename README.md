@@ -2,22 +2,24 @@
 
 ---
 
-// description
+alipay.us style library. We choose `us-` for class prefix.
 
 ---
 
-## Usage
+<link type="text/css" rel="stylesheet" media="screen" href="src/button.css">
 
+## Demo
+
+### Button
 
 ````html
-<div class="alice-ihome">
-</div>
+<a class="us-button us-button-primary">Continue</a>
+<a class="us-button us-button-primary us-button-middle">Continue</a>
+<a class="us-button us-button-primary us-button-small">Continue</a>
 ````
 
-```javascript
-seajs.use('ihome', function(ihome) {
-
-});
-```
-
-## Api
+````html
+<a class="us-button us-button-info">Search</a>
+<a class="us-button us-button-info us-button-middle">Search</a>
+<a class="us-button us-button-info us-button-small">Search</a>
+````
