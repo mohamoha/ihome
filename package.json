@@ -10,12 +10,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/aliceui/ihome.git"
+    "url": "https://github.com/aliceui/ihome"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/aliceui/ihome/issues"
   },
-  "keywords": [],
+  "keywords": ["alipay", "style", "alice"],
   "licenses": "MIT",
   "spm": {
     "output": ["ihome.css"],
