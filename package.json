@@ -1,0 +1,26 @@
+{
+  "family": "alice",
+  "name": "ihome",
+  "version": "1.0.0",
+  "description": "Style library for alipay.us",
+  "homepage": "https://github.com/aliceui/ihome",
+  "author": "afc163 <afc163@gmail.com>",
+  "maintainers": [
+    "偏右 <xingmin.zhu@alipay.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aliceui/ihome.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": ["ihome.css"],
+    "alias": {},
+    "devAlias": {},
+    "engines": {}
+  }
+}
