@@ -1,8 +1,9 @@
 @import url("nomalize.css");
 
 body {
-  font: 16px\1.5 tahoma, Verdana, arial;
-  color: #908a80;
+  font: 16px/1.5 tahoma, Verdana, arial, sans-serif;
+  color: #958572;
+  backgroud: #F5F4E9;
 }
 
 a, a:link {
