@@ -2,7 +2,7 @@
   "family": "alice",
   "name": "ihome",
   "version": "1.0.0",
-  "description": "Style library for alipay.us",
+  "description": "Widget library for alipay.us",
   "homepage": "https://github.com/aliceui/ihome",
   "author": "afc163 <afc163@gmail.com>",
   "maintainers": [

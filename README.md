@@ -2,7 +2,7 @@
 
 ---
 
-alipay.us style library. We choose `us-` for class prefix.
+alipay.us widget library. We choose `us-` for class prefix.
 
 ---
 

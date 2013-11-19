@@ -1,19 +1,33 @@
 @import url("nomalize.css");
 
+body {
+  font: 16px\1.5 tahoma, Verdana, arial;
+  color: #908a80;
+}
+
+a, a:link {
+  color: #2d93b4;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3DDEF5;
+}
+
 /* 清理浮动 */
 .fn-clear:after {
-    visibility:hidden;
-    display:block;
-    font-size:0;
-    content:" ";
-    clear:both;
-    height:0;
+  visibility:hidden;
+  display:block;
+  font-size:0;
+  content:" ";
+  clear:both;
+  height:0;
 }
 .fn-clear {
-    zoom:1; /* for IE6 IE7 */
+  zoom:1; /* for IE6 IE7 */
 }
 
 /* 隐藏, 通常用来与 JS 配合 */
 .fn-hide {
-    display:none;
+  display:none;
 }

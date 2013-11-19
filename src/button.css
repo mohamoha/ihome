@@ -2,7 +2,7 @@
   color: #fff;
   font-size: 22px;
   display: inline-block;
-  font-family: Verdana;
+  font-family: tahoma;
   border-width: 0 0 2px 0;
   cursor: pointer;
   border-style: solid;
@@ -11,9 +11,8 @@
 }
 
 .us-button:hover {
-  text-decoration:none;
+  text-decoration: none;
   color: #fff;
-  opacity: 0.85;
 }
 
 .us-button-large {
@@ -38,7 +37,15 @@
   border-color: #008C7B;
 }
 
+.us-button-primary:hover {
+  background: #008C7B;
+}
+
 .us-button-info {
   background: #BCAD8E;
   border-color: #958572;
+}
+
+.us-button-info:hover {
+  background: #88754F;
 }
