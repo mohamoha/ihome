@@ -2,9 +2,34 @@
 
 ---
 
-alipay.us widget library. We choose `us-` for class prefix.
+DPL page for `alipay.us`. We choose `us-` for class prefix.
 
 ---
+
+## Usage
+
+The style module ID can be found at left sidebar, you can import them by adding aliases to your package.json:
+
+```js
+"spm": {
+  "alias": {
+   "index": "alice/ihome/1.0.0/index.css"
+  }
+}
+```
+
+And @import the alias name in your css file: `@import url("index");`.
+
+Or add modules you want:
+
+```js
+"spm": {
+  "alias": {
+    "button": "alice/ihome/1.0.0/button.css",
+    "step": "alice/ihome/1.0.0/step.css"
+  }
+}
+```
 
 <style>
 .nico-insert-code {
@@ -16,6 +41,10 @@ alipay.us widget library. We choose `us-` for class prefix.
 </style>
 
 ## Button
+
+```js
+ID: "button.css"
+```
 
 <link type="text/css" rel="stylesheet" media="screen" href="src/button.css">
 
@@ -33,6 +62,10 @@ alipay.us widget library. We choose `us-` for class prefix.
 
 ## Input
 
+```js
+ID: "input.css"
+```
+
 <link type="text/css" rel="stylesheet" media="screen" href="src/input.css">
 
 ````html
@@ -43,6 +76,10 @@ alipay.us widget library. We choose `us-` for class prefix.
 ````
 
 ## Tab
+
+```js
+ID: "tab.css"
+```
 
 <link type="text/css" rel="stylesheet" media="screen" href="src/tab.css">
 
@@ -67,3 +104,28 @@ alipay.us widget library. We choose `us-` for class prefix.
   </li>
 </ul>
 ````
+
+## Dropdown
+
+## Table
+
+## Switch
+
+## Paging
+
+## Calendar
+
+## Step
+
+## Select
+
+## Notice
+
+## Radio Card
+
+## Header
+
+## footer
+
+## page layout
+

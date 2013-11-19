@@ -2,7 +2,7 @@
   "family": "alice",
   "name": "ihome",
   "version": "1.0.0",
-  "description": "Widget library for alipay.us",
+  "description": "DPL page for alipay.us",
   "homepage": "https://github.com/aliceui/ihome",
   "author": "afc163 <afc163@gmail.com>",
   "maintainers": [
@@ -18,7 +18,12 @@
   "keywords": ["alipay", "style", "alice"],
   "licenses": "MIT",
   "spm": {
-    "output": ["index.css"],
+    "output": [
+      "index.css",
+      "tab.css",
+      "input.css",
+      "button.css"
+    ],
     "alias": {
       "nomalize.css": "gallery/normalize/2.1.3/normalize.css",
       "grid.css": "alice/grid/1.0.0/grid.css"
