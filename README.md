@@ -239,6 +239,47 @@ More usage at: http://aralejs.org/calendar
 
 ## Step
 
+```js
+ID: "step.css"
+```
+
+<link type="text/css" rel="stylesheet" media="screen" href="src/step.css">
+
+````html
+<ol class="us-step us-step-3">
+    <li class="us-step-start us-step-done">Email Validation</li>
+    <li class="us-step-active">Account Set up</li>
+    <li class="us-step-end">Success</li>
+</ol>
+````
+
+````html
+<ol class="us-step us-step-4">
+    <li class="us-step-start us-step-done">Validate</li>
+    <li class="us-step-done">Something</li>
+    <li class="us-step-active">Account Set</li>
+    <li class="us-step-end">Success</li>
+</ol>
+````
+
+````html
+<ol class="us-step us-step-5">
+    <li class="us-step-start us-step-done">One</li>
+    <li class="us-step-done">Two</li>
+    <li class="us-step-active">Three</li>
+    <li>Four</li>
+    <li class="us-step-end">Five</li>
+</ol>
+````
+
+````html
+<ol class="us-step us-step-3 us-step-mini">
+    <li class="us-step-start us-step-done">One</li>
+    <li class="us-step-active">Two</li>
+    <li class="us-step-end">Three</li>
+</ol>
+````
+
 ## Select
 
 ## Notice
