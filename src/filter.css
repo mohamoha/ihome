@@ -1,20 +1,20 @@
-.ui-filter {
+.us-filter {
   font-size: 12px;
 }
 
-.ui-filter-item a {
+.us-filter-item a {
   font-size: 16px;
   color: #927e67;
   display: block;
   background-color:#ECEAD8;
 }
 
-.ui-filter-item a:hover {
+.us-filter-item a:hover {
   background-color:#958572;
   color: #fff;
 }
 
-.ui-filter-item {
+.us-filter-item {
   display: inline-block;
   *display: inline;
   *zoom: 1;
@@ -24,6 +24,6 @@
   line-height: 40px;
 }
 
-.ui-filter-item-selected a {
+.us-filter-item-selected a {
   background-color:#DBD7BA;
 }

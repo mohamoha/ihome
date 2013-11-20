@@ -125,17 +125,17 @@ ID: "filter.css"
 <link type="text/css" rel="stylesheet" media="screen" href="src/filter.css">
 
 ````html
-<ul class="ui-filter">
-  <li class="ui-filter-item ui-filter-item-selected">
+<ul class="us-filter">
+  <li class="us-filter-item us-filter-item-selected">
     <a href="javascript:;">All</a>
   </li>
-  <li class="ui-filter-item">
+  <li class="us-filter-item">
     <a href="javascript:;">Pending</a>
   </li>
-  <li class="ui-filter-item">
+  <li class="us-filter-item">
     <a href="javascript:;">In progress</a>
   </li>
-  <li class="ui-filter-item">
+  <li class="us-filter-item">
     <a href="javascript:;">Completed</a>
   </li>
 </ul>
@@ -224,6 +224,37 @@ ID: "table.css"
 ````
 
 ## Switch
+
+```js
+ID: "switch.css"
+```
+
+<link type="text/css" rel="stylesheet" media="screen" href="src/switch.css">
+
+````html
+<div class="us-switch us-switch-left">
+  <span class="us-switch-dot">●</span>
+</div>
+````
+
+````html
+<div class="us-switch us-switch-right">
+  <span class="us-switch-dot">●</span>
+</div>
+````
+
+````js
+seajs.use('$', function($) {
+  $('.us-switch').click(function() {
+    var item = $(this);
+    if (item.hasClass('us-switch-left')) {
+      item.removeClass('us-switch-left').addClass('us-switch-right');
+    } else {
+      item.removeClass('us-switch-right').addClass('us-switch-left');
+    }
+  });
+});
+````
 
 ## Paging
 

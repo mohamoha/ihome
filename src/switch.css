@@ -1,0 +1,51 @@
+.us-switch {
+  position:relative;
+  width: 30px;
+  height: 26px;
+  background-color:#fff;
+  font-family: arial;
+  cursor: pointer;
+  box-shadow: 0 1px 1px #F5DFD4;
+}
+
+.us-switch:before,
+.us-switch:after {
+  content: "●";
+  position:absolute;
+  color: #fff;
+  font-size: 58px;
+  line-height: 1;
+  top: -19px;
+}
+.us-switch:before {
+  left: -15px;
+}
+
+.us-switch:after {
+  right: -15px;
+}
+
+.us-switch-dot {
+  font-size: 47px;
+  z-index: 1;
+  color: #957E65;
+  position: absolute;
+  top: -13px;
+  line-height: 1;
+  transition: left ease-out 0.3s;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.us-switch-dot:hover {
+  color: #AB9275;
+}
+
+.us-switch-left .us-switch-dot {
+  left: -10px;
+}
+
+.us-switch-right .us-switch-dot {
+  left: 12px;
+}
