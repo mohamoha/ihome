@@ -13,7 +13,7 @@ The style module ID can be found at left sidebar, you can import them by adding 
 ```js
 "spm": {
   "alias": {
-   "index": "alice/ihome/1.0.0/index.css"
+    "index": "alice/ihome/1.0.0/index.css"
   }
 }
 ```
@@ -274,6 +274,14 @@ ID: "step.css"
 
 ````html
 <ol class="us-step us-step-3 us-step-mini">
+    <li class="us-step-start us-step-active">One</li>
+    <li>Two</li>
+    <li class="us-step-end">Three</li>
+</ol>
+````
+
+````html
+<ol class="us-step us-step-3 us-step-mini">
     <li class="us-step-start us-step-done">One</li>
     <li class="us-step-active">Two</li>
     <li class="us-step-end">Three</li>
@@ -297,7 +305,7 @@ ID: "step.css"
 ````html
 <style>
 .us-money {
-  font-family: arial;
+  font-family: 'Microsoft YaHei',STXihei,MingLiu;
   font-size: 48px;
 }
 </style>

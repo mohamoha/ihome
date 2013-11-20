@@ -19,28 +19,28 @@
 }
 
 .us-step li:before {
-  content: "◆";
+  content: "";
   position: absolute;
-  left: -22px;
-  color: #fff;
-  top: -3px;
+  left: 1px;
+  top: -2px;
   z-index: 1;
-  font-size: 45px;
-  line-height: 1;
-  font-family: tahoma;
   text-indent: 0;
+  border-top: 22px solid transparent;
+  border-left: 22px solid #fff;
+  border-bottom: 22px solid transparent;
 }
 
 .us-step li:after {
-  content: "◆";
+  content: "";
   position: absolute;
-  right: -20px;
-  color: #DFDAC0;
-  top: -3px;
+  right: -21px;
+  top: -2px;
   z-index: 2;
-  font-size: 45px;
-  line-height: 1;
-  font-family: tahoma;
+  border-top: 22px solid transparent;
+  border-left: 22px solid #DFDAC0;
+  border-bottom: 22px solid transparent;
+  width:0;
+  height:0;
 }
 
 .us-step-start:before,
@@ -53,7 +53,7 @@
   color: #fff;
 }
 .us-step li.us-step-active:after {
-  color: #958572;
+  border-left-color: #958572;
 }
 
 .us-step li.us-step-done {
@@ -62,7 +62,7 @@
 }
 
 .us-step li.us-step-done:after {
-  color: #BCAD8E;
+  border-left-color: #BCAD8E;
 }
 
 .us-step-3 li {
@@ -95,7 +95,13 @@
 }
 
 .us-step-mini li:after {
-  display:none;
+  top: -2px;
+  right: -15px;
+  content: "›";
+  width: auto;
+  color: #BCAD8E;
+  font-size: 22px;
+  border-width: 0;
 }
 
 .us-step-mini li.us-step-active {
@@ -103,19 +109,22 @@
 }
 
 .us-step-mini li.us-step-active:before {
-  font-size: 32px;
-  top: -1px;
-  left: -16px;
+  top: 0;
+  left: 0;
   display: block;
-  color: #F5F4E9;
+  border-left-color: #F5F4E9;
+  border-width: 15px;
+  z-index: 3;
 }
 
 .us-step-mini li.us-step-active:after {
-  font-size: 32px;
-  top: -1px;
-  right: -16px;
+  top: 0;
+  right: -15px;
+  border-left-color: #BCAD8E;
+  border-width: 15px;
   display: block;
-  color: #BCAD8E;
+  content: "";
+  width: 0;
 }
 
 .us-step-mini li.us-step-done {

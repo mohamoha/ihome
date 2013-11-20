@@ -19,12 +19,12 @@
 }
 
 .us-tab-item a:hover {
-  color: #43C8B1;
+  color: #6C5C48;
 }
 
 .us-tab-item-current {
   background: #BCAD8E;
-  position:relative;
+  position: relative;
   margin-right: 25px;
 }
 
