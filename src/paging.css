@@ -1,0 +1,15 @@
+.us-paging {
+  font-size: 14px;
+  color: #a58e73;
+}
+
+.us-paging a {
+  margin: 0 4px;
+}
+
+.us-paging-disabled,
+a.us-paging-disabled,
+a.us-paging-disabled:hover {
+  cursor: text;
+  color: #2d93b4;
+}

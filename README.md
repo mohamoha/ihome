@@ -31,12 +31,21 @@ Or add modules you want:
 }
 ```
 
+For some JavaScript code, you should just copy it to your projects.
+
 <style>
 .nico-insert-code {
   background: #F5F4E9;
   padding: 20px;
   font: 16px/1.5 tahoma, Verdana, arial, sans-serif;
   color: #908a80;
+}
+.nico-insert-code a {
+  color: #2d93b4;
+  text-decoration: none;
+}
+.nico-insert-code a:hover {
+  color: #3DDEF5;
 }
 </style>
 
@@ -107,6 +116,31 @@ ID: "tab.css"
 
 ## Dropdown
 
+## Filter
+
+```js
+ID: "filter.css"
+```
+
+<link type="text/css" rel="stylesheet" media="screen" href="src/filter.css">
+
+````html
+<ul class="ui-filter">
+  <li class="ui-filter-item ui-filter-item-selected">
+    <a href="javascript:;">All</a>
+  </li>
+  <li class="ui-filter-item">
+    <a href="javascript:;">Pending</a>
+  </li>
+  <li class="ui-filter-item">
+    <a href="javascript:;">In progress</a>
+  </li>
+  <li class="ui-filter-item">
+    <a href="javascript:;">Completed</a>
+  </li>
+</ul>
+````
+
 ## Table
 
 ```js
@@ -117,81 +151,98 @@ ID: "table.css"
 
 ````html
 <table class="us-table">
-    <thead>
-        <tr>
-            <th>Date</th>
-            <th>Transaction Info</th>
-            <th>Status</th>
-            <th>Gross</th>
-            <th></th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>2012.03.15</td>
-            <td>
-              <div><a href="#">Freight Only Epacket MMP lalabys</a><div>
-              <div>201304199322039</div>
-            </td>
-            <td>Pending</td>
-            <td>US $200.00</td>
-            <td>
-              <div><a href="#">Detial</a><div>
-            </td>
-            <td>Opertion</td>
-        </tr>
-        <tr>
-            <td>2012.03.15</td>
-            <td>
-              <div><a href="#">Freight Only Epacket MMP lalabys</a><div>
-              <div>201304199322039</div>
-            </td>
-            <td>Pending</td>
-            <td>US $200.00</td>
-            <td>
-              <div><a href="#">Detial</a><div>
-            </td>
-            <td>Opertion</td>
-        </tr>
-        <tr>
-            <td>2012.03.15</td>
-            <td>
-              <div><a href="#">Freight Only Epacket MMP lalabys</a><div>
-              <div>201304199322039</div>
-            </td>
-            <td>Pending</td>
-            <td>US $200.00</td>
-            <td>
-              <div><a href="#">Detial</a><div>
-            </td>
-            <td>Opertion</td>
-        </tr>
-        <tr>
-            <td>2012.03.15</td>
-            <td>
-              <div><a href="#">Freight Only Epacket MMP lalabys</a><div>
-              <div>201304199322039</div>
-            </td>
-            <td>Pending</td>
-            <td>US $200.00</td>
-            <td>
-              <div><a href="#">Detial</a><div>
-            </td>
-            <td>Opertion</td>
-        </tr>
-    </tbody>
-    <tfoot>
-        <tr>
-            <td colspan="6">footer</td>
-        </tr>
-    </tfoot>
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Transaction Info</th>
+      <th>Status</th>
+      <th>Gross</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2012.03.15</td>
+      <td>
+        <div><a href="#">Freight Only Epacket MMP lalabys</a><div>
+        <div>201304199322039</div>
+      </td>
+      <td>Pending</td>
+      <td>US $200.00</td>
+      <td>
+        <div><a href="#">Detial</a><div>
+      </td>
+      <td>Opertion</td>
+    </tr>
+    <tr>
+      <td>2012.03.15</td>
+      <td>
+        <div><a href="#">Freight Only Epacket MMP lalabys</a><div>
+        <div>201304199322039</div>
+      </td>
+      <td>Pending</td>
+      <td>US $200.00</td>
+      <td>
+        <div><a href="#">Detial</a><div>
+      </td>
+      <td>Opertion</td>
+    </tr>
+    <tr>
+      <td>2012.03.15</td>
+      <td>
+        <div><a href="#">Freight Only Epacket MMP lalabys</a><div>
+        <div>201304199322039</div>
+      </td>
+      <td>Pending</td>
+      <td>US $200.00</td>
+      <td>
+        <div><a href="#">Detial</a><div>
+      </td>
+      <td>Opertion</td>
+    </tr>
+    <tr>
+      <td>2012.03.15</td>
+      <td>
+        <div><a href="#">Freight Only Epacket MMP lalabys</a><div>
+        <div>201304199322039</div>
+      </td>
+      <td>Pending</td>
+      <td>US $200.00</td>
+      <td>
+        <div><a href="#">Detial</a><div>
+      </td>
+      <td>Opertion</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="6">footer</td>
+    </tr>
+  </tfoot>
 </table>
 ````
 
 ## Switch
 
 ## Paging
+
+```js
+ID: "paging.css"
+```
+
+<link type="text/css" rel="stylesheet" media="screen" href="src/paging.css">
+
+````html
+<div class="us-paging">
+  <a href="javascript:;" class="us-paging-disabled">« Home</a>
+  <a href="javascript:;" class="us-paging-disabled">‹ Previous</a>
+  <span class="us-paging-start">1</span>-<span class="us-paging-last">10</span>
+  Items, Totally <span class="us-paging-count">100</span> Items
+  <a href="javascript:;">Next ›</a>
+  <a href="javascript:;">End »</a>
+</div>
+````
 
 ## Calendar
 
@@ -296,9 +347,9 @@ ID: "step.css"
 
 ## Header
 
-## footer
+## Footer
 
-## page layout
+## Page layout
 
 ## Money
 

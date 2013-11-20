@@ -22,6 +22,11 @@
       "index.css",
       "tab.css",
       "input.css",
+      "filter.css",
+      "table.css",
+      "step.css",
+      "paging.css",
+      "calendar.css",
       "button.css"
     ],
     "alias": {

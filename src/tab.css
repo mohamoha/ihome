@@ -8,6 +8,8 @@
 
 .us-tab-item {
   display: inline-block;
+  *display: inline;
+  *zoom: 1;
   height: 52px;
   line-height: 52px;
 }
