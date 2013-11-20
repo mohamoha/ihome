@@ -109,11 +109,133 @@ ID: "tab.css"
 
 ## Table
 
+```js
+ID: "table.css"
+```
+
+<link type="text/css" rel="stylesheet" media="screen" href="src/table.css">
+
+````html
+<table class="us-table">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Transaction Info</th>
+            <th>Status</th>
+            <th>Gross</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>2012.03.15</td>
+            <td>
+              <div><a href="#">Freight Only Epacket MMP lalabys</a><div>
+              <div>201304199322039</div>
+            </td>
+            <td>Pending</td>
+            <td>US $200.00</td>
+            <td>
+              <div><a href="#">Detial</a><div>
+            </td>
+            <td>Opertion</td>
+        </tr>
+        <tr>
+            <td>2012.03.15</td>
+            <td>
+              <div><a href="#">Freight Only Epacket MMP lalabys</a><div>
+              <div>201304199322039</div>
+            </td>
+            <td>Pending</td>
+            <td>US $200.00</td>
+            <td>
+              <div><a href="#">Detial</a><div>
+            </td>
+            <td>Opertion</td>
+        </tr>
+        <tr>
+            <td>2012.03.15</td>
+            <td>
+              <div><a href="#">Freight Only Epacket MMP lalabys</a><div>
+              <div>201304199322039</div>
+            </td>
+            <td>Pending</td>
+            <td>US $200.00</td>
+            <td>
+              <div><a href="#">Detial</a><div>
+            </td>
+            <td>Opertion</td>
+        </tr>
+        <tr>
+            <td>2012.03.15</td>
+            <td>
+              <div><a href="#">Freight Only Epacket MMP lalabys</a><div>
+              <div>201304199322039</div>
+            </td>
+            <td>Pending</td>
+            <td>US $200.00</td>
+            <td>
+              <div><a href="#">Detial</a><div>
+            </td>
+            <td>Opertion</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="6">footer</td>
+        </tr>
+    </tfoot>
+</table>
+````
+
 ## Switch
 
 ## Paging
 
 ## Calendar
+
+```js
+ID: "calendar.css"
+```
+
+<link type="text/css" rel="stylesheet" media="screen" href="src/calendar.css">
+
+````html
+<input id="date-input" type="text" />
+````
+
+````js
+seajs.use(['arale/calendar/1.0.0/calendar'], function(Calendar) {
+  var lang = {
+    'Su': 'S',
+    'Mo': 'M',
+    'Tu': 'T',
+    'We': 'W',
+    'Th': 'T',
+    'Fr': 'F',
+    'Sa': 'S',
+    'Jan': 'Jan',
+    'Feb': 'Feb',
+    'Mar': 'Mar',
+    'Apr': 'Apr',
+    'May': 'May',
+    'Jun': 'Jun',
+    'Jul': 'Jul',
+    'Aug': 'Aug',
+    'Sep': 'Sep',
+    'Oct': 'Oct',
+    'Nov': 'Nov',
+    'Dec': 'Dec'
+  };
+  new Calendar({
+    trigger: '#date-input',
+    lang: lang
+  });
+});
+````
+
+More usage at: http://aralejs.org/calendar
 
 ## Step
 
@@ -129,3 +251,15 @@ ID: "tab.css"
 
 ## page layout
 
+## Money
+
+````html
+<style>
+.us-money {
+  font-family: arial;
+  font-size: 48px;
+}
+</style>
+<span class="us-money">￥<span>
+<span class="us-money">$<span>
+````
