@@ -16,6 +16,7 @@
   font-size: 58px;
   line-height: 1;
   top: -19px;
+  top: -20px\0;
 }
 .us-switch:before {
   left: -15px;
@@ -31,6 +32,7 @@
   color: #957E65;
   position: absolute;
   top: -13px;
+  top: -14px\0;
   line-height: 1;
   transition: left ease-out 0.3s;
   -moz-user-select: none;
