@@ -1,0 +1,36 @@
+.us-notice {
+  font-size: 16px;
+  border-bottom: 1px solid #E2D9C5;
+  color: #908a80;
+  position: relative;
+}
+
+.us-notice-icon {
+  font-size: 20px;
+  font-weight:bold;
+  font-family: verdana;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  overflow: hidden;
+  color: #fff;
+  width: 32px;
+  height: 32px;
+  margin-right: 6px;
+  text-align:center;
+  vertical-align: middle;
+  background-color:#BCAD8E;
+  text-shadow: 1px 1px rgb(169, 156, 128), 2px 2px rgb(169, 156, 128), 3px 3px rgb(170, 157, 128), 4px 4px rgb(170, 157, 129), 5px 5px rgb(171, 157, 129), 6px 6px rgb(171, 158, 129), 7px 7px rgb(172, 158, 130), 8px 8px rgb(172, 159, 130), 9px 9px rgb(172, 159, 130), 10px 10px rgb(173, 159, 131), 11px 11px rgb(173, 160, 131), 12px 12px rgb(174, 160, 131), 13px 13px rgb(174, 161, 132), 14px 14px rgb(175, 161, 132), 15px 15px rgb(175, 161, 132), 16px 16px rgb(176, 162, 133), 17px 17px rgb(176, 162, 133), 18px 18px rgb(176, 163, 133), 19px 19px rgb(177, 163, 134), 20px 20px rgb(177, 163, 134), 21px 21px rgb(178, 164, 134), 22px 22px rgb(178, 164, 135), 23px 23px rgb(179, 165, 135), 24px 24px rgb(179, 165, 135), 25px 25px rgb(180, 165, 136), 26px 26px rgb(180, 166, 136), 27px 27px rgb(180, 166, 136), 28px 28px rgb(181, 167, 137), 29px 29px rgb(181, 167, 137), 30px 30px rgb(182, 167, 137), 31px 31px rgb(182, 168, 138), 32px 32px rgb(183, 168, 138), 33px 33px rgb(183, 169, 138), 34px 34px rgb(184, 169, 139), 35px 35px rgb(184, 169, 139), 36px 36px rgb(184, 170, 139), 37px 37px rgb(185, 170, 140), 38px 38px rgb(185, 171, 140), 39px 39px rgb(186, 171, 140), 40px 40px rgb(186, 171, 141), 41px 41px rgb(187, 172, 141), 42px 42px rgb(187, 172, 141), 43px 43px rgb(188, 173, 142);
+}
+
+.us-notice:before {
+  border-style: solid;
+  border-color: transparent #ECEAD8;
+  border-width: 32px 0 0 32px;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 32px;
+  width: 0;
+  height: 0;
+}

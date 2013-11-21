@@ -6,6 +6,7 @@
   font-family: arial;
   cursor: pointer;
   box-shadow: 0 1px 1px #F5DFD4;
+  border-bottom: 1px solid #F1E6DF\0;
 }
 
 .us-switch:before,

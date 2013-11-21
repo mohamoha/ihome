@@ -422,6 +422,19 @@ More usage at: http://aralejs.org/select
 
 ## Notice
 
+```js
+ID: "notice.css"
+```
+
+<link type="text/css" rel="stylesheet" media="screen" href="src/notice.css">
+
+````html
+<div class="us-notice">
+  <span class="us-notice-icon">i</span>
+  Some infomatioin in us-notice. Some infomatioin in us-notice.
+</div>
+````
+
 ## Radio Card
 
 ## Page Layout
