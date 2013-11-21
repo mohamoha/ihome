@@ -400,6 +400,7 @@ ID: "select.css"
 seajs.use(['arale/select/0.9.7/select'], function(Select) {
     var sel = new Select({
         trigger: '#country',
+        triggerTpl: '<a href="#"><span data-role="trigger-content"></span><i class="ui-select-arrow">∟</i></a>',
         width: 250
     }).render();
 
