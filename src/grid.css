@@ -1,1 +1,44 @@
-@import url("grid.css");
+.us-grid-1, .us-grid-2, .us-grid-3, .us-grid-4, .us-grid-5, .us-grid-6, .us-grid-7, .us-grid-8, .us-grid-9, .us-grid-10, .us-grid-11,.us-grid-12, .us-grid-13, .us-grid-14, .us-grid-15, .us-grid-16, .us-grid-17, .us-grid-18, .us-grid-19, .us-grid-20, .us-grid-21, .us-grid-22, .us-grid-23, .us-grid-24, .us-grid-25 {
+    margin: 0 10px 10px 0;
+    float:left;
+    display:inline;
+}
+
+.us-grid-1 {width:30px;}
+.us-grid-2 {width:70px;}
+.us-grid-3 {width:110px;}
+.us-grid-4 {width:150px;}
+.us-grid-5 {width:190px;}
+.us-grid-6 {width:230px;}
+.us-grid-7 {width:270px;}
+.us-grid-8 {width:310px;}
+.us-grid-9 {width:350px;}
+.us-grid-10 {width:390px;}
+.us-grid-11 {width:430px;}
+.us-grid-12 {width:470px;}
+.us-grid-13 {width:510px;}
+.us-grid-14 {width:550px;}
+.us-grid-15 {width:590px;}
+.us-grid-16 {width:630px;}
+.us-grid-17 {width:670px;}
+.us-grid-18 {width:710px;}
+.us-grid-19 {width:750px;}
+.us-grid-20 {width:790px;}
+.us-grid-21 {width:830px;}
+.us-grid-22 {width:870px;}
+.us-grid-23 {width:910px;}
+.us-grid-24 {width:950px;}
+.us-grid-25 {width:990px;}
+ 
+.us-grid-row {
+    margin-right: -10px;
+    zoom: 1;
+}
+.us-grid-row:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}

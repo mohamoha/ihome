@@ -29,14 +29,14 @@
       "paging.css",
       "calendar.css",
       "switch.css",
+      "layout.css",
       "notice.css",
       "select.css",
       "radiocard.css",
       "button.css"
     ],
     "alias": {
-      "nomalize.css": "gallery/normalize/2.1.3/normalize.css",
-      "grid.css": "alice/grid/1.0.0/grid.css"
+      "nomalize.css": "gallery/normalize/2.1.3/normalize.css"
     },
     "devAlias": {},
     "engines": {}

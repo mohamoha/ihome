@@ -143,12 +143,15 @@ ID: "tab.css"
 ID: "dropdown.css"
 ```
 
+<link type="text/css" rel="stylesheet" media="screen" href="src/layout.css">
 <link type="text/css" rel="stylesheet" media="screen" href="src/dropdown.css">
 
 ````html
-<div class="us-header" id="triggers">
-  <a class="us-header-item" href="javascript:;">trigger</a>
-  <a class="us-header-item" href="javascript:;">trigger</a>
+<div class="us-header">
+  <div class="container-990" id="triggers">
+    <a class="us-header-item" href="javascript:;">trigger</a>
+    <a class="us-header-item" href="javascript:;">long trigger</a>
+  </div>
 </div>
 ````
 
@@ -169,10 +172,10 @@ seajs.use('arale/popup/1.1.5/popup', function(Popup) {
     duration: 200
   });
   popup.before('show', function() {
-    this.get('trigger').removeClass('us-header-item-focus');
-    this.activeTrigger.addClass('us-header-item-focus');
+    this.get('trigger').removeClass('us-dropdown-focus');
+    this.activeTrigger.addClass('us-dropdown-focus');
   }).after('hide', function() {
-    this.get('trigger').removeClass('us-header-item-focus');
+    this.get('trigger').removeClass('us-dropdown-focus');
   });
 });
 ````
@@ -533,8 +536,36 @@ seajs.use(['$'], function($) {
 
 ## Page Layout
 
-<link type="text/css" rel="stylesheet" media="screen" href="src/header.css">
-<link type="text/css" rel="stylesheet" media="screen" href="src/footer.css">
+````iframe:400
+<link type="text/css" rel="stylesheet" media="screen" href="src/index.css">
+
+<div class="us-header">
+  <div class="container-990">
+    <div class="us-header-right">
+      <a class="us-header-item us-header-name" href="javascript:;">Hello, Sheldon Smith</a>
+      <a class="us-header-item" href="javascript:;">Settings</a>
+      <a class="us-header-item" href="javascript:;">Sign Out</a>
+      <a class="us-header-item" href="javascript:;">Help Center</a>
+      <a class="us-header-item" href="javascript:;">English</a>
+    </div>
+  </div>
+</div>
+<div class="container-990" style="height:400px;background:#f6f6f6;margin-top:20px;margin-bottom:20px;line-height:400px;text-align:center;">
+  Content
+</div>
+<div class="us-footer">
+  <div class="container-990">
+    <p>Copyright 2003 - 2013 ® Alipay. All rights reserved.</p>
+    <p>
+      <a href="#">About Alipay</a> |
+      <a href="#">Aliexpress</a> |
+      <a href="#">Alibaba</a> |
+      <a href="#">Jobs</a> |
+      <a href="#">International Bussiness</a>
+    </p>
+  </div>
+</div>
+````
 
 ## Money
 

@@ -25,7 +25,7 @@
 
 .us-notice:before {
   border-style: solid;
-  border-color: transparent #ECEAD8;
+  border-color: transparent rgba(222, 171, 83, 0.09);
   border-width: 32px 0 0 32px;
   content: "";
   position: absolute;
@@ -33,5 +33,6 @@
   left: 32px;
   width: 0;
   height: 0;
-  z-index: -1;
+  border-color: transparent #ECEAD8\0;
+  z-index: -1\0;
 }

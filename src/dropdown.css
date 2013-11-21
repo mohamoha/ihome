@@ -19,3 +19,25 @@
   color: #fff;
   background-color:#008C7B;
 }
+
+a.us-dropdown-focus {
+  background-color:#008C7B;
+  color: #F4F7DB;
+  position: relative;
+}
+
+a.us-dropdown-focus:hover {
+  color: #F4F7DB;
+}
+
+a.us-dropdown-focus:after {
+  border-style: solid;
+  border-color: transparent #292929;
+  border-width: 48px 0 0 48px;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -48px;
+  width: 0;
+  height: 0;
+}
