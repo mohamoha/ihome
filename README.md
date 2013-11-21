@@ -479,10 +479,15 @@ ID: "radiocard.css"
 ````
 
 ````js
-seajs.use('$', function($) {
+seajs.use(['$'], function($) {
   $('.us-radiocard-item').click(function() {
     $('.us-radiocard-item').removeClass('us-radiocard-item-selected');
     $(this).addClass('us-radiocard-item-selected');
+
+    // For IE8 reflow problem
+    $('.us-radiocard-item-left').each(function(index, item) {
+      item.innerHTML += '';
+    });
   });
 });
 ````
