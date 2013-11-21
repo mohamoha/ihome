@@ -80,6 +80,12 @@ ID: "button.css"
 ````
 
 ````html
+<button class="us-button us-button-primary">Search</button>
+<button class="us-button us-button-primary us-button-middle">Search</button>
+<button class="us-button us-button-primary us-button-small">Search</button>
+````
+
+````html
 <a class="us-button us-button-info">Search</a>
 <a class="us-button us-button-info us-button-middle">Search</a>
 <a class="us-button us-button-info us-button-small">Search</a>
@@ -284,7 +290,7 @@ ID: "paging.css"
 <div class="us-paging">
   <a href="javascript:;" class="us-paging-disabled">« Home</a>
   <a href="javascript:;" class="us-paging-disabled">‹ Previous</a>
-  <span class="us-paging-start">1</span>-<span class="us-paging-last">10</span>
+  <span class="us-paging-begin">1</span>-<span class="us-paging-end">10</span>
   Items, Totally <span class="us-paging-count">100</span> Items
   <a href="javascript:;">Next ›</a>
   <a href="javascript:;">End »</a>
@@ -300,32 +306,13 @@ ID: "calendar.css"
 <link type="text/css" rel="stylesheet" media="screen" href="src/calendar.css">
 
 ````html
-<input id="date-input" type="text" />
+<div style="background:#ECEAD8;padding:20px">
+  <input class="us-calendar" value="2013-11-16" id="date-input" type="text" />
+</div>
 ````
 
 ````js
-seajs.use(['arale/calendar/1.0.0/calendar'], function(Calendar) {
-  var lang = {
-    'Su': 'S',
-    'Mo': 'M',
-    'Tu': 'T',
-    'We': 'W',
-    'Th': 'T',
-    'Fr': 'F',
-    'Sa': 'S',
-    'Jan': 'Jan',
-    'Feb': 'Feb',
-    'Mar': 'Mar',
-    'Apr': 'Apr',
-    'May': 'May',
-    'Jun': 'Jun',
-    'Jul': 'Jul',
-    'Aug': 'Aug',
-    'Sep': 'Sep',
-    'Oct': 'Oct',
-    'Nov': 'Nov',
-    'Dec': 'Dec'
-  };
+seajs.use(['arale/calendar/1.0.0/calendar', 'arale/calendar/1.0.0/i18n/en'], function(Calendar, lang) {
   new Calendar({
     trigger: '#date-input',
     lang: lang

@@ -24,6 +24,7 @@
 
 .us-switch:after {
   right: -15px;
+  text-shadow: 1px 1px 1px #F2EEEC;
 }
 
 .us-switch-dot {
@@ -31,13 +32,13 @@
   z-index: 1;
   color: #957E65;
   position: absolute;
-  top: -13px;
-  top: -14px\0;
+  top: -14px;
   line-height: 1;
   transition: left ease-out 0.3s;
   -moz-user-select: none;
   -webkit-user-select: none;
   user-select: none;
+  text-shadow: 0 1px 0 #606060;
 }
 
 .us-switch-dot:hover {

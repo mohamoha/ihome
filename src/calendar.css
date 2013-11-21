@@ -2,8 +2,6 @@
   border-collapse: collapse;
   font-size: 12px;
   background-color: #fff;
-  border: 1px solid #dadada;
-  box-shadow: 1px 1px 9px #ccc;
   text-align: center;
   border-spacing: 0;
   width: 210px;
@@ -130,8 +128,7 @@
   background: #fff;
   border-collapse: collapse;
   border-spacing: 0;
-  border: 1px solid #dadada;
-  box-shadow: 1px 1px 9px #ccc;
+  box-shadow: 4px 8px 9px #eee;
   text-align: center;
   width: 230px;
   font-family: tahoma;
@@ -181,4 +178,15 @@
 .ui-calendar .ui-calendar-pannel .year {
   width: 16%;
   font-size: 14px;
+}
+
+input.us-calendar {
+  background: #F5F4E9;
+  border: none;
+  padding: 10px;
+  color: #6B5844;
+}
+
+input.us-calendar:focus {
+  background: #fff;
 }
