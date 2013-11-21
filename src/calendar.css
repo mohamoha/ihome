@@ -180,13 +180,33 @@
   font-size: 14px;
 }
 
-input.us-calendar {
+.us-calendar {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  position: relative;
+}
+
+.us-calendar input {
   background: #F5F4E9;
   border: none;
   padding: 10px;
   color: #6B5844;
+  position: relative;
 }
 
-input.us-calendar:focus {
+.us-calendar input:focus {
   background: #fff;
+}
+
+.us-calendar-focus:after {
+  border-style: solid;
+  border-color: transparent #DFDAC0;
+  border-width: 52px 0 0 52px;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -52px;
+  width: 0;
+  height: 0;
 }

@@ -102,7 +102,7 @@ ID: "input.css"
 ````html
 <label class="us-label">
   <span>Label</span>
-  <input type="text" class="us-input">
+  <input type="text" class="us-input" size="26">
 </label>
 ````
 
@@ -307,15 +307,22 @@ ID: "calendar.css"
 
 ````html
 <div style="background:#ECEAD8;padding:20px">
-  <input class="us-calendar" value="2013-11-16" id="date-input" type="text" />
+  <div class="us-calendar">
+    <input value="2013-11-16" id="date-input" size="12" type="text" />
+  </div>
 </div>
 ````
 
 ````js
-seajs.use(['arale/calendar/1.0.0/calendar', 'arale/calendar/1.0.0/i18n/en'], function(Calendar, lang) {
-  new Calendar({
+seajs.use(['$', 'arale/calendar/1.0.0/calendar', 'arale/calendar/1.0.0/i18n/en'], function($, Calendar, lang) {
+  var cal = new Calendar({
     trigger: '#date-input',
     lang: lang
+  });
+  cal.on('show', function() {
+    $(this.get('trigger')).parent().addClass('us-calendar-focus');
+  }).on('hide', function() {
+    $(this.get('trigger')).parent().removeClass('us-calendar-focus');
   });
 });
 ````
