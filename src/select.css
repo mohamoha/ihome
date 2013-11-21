@@ -1,0 +1,127 @@
+/*! define select-debug.css */
+/* alice.select 样式模块 */
+.ui-select a,
+a.ui-select-trigger,
+a.ui-select-trigger:hover { 
+  text-decoration: none;
+  color: #958572;
+  font-size: 16px;
+}
+.ui-select a:hover,
+.ui-select-trigger:hover {
+  text-decoration: none;
+}
+.ui-select {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  background: #fff;
+  color: #958572;
+  font-size: 16px;
+}
+.ui-select-content {
+  margin: -1px 0 0;
+  padding: 0;
+  overflow: auto;
+  height: 100%;
+  list-style: none;
+  _float: left;
+}
+.ui-select-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.ui-select-item {
+  display: block;
+  padding: 12px 15px;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.ui-select-item:hover,
+.ui-select-item-hover {
+  background: #00B699;
+  color: #fff;
+}
+.ui-select-item-disabled,
+.ui-select-item-disabled a {
+  cursor: not-allowed;
+  color: #ccc;
+}
+.ui-select-item-disabled:hover,
+.ui-select-item-disabled a:hover {
+  background: #fff;
+}
+.ui-select-trigger {
+  position: relative;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  border: none;
+  line-height: 48px;
+  height:48px;
+  width: 250px;
+  background: #fff;
+  text-indent: 15px;
+  margin: 2px;
+  border-radius: 2px;
+  position: relative;
+}
+.ui-select-trigger:after {
+  content: "›";
+  position: absolute;
+  height: 48px;
+  line-height:42px;
+  width: 48px;
+  font-size: 26px;
+  font-family: arial;
+  top: 0;
+  right: 0;
+  background-color:#BCAD8E;
+  color: #fff;
+  text-align:center;
+  text-indent:0;
+  display:block;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  transform: rotate(90deg);
+}
+.ui-select-trigger:hover:after {
+  background-color:#957E65;
+}
+.ui-select-trigger-focus {
+  border: 2px solid #957E65;
+  margin: 0;
+}
+.ui-select-trigger-focus:after {
+  content: "‹";
+}
+.ui-select-trigger-focus:hover:after {
+  background-color: #BCAD8E;
+}
+
+.ui-select-trigger i {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  line-height: 28px;
+  text-indent: 0;
+  font-size: 14px;
+  cursor: pointer;
+}
+.ui-select .ui-select-trigger {
+  display: block;
+}
+.ui-select-disabled,
+.ui-select .ui-select-disabled {
+  color: #aaa;
+  cursor: not-allowed;
+}
+
+.ui-select-selected {
+  background: #ECEAD8;
+}

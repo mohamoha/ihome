@@ -382,6 +382,43 @@ ID: "step.css"
 
 ## Select
 
+```js
+ID: "select.css"
+```
+
+<link type="text/css" rel="stylesheet" media="screen" href="src/select.css">
+
+````html
+<select id="country" name="country">
+    <option value="value1">Brazil</option>
+    <option value="value2">China</option>
+    <option value="value2">Germany</option>
+</select>
+````
+
+````js
+seajs.use(['arale/select/0.9.7/select'], function(Select) {
+    var sel = new Select({
+        trigger: '#country',
+        width: 250
+    }).render();
+
+    sel.before('show', function() {
+      this.get('trigger').addClass('ui-select-trigger-focus');
+    });
+
+    sel.after('hide', function() {
+      this.get('trigger').removeClass('ui-select-trigger-focus');
+    });
+
+    sel.on('change', function(target, prev) {
+      console.log(target.html());
+    });
+});
+````
+
+More usage at: http://aralejs.org/select
+
 ## Notice
 
 ## Radio Card
@@ -393,10 +430,10 @@ ID: "step.css"
 ````html
 <style>
 .us-money {
-  font-family: 'Microsoft YaHei',STXihei,MingLiu;
+  font-family: Arial;
   font-size: 48px;
 }
 </style>
-<span class="us-money">￥<span>
+<span class="us-money">¥<span>
 <span class="us-money">$<span>
 ````
