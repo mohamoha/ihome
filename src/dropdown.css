@@ -1,0 +1,21 @@
+.us-dropdown {
+  padding:0px;
+  margin:0px;
+  list-style: none;
+  background-color:#00B699;
+  width: 200px;
+}
+
+.us-dropdown-item a {
+  display: block;
+  color: #007C6B;
+  height: 44px;
+  line-height:44px;
+  text-indent: 15px;
+  font-size: 14px;
+}
+
+.us-dropdown-item a:hover {
+  color: #fff;
+  background-color:#008C7B;
+}

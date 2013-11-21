@@ -55,6 +55,7 @@ For some JavaScript code, you should just copy it to your projects.
   padding: 20px;
   font: 16px/1.5 tahoma, Verdana, arial, sans-serif;
   color: #908a80;
+  overflow: scroll;
 }
 .nico-insert-code a {
   color: #2d93b4;
@@ -137,6 +138,44 @@ ID: "tab.css"
 ````
 
 ## Dropdown
+
+```js
+ID: "dropdown.css"
+```
+
+<link type="text/css" rel="stylesheet" media="screen" href="src/dropdown.css">
+
+````html
+<div class="us-header" id="triggers">
+  <a class="us-header-item" href="javascript:;">trigger</a>
+  <a class="us-header-item" href="javascript:;">trigger</a>
+</div>
+````
+
+````html
+<ul class="us-dropdown fn-hide" id="dropdown-menu">
+  <li class="us-dropdown-item"><a href="javascript:;">Option 01</a></li>
+  <li class="us-dropdown-item"><a href="javascript:;">Option 02</a></li>
+  <li class="us-dropdown-item"><a href="javascript:;">Option 03</a></li>
+</ul>
+````
+
+````js
+seajs.use('arale/popup/1.1.5/popup', function(Popup) {
+  var popup = new Popup({
+    trigger: '#triggers .us-header-item',
+    element: '#dropdown-menu',
+    effect: 'slide fade',
+    duration: 200
+  });
+  popup.before('show', function() {
+    this.get('trigger').removeClass('us-header-item-focus');
+    this.activeTrigger.addClass('us-header-item-focus');
+  }).after('hide', function() {
+    this.get('trigger').removeClass('us-header-item-focus');
+  });
+});
+````
 
 ## Filter
 
@@ -493,6 +532,9 @@ seajs.use(['$'], function($) {
 ````
 
 ## Page Layout
+
+<link type="text/css" rel="stylesheet" media="screen" href="src/header.css">
+<link type="text/css" rel="stylesheet" media="screen" href="src/footer.css">
 
 ## Money
 

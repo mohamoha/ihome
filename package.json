@@ -22,12 +22,16 @@
       "index.css",
       "tab.css",
       "input.css",
+      "dropdown.css",
       "filter.css",
       "table.css",
       "step.css",
       "paging.css",
       "calendar.css",
       "switch.css",
+      "notice.css",
+      "select.css",
+      "radiocard.css",
       "button.css"
     ],
     "alias": {
