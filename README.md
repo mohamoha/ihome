@@ -437,6 +437,56 @@ ID: "notice.css"
 
 ## Radio Card
 
+```js
+ID: "radiocard.css"
+```
+
+<link type="text/css" rel="stylesheet" media="screen" href="src/radiocard.css">
+
+````html
+<ul class="us-radiocard">
+  <li class="us-radiocard-item">
+    <div class="us-radiocard-item-left">
+      <span class="us-radiocard-radio">●</span>
+      <span class="us-radiocard-item-icon">
+        <i class="iconfont" title="日历/日期">&#xF01C;</i>
+      </span>
+    </div>
+    <span class="us-radiocard-item-text">Webmoney</span>
+    <span class="us-radiocard-item-text us-money">$</span>
+  </li>
+  <li class="us-radiocard-item">
+    <div class="us-radiocard-item-left">
+      <span class="us-radiocard-radio">●</span>
+      <span class="us-radiocard-item-icon">
+        <i class="iconfont" title="日历/日期">&#xF01C;</i>
+      </span>
+    </div>
+    <span class="us-radiocard-item-text">Webmoney</span>
+    <span class="us-radiocard-item-text us-money">¥</span>
+  </li>
+  <li class="us-radiocard-item us-radiocard-item-selected">
+    <div class="us-radiocard-item-left">
+      <span class="us-radiocard-radio">●</span>
+      <span class="us-radiocard-item-icon">
+        <i class="iconfont" title="日历/日期">&#xF01C;</i>
+      </span>
+    </div>
+    <span class="us-radiocard-item-text">Webmoney</span>
+    <span class="us-radiocard-item-text us-money">¥</span>
+  </li>
+</ul>
+````
+
+````js
+seajs.use('$', function($) {
+  $('.us-radiocard-item').click(function() {
+    $('.us-radiocard-item').removeClass('us-radiocard-item-selected');
+    $(this).addClass('us-radiocard-item-selected');
+  });
+});
+````
+
 ## Page Layout
 
 ## Money
@@ -445,7 +495,7 @@ ID: "notice.css"
 <style>
 .us-money {
   font-family: Arial;
-  font-size: 48px;
+  font-size: 44px;
 }
 </style>
 <span class="us-money">¥<span>
