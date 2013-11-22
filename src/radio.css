@@ -19,7 +19,7 @@
   position: relative;
   top: -1px;
   left: -33px;
-  zoom: 1;
+  font-family: arial;
 }
 
 .us-radio:before {
@@ -30,6 +30,7 @@
   top: -8px;
   left: 25px;
   z-index: 1;
+  font-family: arial;
 }
 
 .us-radio-selected:before {
