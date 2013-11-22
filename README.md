@@ -2,7 +2,7 @@
 
 ---
 
-DPL page for `alipay.us`. We choose `us-` for class prefix.
+DPL page for `alipay.us`. We choose `us-` for class prefix. It is compatible with normal browsers and `IE8+`.
 
 - [Button](#button)
 - [Input](#input)
