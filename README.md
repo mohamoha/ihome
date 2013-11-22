@@ -486,10 +486,15 @@ ID: "radiocard.css"
 <link type="text/css" rel="stylesheet" media="screen" href="src/radiocard.css">
 
 ````html
+<span class="us-radio">●</span>
+<span class="us-radio us-radio-selected">●</span>
+````
+
+````html
 <ul class="us-radiocard">
   <li class="us-radiocard-item">
     <div class="us-radiocard-item-left">
-      <span class="us-radiocard-radio">●</span>
+      <span class="us-radio">●</span>
       <span class="us-radiocard-item-icon">
         <i class="iconfont" title="日历/日期">&#xF01C;</i>
       </span>
@@ -499,7 +504,7 @@ ID: "radiocard.css"
   </li>
   <li class="us-radiocard-item">
     <div class="us-radiocard-item-left">
-      <span class="us-radiocard-radio">●</span>
+      <span class="us-radio">●</span>
       <span class="us-radiocard-item-icon">
         <i class="iconfont" title="日历/日期">&#xF01C;</i>
       </span>
@@ -509,7 +514,7 @@ ID: "radiocard.css"
   </li>
   <li class="us-radiocard-item us-radiocard-item-selected">
     <div class="us-radiocard-item-left">
-      <span class="us-radiocard-radio">●</span>
+      <span class="us-radio">●</span>
       <span class="us-radiocard-item-icon">
         <i class="iconfont" title="日历/日期">&#xF01C;</i>
       </span>

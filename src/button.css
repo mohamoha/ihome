@@ -10,7 +10,7 @@
   text-align: center;
 }
 
-a.us-button, 
+a.us-button,
 a.us-button:hover {
   color: #fff;
 }
@@ -55,3 +55,8 @@ a.us-button:hover {
   background: #957E65;
   border-color: #674F34;
 }
+
+.us-button-border {
+
+}
+

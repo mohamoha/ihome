@@ -35,18 +35,25 @@ ul.us-radiocard {
   margin-right: 30px;
 }
 
-.us-radiocard-radio {
-  font-size: 55px;
+.us-radiocard-item .us-radio {
+  margin: 10px 25px 0 30px;
+}
+
+.us-radio {
   color: #958572;
-  margin-left: 30px;
   display: inline-block;
+  font-size: 55px;
+  line-height: 22px;
+  overflow: hidden;
+  text-indent: -10px;
+  width: 48px;
 }
 
-.us-radiocard-radio:hover {
+.us-radio:hover {
   color: #958572;
 }
 
-.us-radiocard-radio:after {
+.us-radio:after {
   content: "●";
   font-size: 54px;
   color: #fff;
@@ -56,7 +63,7 @@ ul.us-radiocard {
   zoom: 1;
 }
 
-.us-radiocard-radio:before {
+.us-radio:before {
   content: "●";
   font-size: 28px;
   color: #fff;
@@ -81,7 +88,8 @@ ul.us-radiocard {
   border-top: 5px solid #6C5C48;
 }
 
-.us-radiocard-item-selected .us-radiocard-radio:before {
+.us-radiocard-item-selected .us-radio:before,
+.us-radio-selected:before {
   color: #958572;
 }
 

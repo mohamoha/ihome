@@ -15,7 +15,6 @@ a:hover {
   color: #3DDEF5;
 }
 
-/* 清理浮动 */
 .fn-clear:after {
   visibility:hidden;
   display:block;
@@ -28,7 +27,6 @@ a:hover {
   zoom:1; /* for IE6 IE7 */
 }
 
-/* 隐藏, 通常用来与 JS 配合 */
 .fn-hide {
   display:none;
 }
