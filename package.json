@@ -32,7 +32,8 @@
       "layout.css",
       "notice.css",
       "select.css",
-      "radiocard.css",
+      "radio.css",
+      "channel.css",
       "button.css"
     ],
     "alias": {

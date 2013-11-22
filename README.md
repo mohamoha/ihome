@@ -16,7 +16,8 @@ DPL page for `alipay.us`. We choose `us-` for class prefix.
 - [Step](#step)
 - [Select](#select)
 - [Notice](#notice)
-- [Radio Card](#radio-card)
+- [Radio](#radio)
+- [Channel](#channel)
 - [Page Layout](#page-layout)
 - [Money](#money)
 
@@ -90,6 +91,10 @@ ID: "button.css"
 <a class="us-button us-button-info">Search</a>
 <a class="us-button us-button-info us-button-middle">Search</a>
 <a class="us-button us-button-info us-button-small">Search</a>
+````
+
+````html
+<a class="us-button us-button-border">(46s) resend an email</a>
 ````
 
 ## Input
@@ -483,56 +488,76 @@ ID: "notice.css"
 ID: "radiocard.css"
 ```
 
-<link type="text/css" rel="stylesheet" media="screen" href="src/radiocard.css">
+<link type="text/css" rel="stylesheet" media="screen" href="src/radio.css">
 
 ````html
 <span class="us-radio">●</span>
 <span class="us-radio us-radio-selected">●</span>
 ````
 
+## Channel
+
+```js
+ID: "channel.css"
+```
+
+<link type="text/css" rel="stylesheet" media="screen" href="src/channel.css">
+
 ````html
-<ul class="us-radiocard">
-  <li class="us-radiocard-item">
-    <div class="us-radiocard-item-left">
-      <span class="us-radio">●</span>
-      <span class="us-radiocard-item-icon">
-        <i class="iconfont" title="日历/日期">&#xF01C;</i>
-      </span>
+<ul class="us-channel">
+  <li class="us-channel-item">
+    <div class="us-channel-item-header">
+      <div class="us-channel-item-left">
+        <span class="us-radio">●</span>
+        <span class="us-channel-item-icon">
+          <i class="iconfont" title="日历/日期">&#xF01C;</i>
+        </span>
+      </div>
+      <span class="us-channel-item-text">Webmoney</span>
+      <span class="us-channel-item-text us-money">$</span>
     </div>
-    <span class="us-radiocard-item-text">Webmoney</span>
-    <span class="us-radiocard-item-text us-money">$</span>
+    <div class="us-channel-item-box">
+    </div>
   </li>
-  <li class="us-radiocard-item">
-    <div class="us-radiocard-item-left">
-      <span class="us-radio">●</span>
-      <span class="us-radiocard-item-icon">
-        <i class="iconfont" title="日历/日期">&#xF01C;</i>
-      </span>
+  <li class="us-channel-item">
+    <div class="us-channel-item-header">
+      <div class="us-channel-item-left">
+        <span class="us-radio">●</span>
+        <span class="us-channel-item-icon">
+          <i class="iconfont" title="日历/日期">&#xF01C;</i>
+        </span>
+      </div>
+      <span class="us-channel-item-text">Webmoney</span>
+      <span class="us-channel-item-text us-money">¥</span>
     </div>
-    <span class="us-radiocard-item-text">Webmoney</span>
-    <span class="us-radiocard-item-text us-money">¥</span>
+    <div class="us-channel-item-box">
+    </div>
   </li>
-  <li class="us-radiocard-item us-radiocard-item-selected">
-    <div class="us-radiocard-item-left">
-      <span class="us-radio">●</span>
-      <span class="us-radiocard-item-icon">
-        <i class="iconfont" title="日历/日期">&#xF01C;</i>
-      </span>
+  <li class="us-channel-item us-channel-item-selected">
+    <div class="us-channel-item-header">
+      <div class="us-channel-item-left">
+        <span class="us-radio">●</span>
+        <span class="us-channel-item-icon">
+          <i class="iconfont" title="日历/日期">&#xF01C;</i>
+        </span>
+      </div>
+      <span class="us-channel-item-text">Webmoney</span>
+      <span class="us-channel-item-text us-money">¥</span>
     </div>
-    <span class="us-radiocard-item-text">Webmoney</span>
-    <span class="us-radiocard-item-text us-money">¥</span>
+    <div class="us-channel-item-box">
+    </div>
   </li>
 </ul>
 ````
 
 ````js
 seajs.use(['$'], function($) {
-  $('.us-radiocard-item').click(function() {
-    $('.us-radiocard-item').removeClass('us-radiocard-item-selected');
-    $(this).addClass('us-radiocard-item-selected');
+  $('.us-channel-item').click(function() {
+    $('.us-channel-item').removeClass('us-channel-item-selected');
+    $(this).addClass('us-channel-item-selected');
 
     // For IE8 reflow problem
-    $('.us-radiocard-item-left').each(function(index, item) {
+    $('.us-channel-item-left').each(function(index, item) {
       item.innerHTML += '';
     });
   });

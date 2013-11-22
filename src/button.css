@@ -10,6 +10,11 @@
   text-align: center;
 }
 
+.us-button:active {
+  position: relative;
+  top: 1px;
+}
+
 a.us-button,
 a.us-button:hover {
   color: #fff;
@@ -56,7 +61,21 @@ a.us-button:hover {
   border-color: #674F34;
 }
 
-.us-button-border {
-
+a.us-button-border {
+  text-align: center;
+  font-size: 18px;
+  border: 2px solid #958572;
+  background-color: transparent;
+  color: #958572;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
 }
 
+a.us-button-border {
+  color: #958572;
+}
+
+a.us-button-border:hover {
+  background-color: #958572;
+}
