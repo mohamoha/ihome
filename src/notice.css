@@ -33,8 +33,12 @@
   width: 0;
   height: 0;
   border-color: transparent rgba(222, 171, 83, 0.12);
-  border-color: transparent #ECEAD8\0;
-  border-color: transparent rgba(222, 171, 83, 0.12)\9\0;
-  z-index: -1\0;
-  z-index: 0\9\0;
+}
+
+/* ie8 hack */
+@media \0screen {
+  .us-notice:before {
+    border-color: transparent #ECEAD8\0;
+    z-index: -1\0;
+  }
 }

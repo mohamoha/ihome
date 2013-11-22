@@ -6,7 +6,6 @@
   font-family: arial;
   cursor: pointer;
   box-shadow: 0 1px 1px #F5DFD4;
-  border-bottom: 1px solid #F1E6DF\0;
 }
 
 .us-switch:before,
@@ -17,8 +16,6 @@
   font-size: 58px;
   line-height: 1;
   top: -19px;
-  top: -20px\0;
-  top: -19px\9\0;
 }
 .us-switch:before {
   left: -15px;
@@ -53,4 +50,15 @@
 
 .us-switch-right .us-switch-dot {
   left: 12px;
+}
+
+/* ie8 hack */
+@media \0screen {
+  .us-switch {
+    border-bottom: 1px solid #F1E6DF;
+  }
+  .us-switch:before,
+  .us-switch:after {
+    top: -20px;
+  }
 }

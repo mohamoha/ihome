@@ -234,52 +234,52 @@ ID: "table.css"
     <tr>
       <td>2012.03.15</td>
       <td>
-        <div><a href="#">Freight Only Epacket MMP lalabys</a><div>
+        <div><a href="#">Freight Only Epacket MMP lalabys</a></div>
         <div>201304199322039</div>
       </td>
       <td>Pending</td>
       <td>US $200.00</td>
       <td>
-        <div><a href="#">Detial</a><div>
+        <a href="#">Detial</a>
       </td>
       <td>Opertion</td>
     </tr>
     <tr>
       <td>2012.03.15</td>
       <td>
-        <div><a href="#">Freight Only Epacket MMP lalabys</a><div>
+        <div><a href="#">Freight Only Epacket MMP lalabys</a></div>
         <div>201304199322039</div>
       </td>
       <td>Pending</td>
       <td>US $200.00</td>
       <td>
-        <div><a href="#">Detial</a><div>
+        <a href="#">Detial</a>
       </td>
       <td>Opertion</td>
     </tr>
     <tr>
       <td>2012.03.15</td>
       <td>
-        <div><a href="#">Freight Only Epacket MMP lalabys</a><div>
+        <div><a href="#">Freight Only Epacket MMP lalabys</a></div>
         <div>201304199322039</div>
       </td>
       <td>Pending</td>
       <td>US $200.00</td>
       <td>
-        <div><a href="#">Detial</a><div>
+        <a href="#">Detial</a>
       </td>
       <td>Opertion</td>
     </tr>
     <tr>
       <td>2012.03.15</td>
       <td>
-        <div><a href="#">Freight Only Epacket MMP lalabys</a><div>
+        <div><a href="#">Freight Only Epacket MMP lalabys</a></div>
         <div>201304199322039</div>
       </td>
       <td>Pending</td>
       <td>US $200.00</td>
       <td>
-        <div><a href="#">Detial</a><div>
+        <a href="#">Detial</a>
       </td>
       <td>Opertion</td>
     </tr>
@@ -302,7 +302,7 @@ ID: "switch.css"
 
 ````html
 <div class="us-switch us-switch-left">
-  <span class="us-switch-dot">●</span>
+  <span class="us-switch-dot" unselectable="on">●</span>
 </div>
 ````
 
@@ -606,6 +606,6 @@ seajs.use(['$'], function($) {
   font-size: 44px;
 }
 </style>
-<span class="us-money">¥<span>
-<span class="us-money">$<span>
+<span class="us-money">¥</span>
+<span class="us-money">$</span>
 ````
