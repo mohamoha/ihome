@@ -55,7 +55,7 @@ For some JavaScript code, you should just copy it to your projects.
   padding: 20px;
   font: 16px/1.5 tahoma, Verdana, arial, sans-serif;
   color: #908a80;
-  overflow: scroll;
+  overflow: auto;
 }
 .nico-insert-code a {
   color: #2d93b4;
