@@ -28,6 +28,7 @@
       "step.css",
       "paging.css",
       "calendar.css",
+      "dialog.css",
       "switch.css",
       "layout.css",
       "notice.css",
@@ -37,7 +38,8 @@
       "button.css"
     ],
     "alias": {
-      "nomalize.css": "gallery/normalize/2.1.3/normalize.css"
+      "nomalize.css": "gallery/normalize/2.1.3/normalize.css",
+      "ui-dialog": "arale/dialog/1.2.4/dialog.css"
     },
     "devAlias": {},
     "engines": {}

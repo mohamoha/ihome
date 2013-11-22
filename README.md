@@ -13,6 +13,7 @@ DPL page for `alipay.us`. We choose `us-` for class prefix. It is compatible wit
 - [Switch](#switch)
 - [Paging](#paging)
 - [Calendar](#calendar)
+- [Dialog](#dialog)
 - [Step](#step)
 - [Select](#select)
 - [Notice](#notice)
@@ -375,6 +376,29 @@ seajs.use(['$', 'arale/calendar/1.0.0/calendar', 'arale/calendar/1.0.0/i18n/en']
 ````
 
 More usage at: http://aralejs.org/calendar
+
+## Dialog
+
+```js
+ID: "dialog.css"
+```
+
+<link type="text/css" rel="stylesheet" media="screen" href="src/dialog.css">
+
+````html
+<a class="us-button us-button-primary us-button-middle" id="dialog-trigger">Open dialog</a>
+````
+
+````js
+seajs.use(['arale/dialog/1.2.4/dialog'], function(Dialog) {
+  new Dialog({
+    trigger: "#dialog-trigger",
+    content: "",
+    hasMask: false,
+    height: 200
+  });
+});
+````
 
 ## Step
 

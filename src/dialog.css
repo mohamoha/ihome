@@ -1,0 +1,20 @@
+@import url("ui-dialog");
+
+
+.ui-dialog {
+  padding: 7px;
+  background-color: rgba(0, 0, 0, 0.15);
+  border: none;
+  FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorstr=#26000000, endColorstr=#26000000);
+}
+
+:root .ui-dialog {
+  FILTER: none\9;
+}
+
+.ui-dialog-close {
+  top: 24px;
+  right: 24px;
+  font-size: 28px;
+  color: #91897E;
+}
