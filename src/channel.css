@@ -1,0 +1,81 @@
+ul.us-channel {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 28px;
+  color: #BCAD8E;
+}
+
+.us-channel-item {
+  margin-bottom: 10px;
+}
+
+.us-channel-item-header {
+  height: 90px;
+  line-height: 90px;
+  cursor: pointer;
+  background-color:#EEECDC;
+  overflow: hidden;
+}
+
+.us-channel-item:hover .us-channel-item-header {
+  background-color:#fff;
+  color: #BCAD8E;
+}
+
+.us-channel-item-left {
+  float: left;
+  width: 160px;
+  height: 52px;
+  line-height: 42px;
+  margin-right: 25px;
+  margin-top: 19px;
+  border-right: 2px solid #D9CEB5;
+}
+
+.us-channel-item > .us-money {
+  float: right;
+  margin-right: 30px;
+}
+
+.us-channel-item .us-radio {
+  margin: 10px 25px 0 30px;
+}
+
+.us-channel-item-selected .us-channel-item-header,
+.us-channel-item-selected:hover .us-channel-item-header {
+  background-color:#BCAD8E;
+  color: #fff;
+}
+
+.us-channel-item-selected .us-channel-item-left {
+  padding-top: 15px;
+  height: 85px;
+  border-right: 0;
+  background-color:#958572;
+  margin-top: 0;
+  border-top: 5px solid #6C5C48;
+}
+
+.us-channel-item-selected .us-radio:before {
+  color: #958572;
+}
+
+.us-channel-item-icon {
+  font-size: 40px;
+  left: -24px;
+  position: relative;
+  top: -1px;
+}
+
+.us-channel-item-box {
+  min-height: 50px;
+  border: 2px solid #BCAD8E;
+  border-top: none;
+  display: none;
+  margin-left: 160px;
+}
+
+.us-channel-item-selected .us-channel-item-box {
+  display: block;
+}

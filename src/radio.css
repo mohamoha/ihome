@@ -1,0 +1,37 @@
+.us-radio {
+  color: #958572;
+  display: inline-block;
+  font-size: 55px;
+  line-height: 22px;
+  overflow: hidden;
+  text-indent: -10px;
+  width: 48px;
+}
+
+.us-radio:hover {
+  color: #958572;
+}
+
+.us-radio:after {
+  content: "●";
+  font-size: 54px;
+  color: #fff;
+  position: relative;
+  top: -1px;
+  left: -33px;
+  zoom: 1;
+}
+
+.us-radio:before {
+  content: "●";
+  font-size: 28px;
+  color: #fff;
+  position: relative;
+  top: -8px;
+  left: 25px;
+  z-index: 1;
+}
+
+.us-radio-selected:before {
+  color: #958572;
+}
