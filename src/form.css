@@ -48,4 +48,22 @@
 
 .us-form-explain {
   margin: 10px 0 0 178px;
+  color: #958572;
+}
+
+.us-form-explain.us-notice {
+  border: none;
+  color: #958572;
+}
+
+.us-form-explain.us-notice:before {
+  display: none;
+}
+
+.us-form-explain.us-notice .us-notice-icon {
+  width: 25px;
+  height: 25px;
+  line-height: 24px;
+  font-size: 18px;
+  margin-right: 2px;
 }

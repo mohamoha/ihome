@@ -109,13 +109,12 @@ ID: "form.css"
 ````html
 <form class="us-form">
   <fieldset>
-    <legend>health information</legend>
+    <legend>Health information</legend>
     <div class="us-form-item">
       <label class="us-label">
         <span class="us-label-text">Account Name</span>
         <span>xingmin.zhu@alipay.com</span>
       </label>
-      <div class="us-form-explain"></div>
     </div>
     <div class="us-form-item">
       <label class="us-label">
@@ -130,8 +129,9 @@ ID: "form.css"
         <span class="us-label-text">Confirm Password</span>
         <input type="text" class="us-input" size="42">
       </label>
-      <div class="us-form-explain">
-        Something your need to fill in here.
+      <div class="us-form-explain us-notice">
+        <span class="us-notice-icon">!</span>
+        Some infomatioin in us-notice. Some infomatioin in us-notice.
       </div>
     </div>
   </fieldset>
@@ -424,7 +424,7 @@ ID: "dialog.css"
 ````
 
 ````js
-seajs.use(['arale/dialog/1.2.4/dialog'], function(Dialog) {
+seajs.use(['arale/dialog/1.2.5/dialog'], function(Dialog) {
   new Dialog({
     trigger: "#dialog-trigger",
     content: "",
