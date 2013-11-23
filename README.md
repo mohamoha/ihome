@@ -5,7 +5,6 @@
 DPL page for `alipay.us`. We choose `us-` for class prefix. It is compatible with normal browsers and `IE8+`.
 
 - [Button](#button)
-- [Input](#input)
 - [Form](#form)
 - [Tab](#tab)
 - [Dropdown](#dropdown)
@@ -97,21 +96,6 @@ ID: "button.css"
 
 ````html
 <a class="us-button us-button-border">(46s) resend an email</a>
-````
-
-## Input
-
-```js
-ID: "input.css"
-```
-
-<link type="text/css" rel="stylesheet" media="screen" href="src/input.css">
-
-````html
-<label class="us-label">
-  <span class="us-label-text">Label</span>
-  <input type="text" class="us-input" size="26">
-</label>
 ````
 
 ## Form
@@ -557,17 +541,36 @@ ID: "notice.css"
 </div>
 ````
 
-## Radio Card
+## Radio
 
 ```js
-ID: "radiocard.css"
+ID: "radio.css"
 ```
 
 <link type="text/css" rel="stylesheet" media="screen" href="src/radio.css">
 
 ````html
-<span class="us-radio">●</span>
-<span class="us-radio us-radio-selected">●</span>
+<ul class="us-radio-group">
+  <li>
+    <span class="us-radio us-radio-selected">●</span> 中文（简体）
+  </li>
+  <li>
+    <span class="us-radio">●</span> 中文（繁体）
+  </li>
+  <li>
+    <span class="us-radio">●</span> English
+  </li>
+</ul>
+````
+
+````js
+seajs.use(['$'], function($) {
+  var options = $('.us-radio-group > li');
+  options.click(function() {
+    options.find('.us-radio').removeClass('us-radio-selected');
+    $(this).find('.us-radio').addClass('us-radio-selected');
+  });
+});
 ````
 
 ## Channel
