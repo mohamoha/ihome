@@ -2,7 +2,7 @@
 
 
 .ui-dialog {
-  padding: 7px;
+  padding: 10px;
   background-color: rgba(0, 0, 0, 0.15);
   border: none;
   FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorstr=#26000000, endColorstr=#26000000);
@@ -13,8 +13,8 @@
 }
 
 .ui-dialog-close {
-  top: 24px;
-  right: 24px;
-  font-size: 28px;
+  top: 32px;
+  right: 32px;
+  font-size: 32px;
   color: #91897E;
 }

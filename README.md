@@ -394,8 +394,9 @@ seajs.use(['arale/dialog/1.2.4/dialog'], function(Dialog) {
   new Dialog({
     trigger: "#dialog-trigger",
     content: "",
-    hasMask: false,
-    height: 200
+    width: 600,
+    height: 400,
+    hasMask: false
   });
 });
 ````
