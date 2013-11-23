@@ -6,6 +6,7 @@ DPL page for `alipay.us`. We choose `us-` for class prefix. It is compatible wit
 
 - [Button](#button)
 - [Input](#input)
+- [Form](#form)
 - [Tab](#tab)
 - [Dropdown](#dropdown)
 - [Filter](#filter)
@@ -108,10 +109,59 @@ ID: "input.css"
 
 ````html
 <label class="us-label">
-  <span>Label</span>
+  <span class="us-label-text">Label</span>
   <input type="text" class="us-input" size="26">
 </label>
 ````
+
+## Form
+
+```js
+ID: "form.css"
+```
+
+<link type="text/css" rel="stylesheet" media="screen" href="src/form.css">
+
+````html
+<form class="us-form">
+  <fieldset>
+    <legend>health information</legend>
+    <div class="us-form-item">
+      <label class="us-label">
+        <span class="us-label-text">Account Name</span>
+        <span>xingmin.zhu@alipay.com</span>
+      </label>
+      <div class="us-form-explain"></div>
+    </div>
+    <div class="us-form-item">
+      <label class="us-label">
+        <span class="us-label-text">Sign in Password</span>
+        <input type="text" class="us-input" size="42">
+      </label>
+      <div class="us-form-explain">
+      </div>
+    </div>
+    <div class="us-form-item">
+      <label class="us-label">
+        <span class="us-label-text">Confirm Password</span>
+        <input type="text" class="us-input" size="42">
+      </label>
+      <div class="us-form-explain">
+        Something your need to fill in here.
+      </div>
+    </div>
+  </fieldset>
+
+  <div class="us-form-item">
+    <label class="us-label">
+      <span class="us-label-text"></span>
+      <button class="us-button us-button-primary">Submit</button>
+    </label>
+  </div>
+
+</form>
+````
+
 
 ## Tab
 
