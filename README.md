@@ -17,6 +17,7 @@ DPL page for `alipay.us`. We choose `us-` for class prefix. It is compatible wit
 - [Step](#step)
 - [Select](#select)
 - [Notice](#notice)
+- [Notice Box](#notice-box)
 - [Radio](#radio)
 - [Channel](#channel)
 - [Page Layout](#page-layout)
@@ -538,6 +539,29 @@ ID: "notice.css"
 <div class="us-notice">
   <span class="us-notice-icon">i</span>
   Some infomatioin in us-notice. Some infomatioin in us-notice.
+</div>
+````
+
+## Notice Box
+
+```js
+ID: "noticebox.css"
+```
+
+<link type="text/css" rel="stylesheet" media="screen" href="src/noticebox.css">
+
+````html
+<div class="us-noticebox">
+  <span class="us-noticebox-icon">@</span>
+  <div class="us-noticebox-content">
+    <h3>Your Alipay account has been set up successfully!</h3>
+    <p>出于安全考虑，你需要进行身份验证后方可正常使用支付宝账户。</p>
+    <p class="us-noticebox-link">
+      <a href="#">Yes, verify my account</a>
+      |
+      <a href="#">No, go to home page</a>
+    </p>
+  </div>
 </div>
 ````
 
