@@ -8,6 +8,7 @@
   border-style: solid;
   padding: 18px 36px;
   text-align: center;
+  transition: background-color ease 0.3s;
 }
 
 .us-button:active {
