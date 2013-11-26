@@ -38,7 +38,7 @@ a.us-header-name {
   text-align: center;
   height: 104px;
   padding-top: 20px;
-  marging-top: 20px;
+  margin-top: 20px;
   font-size: 14px;
   background-color: #393836;
   color: #ACACAC;
@@ -54,7 +54,6 @@ a.us-header-name {
 
 .us-nav {
   position: relative;
-  margin-bottom: 20px;
 }
 
 .us-nav a {
