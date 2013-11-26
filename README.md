@@ -433,6 +433,7 @@ seajs.use(['$', 'arale/calendar/1.0.0/calendar', 'arale/calendar/1.0.0/i18n/en']
 
 More usage at: http://aralejs.org/calendar
 
+
 ## Dialog
 
 ```js
@@ -525,11 +526,12 @@ ID: "select.css"
 ````
 
 ````js
-seajs.use(['arale/select/0.9.7/select'], function(Select) {
+seajs.use(['$', 'arale/select/0.9.7/select'], function($, Select) {
+  $(function() {
     var sel = new Select({
-        trigger: '#country',
-        triggerTpl: '<a href="#"><span data-role="trigger-content"></span><i class="ui-select-arrow">∟</i></a>',
-        width: 250
+      trigger: '#country',
+      triggerTpl: '<a href="#"><span data-role="trigger-content"></span><i class="ui-select-arrow">∟</i></a>',
+      width: 250
     }).render();
 
     sel.before('show', function() {
@@ -543,10 +545,12 @@ seajs.use(['arale/select/0.9.7/select'], function(Select) {
     sel.on('change', function(target, prev) {
       console.log(target.html());
     });
+  });
 });
 ````
 
 More usage at: http://aralejs.org/select
+
 
 ## Notice
 
