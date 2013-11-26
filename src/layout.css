@@ -12,7 +12,6 @@ a.us-header-item {
   text-align:center;
   z-index: 1;
   color: #F4F7DB;
-  transition: background-color ease 0.3s;
 }
 
 a.us-header-item:hover {
