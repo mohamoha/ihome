@@ -71,9 +71,9 @@
 
 .us-form-item-error .us-input,
 .us-form-item-error .us-textarea {
-  border-color: #CF8888;
+  border-color: #CC5555;
 }
 
 .us-form-item-error .us-form-explain {
-  color: #CF8888;
+  color: #CC5555;
 }
