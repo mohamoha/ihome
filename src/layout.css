@@ -82,11 +82,28 @@ a.us-header-name {
 }
 
 .us-logo {
-  height: 104px;
+  height: 101px;
   width: 160px;
   position: absolute;
-  background-color: #43C8B1;
-  bottom: 0px;
+  bottom: 0;
   margin: 0;
   text-indent: -999px;
+  background: #43C8B1 url('https://i.alipayobjects.com/e/201311/1ZPlEzsJWf.png') no-repeat;
+}
+
+.us-logo a {
+  display: block;
+  height: 101px;
+}
+
+.us-logo:after {
+  border-style: solid;
+  border-width: 27px 0 0 27px;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -27px;
+  width: 0;
+  height: 0;
+  border-color: transparent #292929;
 }
