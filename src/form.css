@@ -68,3 +68,12 @@
   font-size: 18px;
   margin-right: 2px;
 }
+
+.us-form-item-error .us-input,
+.us-form-item-error .us-textarea {
+  border-color: #CF8888;
+}
+
+.us-form-item-error .us-form-explain {
+  color: #CF8888;
+}

@@ -108,7 +108,7 @@ ID: "form.css"
 <link type="text/css" rel="stylesheet" media="screen" href="src/form.css">
 
 ````html
-<form class="us-form">
+<form class="us-form" id="test-form">
   <fieldset>
     <legend>Health information</legend>
     <div class="us-form-item">
@@ -120,7 +120,7 @@ ID: "form.css"
     <div class="us-form-item">
       <label class="us-label">
         <span class="us-label-text">Sign in Password</span>
-        <input type="text" placeholder="placeholder" class="us-input" size="42">
+        <input type="text" name="password" placeholder="placeholder" data-explain="请输入密码" class="us-input" size="42">
       </label>
       <div class="us-form-explain">
       </div>
@@ -128,7 +128,7 @@ ID: "form.css"
     <div class="us-form-item">
       <label class="us-label">
         <span class="us-label-text">Confirm Password</span>
-        <input type="text" class="us-input" size="42">
+        <input type="text" class="us-input" placeholder="placeholder" name="password-confirmation" data-explain="请再重复输入一遍密码" size="42">
       </label>
       <div class="us-form-explain us-notice">
         <span class="us-notice-icon">!</span>
@@ -139,10 +139,33 @@ ID: "form.css"
   <div class="us-form-item">
     <label class="us-label">
       <span class="us-label-text"></span>
-      <button class="us-button us-button-primary">Submit</button>
+      <input type="submit" class="us-button us-button-primary" value="Submit">
     </label>
   </div>
 </form>
+````
+
+````js
+seajs.use(['arale/validator/0.9.7/validator', 'gallery/placeholders/3.0.1/placeholders'], function(Validator) {
+  var validator = new Validator({
+    element: '#test-form',
+    explainClass: 'us-form-explain',
+    itemErrorClass: 'us-form-item-error',
+    itemClass: 'us-form-item'
+  });
+
+  validator.addItem({
+    element: '[name=password]',
+    required: true
+  });
+
+  validator.addItem({
+    element: '[name=password-confirmation]',
+    required: true,
+    rule: 'confirmation{target: "[name=password]", name: "第一遍"}'
+  });
+
+});
 ````
 
 
