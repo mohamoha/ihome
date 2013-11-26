@@ -543,7 +543,7 @@ seajs.use(['$', 'arale/select/0.9.7/select'], function($, Select) {
     });
 
     sel.on('change', function(target, prev) {
-      console.log(target.html());
+      //console.log(target.html());
     });
   });
 });
