@@ -35,11 +35,12 @@ a.us-header-name {
 }
 
 .us-footer {
-  text-align:center;
+  text-align: center;
   height: 104px;
   padding-top: 20px;
+  marging-top: 20px;
   font-size: 14px;
-  background-color:#393836;
+  background-color: #393836;
   color: #ACACAC;
 }
 
@@ -49,4 +50,43 @@ a.us-header-name {
 
 .us-footer p {
   margin: 5px;
+}
+
+.us-nav {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.us-nav a {
+  color: #918A7F;
+}
+
+.us-nav ul {
+  margin: 0 0 0 160px;
+  height: 70px;
+  padding: 0px;
+  list-style: none;
+}
+
+.us-nav li.us-nav-item {
+  float: left;
+  padding: 0 28px;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.us-nav li.us-nav-item-current a,
+.us-nav li.us-nav-item a:hover {
+  color: #43C8B1;
+}
+
+.us-logo {
+  height: 104px;
+  width: 160px;
+  position: absolute;
+  background-color: #43C8B1;
+  bottom: 0px;
+  margin: 0;
+  text-indent: -999px;
 }

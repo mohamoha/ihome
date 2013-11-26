@@ -120,7 +120,7 @@ ID: "form.css"
     <div class="us-form-item">
       <label class="us-label">
         <span class="us-label-text">Sign in Password</span>
-        <input type="text" class="us-input" size="42">
+        <input type="text" placeholder="placeholder" class="us-input" size="42">
       </label>
       <div class="us-form-explain">
       </div>
@@ -136,14 +136,12 @@ ID: "form.css"
       </div>
     </div>
   </fieldset>
-
   <div class="us-form-item">
     <label class="us-label">
       <span class="us-label-text"></span>
       <button class="us-button us-button-primary">Submit</button>
     </label>
   </div>
-
 </form>
 ````
 
@@ -682,6 +680,19 @@ seajs.use(['$'], function($) {
     </div>
   </div>
 </div>
+<div class="us-nav container-990">
+  <h1 class="us-logo">
+    <a href="https://alipay.us/">Alipay Logo</a>
+  </h1>
+  <ul class="fn-clear">
+    <li class="us-nav-item">
+      <a href="#" title="account">My Account</a>
+    </li>
+    <li class="us-nav-item">
+      <a href="#" title="histroy">Histroy</a>
+    </li>
+  </ul>
+</div>
 <div class="container-990" style="height:400px;background:#f6f6f6;margin-top:20px;margin-bottom:20px;line-height:400px;text-align:center;">
   Content
 </div>
@@ -695,6 +706,7 @@ seajs.use(['$'], function($) {
       <a href="#">Jobs</a> |
       <a href="#">International Bussiness</a>
     </p>
+    <div id="ServerNum" style="color:#393836">ihome.d6164.alipay.net</div>
   </div>
 </div>
 ````
