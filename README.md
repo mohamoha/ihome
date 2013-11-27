@@ -87,6 +87,12 @@ ID: "button.css"
 ````
 
 ````html
+<input type="button" class="us-button us-button-primary" value="Continue">
+<input type="button" class="us-button us-button-primary us-button-middle" value="Continue">
+<input type="button" class="us-button us-button-primary us-button-small" value="Continue">
+````
+
+````html
 <button class="us-button us-button-primary">Search</button>
 <button class="us-button us-button-primary us-button-middle">Search</button>
 <button class="us-button us-button-primary us-button-small">Search</button>
