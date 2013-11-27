@@ -67,6 +67,9 @@ For some JavaScript code, you should just copy it to your projects.
 .nico-insert-code a:hover {
   color: #3DDEF5;
 }
+.fn-hide {
+  display: none;
+}
 </style>
 
 ## Button
@@ -153,18 +156,15 @@ seajs.use(['arale/validator/0.9.7/validator', 'gallery/placeholders/3.0.1/placeh
     itemErrorClass: 'us-form-item-error',
     itemClass: 'us-form-item'
   });
-
   validator.addItem({
     element: '[name=password]',
     required: true
   });
-
   validator.addItem({
     element: '[name=password-confirmation]',
     required: true,
     rule: 'confirmation{target: "[name=password]", name: "第一遍"}'
   });
-
 });
 ````
 
@@ -218,7 +218,17 @@ ID: "dropdown.css"
 ````
 
 ````html
-<ul class="us-dropdown fn-hide" id="dropdown-menu">
+<script type="text/template" id="us-dropdown-tpl">
+  <ul class="us-dropdown fn-hide" id="dropdown-menu">
+    <li class="us-dropdown-item"><a href="javascript:;">Option 01</a></li>
+    <li class="us-dropdown-item"><a href="javascript:;">Option 02</a></li>
+    <li class="us-dropdown-item"><a href="javascript:;">Option 03</a></li>
+  </ul>
+</script>
+````
+
+````html
+<ul class="us-dropdown" id="dropdown-menu">
   <li class="us-dropdown-item"><a href="javascript:;">Option 01</a></li>
   <li class="us-dropdown-item"><a href="javascript:;">Option 02</a></li>
   <li class="us-dropdown-item"><a href="javascript:;">Option 03</a></li>
@@ -226,10 +236,10 @@ ID: "dropdown.css"
 ````
 
 ````js
-seajs.use('arale/popup/1.1.5/popup', function(Popup) {
+seajs.use(['$', 'arale/popup/1.1.5/popup'], function($, Popup) {
   var popup = new Popup({
     trigger: '#triggers .us-header-item',
-    element: '#dropdown-menu',
+    template: $('#us-dropdown-tpl').html(),
     effect: 'slide fade',
     duration: 200
   });
