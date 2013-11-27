@@ -123,3 +123,10 @@ a.us-header-name {
 .us-nav.single-task ul {
   display: none;
 }
+
+.us-title {
+  color: #918A7F;
+  font-size: 38px;
+  font-weight: normal;
+  margin: 30px 0;
+}
