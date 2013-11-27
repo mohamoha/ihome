@@ -33,7 +33,7 @@ a.us-dropdown-focus:hover {
 
 a.us-dropdown-focus:after {
   border-style: solid;
-  border-color: transparent #292929;
+  border-color: transparent rgba(10,10,10,0.01);
   border-width: 48px 0 0 48px;
   content: "";
   position: absolute;
@@ -41,4 +41,12 @@ a.us-dropdown-focus:after {
   right: -48px;
   width: 0;
   height: 0;
+}
+
+/* ie8 hack */
+@media \0screen {
+  a.us-dropdown-focus:after {
+    border-color: transparent #292929;
+    z-index: -1;
+  }
 }
