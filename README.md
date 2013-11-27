@@ -210,6 +210,14 @@ ID: "dropdown.css"
 <link type="text/css" rel="stylesheet" media="screen" href="src/dropdown.css">
 
 ````html
+<ul class="us-dropdown" id="dropdown-menu">
+  <li class="us-dropdown-item"><a href="javascript:;">Option 01</a></li>
+  <li class="us-dropdown-item"><a href="javascript:;">Option 02</a></li>
+  <li class="us-dropdown-item"><a href="javascript:;">Option 03</a></li>
+</ul>
+````
+
+````html
 <div class="us-header">
   <div class="container-990" id="triggers">
     <a class="us-header-item" href="javascript:;">trigger</a>
@@ -226,14 +234,6 @@ ID: "dropdown.css"
     <li class="us-dropdown-item"><a href="javascript:;">Option 03</a></li>
   </ul>
 </script>
-````
-
-````html
-<ul class="us-dropdown" id="dropdown-menu">
-  <li class="us-dropdown-item"><a href="javascript:;">Option 01</a></li>
-  <li class="us-dropdown-item"><a href="javascript:;">Option 02</a></li>
-  <li class="us-dropdown-item"><a href="javascript:;">Option 03</a></li>
-</ul>
 ````
 
 ````js
