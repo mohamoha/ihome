@@ -143,6 +143,7 @@ ID: "form.css"
     <label class="us-label">
       <span class="us-label-text"></span>
       <input type="submit" class="us-button us-button-primary" value="Submit">
+      <a href="#">Change</a>
     </label>
   </div>
 </form>

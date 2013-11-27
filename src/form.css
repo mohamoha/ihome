@@ -77,3 +77,7 @@
 .us-form-item-error .us-form-explain {
   color: #CC5555;
 }
+
+.us-label input + a {
+  margin-left: 15px;
+}
