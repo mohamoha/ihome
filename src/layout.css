@@ -114,3 +114,12 @@ a.us-header-name {
 .us-nav.single-task {
   height: 30px;
 }
+
+.single-task .us-logo:after {
+  border-width: 67px 0 0 67px;
+  right: -67px;
+}
+
+.us-nav.single-task ul {
+  display: none;
+}
