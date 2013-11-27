@@ -105,3 +105,12 @@ a.us-header-name {
   height: 0;
   border-color: transparent #292929;
 }
+
+.us-header.single-task {
+  height: 88px;
+  line-height: 88px;
+}
+
+.us-nav.single-task {
+  height: 30px;
+}
