@@ -49,21 +49,23 @@
 
 .us-form-explain {
   margin: 10px 0 0 178px;
-  color: #958572;
+  color: #C0B1A1;
+  font-size: 13px;
 }
 
-.us-form-explain.us-notice {
+.us-form-item .us-notice {
   border: none;
   color: #958572;
+  margin: 10px 0 0 178px;
 }
 
-.us-form-explain.us-notice:before {
+.us-form-item .us-notice:before {
   display: none;
 }
 
-.us-form-explain.us-notice .us-notice-icon {
-  width: 25px;
-  height: 25px;
+.us-form-item .us-notice .us-notice-icon {
+  width: 24px;
+  height: 24px;
   line-height: 24px;
   font-size: 18px;
   margin-right: 2px;
@@ -78,6 +80,11 @@
   color: #CC5555;
 }
 
-.us-label input + a {
+.us-form-item input + a {
   margin-left: 15px;
+}
+
+.us-form-checkbox {
+  margin-left: 178px;
+  color: #C0B1A1;
 }
