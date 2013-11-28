@@ -661,6 +661,7 @@ ID: "channel.css"
       <span class="us-channel-item-text us-money">$</span>
     </div>
     <div class="us-channel-item-box">
+    123
     </div>
   </li>
   <li class="us-channel-item">
@@ -675,6 +676,7 @@ ID: "channel.css"
       <span class="us-channel-item-text us-money">¥</span>
     </div>
     <div class="us-channel-item-box">
+    456
     </div>
   </li>
   <li class="us-channel-item us-channel-item-selected">
@@ -689,6 +691,7 @@ ID: "channel.css"
       <span class="us-channel-item-text us-money">¥</span>
     </div>
     <div class="us-channel-item-box">
+    789
     </div>
   </li>
 </ul>
@@ -699,10 +702,13 @@ seajs.use(['$'], function($) {
   $('.us-channel-item').click(function() {
     $('.us-channel-item').removeClass('us-channel-item-selected');
     $(this).addClass('us-channel-item-selected');
+ 
+    $('.us-channel-item .us-channel-item-box').hide();
+    $(this).find('.us-channel-item-box').hide().slideDown(600);
 
     // For IE8 reflow problem
     $('.us-channel-item-left').each(function(index, item) {
-      item.innerHTML += '';
+      //item.innerHTML += '';
     });
   });
 });
