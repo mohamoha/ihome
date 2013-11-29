@@ -49,6 +49,7 @@
 
 .us-form-explain {
   margin: 10px 0 0 178px;
+  color: #958572;
 }
 
 .us-form-explain.us-notice {
@@ -63,18 +64,25 @@
 .us-form-explain.us-notice .us-notice-icon {
   width: 24px;
   height: 24px;
-  line-height: 24px;
+  line-height: 21px;
   font-size: 18px;
   margin-right: 2px;
+  position: relative;
+  top: -1px;
 }
 
 .us-form-item-error .us-input,
 .us-form-item-error .us-textarea {
-  border-color: #CC5555;
+  border-color: #C30000;
 }
 
 .us-form-item-error .us-form-explain {
-  color: #CC5555;
+  color: #D05656;
+}
+
+.us-form-item-error .us-form-explain.us-notice .us-notice-icon {
+  background-color: #FA4D3C;
+   text-shadow: 1px 1px rgb(210, 65, 50), 2px 2px rgb(210, 65, 50), 3px 3px rgb(210, 65, 50), 4px 4px rgb(210, 65, 50), 5px 5px rgb(210, 65, 50), 6px 6px rgb(210, 65, 50), 7px 7px rgb(210, 65, 50), 8px 8px rgb(210, 65, 50), 9px 9px rgb(210, 65, 50), 10px 10px rgb(210, 65, 50), 11px 11px rgb(210, 65, 50), 12px 12px rgb(210, 65, 50), 13px 13px rgb(210, 65, 50), 14px 14px rgb(210, 65, 50), 15px 15px rgb(210, 65, 50), 16px 16px rgb(210, 65, 50), 17px 17px rgb(210, 65, 50), 18px 18px rgb(210, 65, 50), 19px 19px rgb(210, 65, 50), 20px 20px rgb(210, 65, 50), 21px 21px rgb(210, 65, 50), 22px 22px rgb(210, 65, 50), 23px 23px rgb(210, 65, 50), 24px 24px rgb(210, 65, 50), 25px 25px rgb(210, 65, 50), 26px 26px rgb(210, 65, 50), 27px 27px rgb(210, 65, 50), 28px 28px rgb(210, 65, 50), 29px 29px rgb(210, 65, 50), 30px 30px rgb(212, 65, 50), 31px 31px rgb(215, 66, 51), 32px 32px rgb(218, 67, 52), 33px 33px rgb(220, 68, 52), 34px 34px rgb(223, 69, 53), 35px 35px rgb(226, 69, 54), 36px 36px rgb(228, 70, 54), 37px 37px rgb(231, 71, 55), 38px 38px rgb(234, 72, 56), 39px 39px rgb(236, 73, 56), 40px 40px rgb(239, 73, 57), 41px 41px rgb(242, 74, 58), 42px 42px rgb(244, 75, 58), 43px 43px rgb(247, 76, 59), 44px 44px rgb(250, 77, 60);
 }
 
 .us-form-item input + a {

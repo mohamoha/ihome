@@ -129,7 +129,7 @@ ID: "form.css"
     <div class="us-form-item">
       <label class="us-label">
         <span class="us-label-text">Sign in Password</span>
-        <input type="text" name="password" placeholder="placeholder" data-explain="请输入密码" class="us-input" size="42">
+        <input type="text" name="password" placeholder="placeholder" class="us-input" size="42">
       </label>
       <div class="us-form-explain">
       </div>
@@ -137,7 +137,7 @@ ID: "form.css"
     <div class="us-form-item">
       <label class="us-label">
         <span class="us-label-text">Confirm Password</span>
-        <input type="text" class="us-input" placeholder="placeholder" name="password-confirmation" data-explain="请再重复输入一遍密码" size="42">
+        <input type="text" class="us-input" placeholder="placeholder" name="password-confirmation" size="42">
       </label>
       <div class="us-notice us-form-explain">
         <span class="us-notice-icon">!</span>
@@ -164,7 +164,14 @@ seajs.use(['arale/validator/0.9.7/validator', 'gallery/placeholders/3.0.1/placeh
     element: '#test-form',
     explainClass: 'us-form-explain',
     itemErrorClass: 'us-form-item-error',
-    itemClass: 'us-form-item'
+    itemClass: 'us-form-item',
+    showMessage: function (message, element) {
+        message = '<span class="us-notice-icon">!</span> ' + message;
+        this.getExplain(element)
+            .addClass('us-notice')
+            .html(message);
+        this.getItem(element).addClass(this.get('itemErrorClass'));
+    }
   });
   validator.addItem({
     element: '[name=password]',
