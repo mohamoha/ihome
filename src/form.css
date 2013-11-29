@@ -49,21 +49,18 @@
 
 .us-form-explain {
   margin: 10px 0 0 178px;
-  color: #C0B1A1;
-  font-size: 13px;
 }
 
-.us-form-item .us-notice {
+.us-form-explain.us-notice {
   border: none;
   color: #958572;
-  margin: 10px 0 0 178px;
 }
 
-.us-form-item .us-notice:before {
+.us-form-explain.us-notice:before {
   display: none;
 }
 
-.us-form-item .us-notice .us-notice-icon {
+.us-form-explain.us-notice .us-notice-icon {
   width: 24px;
   height: 24px;
   line-height: 24px;

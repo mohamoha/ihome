@@ -139,19 +139,16 @@ ID: "form.css"
         <span class="us-label-text">Confirm Password</span>
         <input type="text" class="us-input" placeholder="placeholder" name="password-confirmation" data-explain="请再重复输入一遍密码" size="42">
       </label>
-      <div class="us-form-explain">
-      </div>
-      <div class="us-notice">
+      <div class="us-notice us-form-explain">
         <span class="us-notice-icon">!</span>
         Some infomatioin in us-notice. Some infomatioin in us-notice.
       </div>
     </div>
   </fieldset>
-  <div class="us-form-item us-form-checkbox">
-    <label class="us-label">
-      <input type="checkbox" name="">
-      By clicking the button, I agree to the Alipay User Agreement
-    </label>
+  <div class="us-form-item">
+    <div class="us-form-explain">
+    By clicking the button, I agree to the Alipay User Agreement
+    </div>
   </div>
   <div class="us-form-item">
     <span class="us-label-text"></span>
