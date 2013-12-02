@@ -131,7 +131,7 @@ ID: "form.css"
         <span class="us-label-text">Sign in Password</span>
       </label>
       <input type="text" name="password" placeholder="placeholder" class="us-input" size="17">
-      <input type="text" name="password" placeholder="placeholder" class="us-input" size="17">
+      <input type="text" name="xxxx" placeholder="placeholder" class="us-input" size="17">
       <div class="us-form-explain">
       </div>
     </div>
