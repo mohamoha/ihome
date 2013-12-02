@@ -203,11 +203,11 @@
 .us-calendar-focus:after {
   border-style: solid;
   border-color: transparent #DFDAC0;
-  border-width: 52px 0 0 52px;
+  border-width: 42px 0 0 42px;
   content: "";
   position: absolute;
   top: 0;
-  right: -52px;
+  right: -42px;
   width: 0;
   height: 0;
 }

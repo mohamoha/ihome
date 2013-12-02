@@ -120,6 +120,11 @@ a.us-header-name {
   right: -67px;
 }
 
+.single-task  a.us-dropdown-focus:after {
+  border-width: 87px 0 0 87px;
+  right: -87px;
+}
+
 .us-nav.single-task ul {
   display: none;
 }

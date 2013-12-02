@@ -604,14 +604,16 @@ ID: "noticebox.css"
 
 ````html
 <div class="us-noticebox">
-  <span class="us-noticebox-icon">@</span>
+  <span class="us-noticebox-icon">✔︎</span>
   <div class="us-noticebox-content">
     <h3>Your Alipay account has been set up successfully!</h3>
-    <p>出于安全考虑，你需要进行身份验证后方可正常使用支付宝账户。</p>
+    <p>You can now add funds to your Alipay account and use it to pay for AliExpress orders.</p>
+    <div class="us-noticebox-mainlink">
+      <a href="#">Go to my Alipay ></a>
+    </div>
+    <p>To remove your daily spend limit, additional identity verification is needed.</p>
     <p class="us-noticebox-link">
-      <a href="#">Yes, verify my account</a>
-      |
-      <a href="#">No, go to home page</a>
+      <a href="#">Remove Spend Limit</a>
     </p>
   </div>
 </div>
