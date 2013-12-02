@@ -33,6 +33,11 @@
   list-style: none;
 }
 
-.us-radio-group li {
+.us-radio-group li,
+.us-radio-group label {
   cursor: pointer;
+}
+
+.us-radio + input[type=radio] {
+  display: none;
 }

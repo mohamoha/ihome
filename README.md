@@ -631,13 +631,22 @@ ID: "radio.css"
 ````html
 <ul class="us-radio-group">
   <li>
-    <span class="us-radio us-radio-selected">●</span> 中文（简体）
+    <label>
+      <span class="us-radio us-radio-selected">●</span> 中文（简体）
+      <input type="radio" name="language" />
+    </label>
   </li>
   <li>
-    <span class="us-radio">●</span> 中文（繁体）
+    <label>
+      <span class="us-radio">●</span> 中文（繁体）
+      <input type="radio" name="language" />
+    </label>
   </li>
   <li>
-    <span class="us-radio">●</span> English
+    <label>
+      <span class="us-radio">●</span> English
+      <input type="radio" name="language" />
+    </label>
   </li>
 </ul>
 ````
