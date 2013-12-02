@@ -8,6 +8,7 @@
 
 .us-noticebox a {
   color: #fff;
+  text-decoration: underline;
 }
 
 .us-noticebox h3 {
@@ -15,9 +16,12 @@
   font-weight: normal;
 }
 
-.us-noticebox h3,
-.us-noticebox p {
+.us-noticebox h3 {
   margin: 0;
+}
+
+.us-noticebox p {
+  margin: 0 0 10px 0;
 }
 
 .us-noticebox-icon {
@@ -41,10 +45,6 @@
   z-index: -1;
 }
 
-.us-noticebox p.us-noticebox-link {
-  margin-top: 15px;
-}
-
 .us-noticebox-mainlink {
   margin: 15px 0;
   padding-bottom: 15px;
@@ -55,10 +55,6 @@
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
-}
-
-.us-noticebox-link a {
-  text-decoration: underline;
 }
 
 .us-noticebox-content hr {

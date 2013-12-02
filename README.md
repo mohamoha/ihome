@@ -612,7 +612,7 @@ ID: "noticebox.css"
       <a href="#">Go to my Alipay ></a>
     </div>
     <p>To remove your daily spend limit, additional identity verification is needed.</p>
-    <p class="us-noticebox-link">
+    <p>
       <a href="#">Remove Spend Limit</a>
     </p>
   </div>
