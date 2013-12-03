@@ -22,7 +22,7 @@
 }
 
 .us-form {
-  margin: 20px;
+  margin: 20px 0;
 }
 
 .us-form fieldset {
@@ -43,13 +43,13 @@
 }
 
 .us-form-item .us-label-text {
-  width: 156px;
+  width: 180px;
   text-align: right;
   display: inline-block;
 }
 
 .us-form-explain {
-  margin: 10px 0 0 178px;
+  margin: 10px 0 0 200px;
   color: #BCAD8E;
 }
 
