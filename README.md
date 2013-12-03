@@ -182,7 +182,7 @@ seajs.use(['arale/validator/0.9.7/validator', 'gallery/placeholders/3.0.1/placeh
   validator.addItem({
     element: '[name=password-confirmation]',
     required: true,
-    rule: 'confirmation{target: "[name=password]", name: "第一遍"}'
+    rule: 'confirmation{target: "[name=password]"}'
   });
 });
 ````
