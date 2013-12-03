@@ -1243,7 +1243,7 @@ a.us-dropdown-focus:after {
   font-size: 14px;
 }
 
-.us-form-explain .us-notice-text {
+.us-form-explain .us-form-explain-text {
   font-size: 16px;
   color: #958572;
 }
@@ -1267,7 +1267,8 @@ a.us-dropdown-focus:after {
   border-color: #C30000;
 }
 
-.us-form-item-error .us-form-explain .us-notice-text {
+.us-form-item-error .us-form-explain,
+.us-form-item-error .us-form-explain-text {
   color: #D05656;
 }
 

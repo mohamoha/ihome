@@ -144,7 +144,7 @@ ID: "form.css"
       </label>
       <div class="us-form-explain">
         <span class="us-notice-icon">!</span>
-        <span class="us-notice-text">Some infomatioin in us-notice. Some infomatioin in us-notice.</span>
+        <span class="us-explain-text">Some infomatioin in us-notice. Some infomatioin in us-notice.</span>
       </div>
     </div>
   </fieldset>
