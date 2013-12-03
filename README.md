@@ -144,7 +144,9 @@ ID: "form.css"
       </label>
       <div class="us-form-explain">
         <span class="us-notice-icon">!</span>
-        <span class="us-explain-text">Some infomatioin in us-notice. Some infomatioin in us-notice.</span>
+        <span class="us-form-explain-text">
+        Some infomatioin in us-notice. Some infomatioin in us-notice.
+        </span>
       </div>
     </div>
   </fieldset>
@@ -170,7 +172,7 @@ seajs.use(['arale/validator/0.9.7/validator', 'gallery/placeholders/3.0.1/placeh
     itemClass: 'us-form-item',
     showMessage: function (message, element) {
       message = '<span class="us-notice-icon">!</span> ' +
-        '<span class="us-notice-text">' + message + '</span>';
+        '<span class="us-form-explain-text">' + message + '</span>';
       this.getExplain(element).html(message);
       this.getItem(element).addClass(this.get('itemErrorClass'));
     }
