@@ -700,7 +700,7 @@ ID: "channel.css"
   <li class="us-channel-item">
     <div class="us-channel-item-header">
       <div class="us-channel-item-left">
-        <span class="us-radio">●</span>
+        <span class="us-radio-dot">●</span>
         <span class="us-channel-item-icon">
           <i class="iconfont" title="日历/日期">&#xF01C;</i>
         </span>
@@ -715,7 +715,7 @@ ID: "channel.css"
   <li class="us-channel-item">
     <div class="us-channel-item-header">
       <div class="us-channel-item-left">
-        <span class="us-radio">●</span>
+        <span class="us-radio-dot">●</span>
         <span class="us-channel-item-icon">
           <i class="iconfont" title="日历/日期">&#xF01C;</i>
         </span>
@@ -730,7 +730,7 @@ ID: "channel.css"
   <li class="us-channel-item us-channel-item-selected">
     <div class="us-channel-item-header">
       <div class="us-channel-item-left">
-        <span class="us-radio">●</span>
+        <span class="us-radio-dot">●</span>
         <span class="us-channel-item-icon">
           <i class="iconfont" title="日历/日期">&#xF01C;</i>
         </span>
