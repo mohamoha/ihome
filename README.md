@@ -257,7 +257,7 @@ ID: "dropdown.css"
 ````
 
 ````js
-seajs.use(['$', 'arale/popup/1.1.5/popup'], function($, Popup) {
+seajs.use(['$', 'arale/popup/1.1.6/popup'], function($, Popup) {
   var popup = new Popup({
     trigger: '#triggers .us-header-item',
     template: $('#us-dropdown-tpl').html(),
@@ -557,7 +557,7 @@ ID: "select.css"
 ````
 
 ````js
-seajs.use(['$', 'arale/select/0.9.7/select'], function($, Select) {
+seajs.use(['$', 'arale/select/0.9.8/select'], function($, Select) {
   $(function() {
     var sel = new Select({
       trigger: '#country',
