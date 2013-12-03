@@ -1388,6 +1388,10 @@ a.us-dropdown-focus:after {
   text-decoration: underline;
 }
 
+.us-noticebox a:hover {
+  color: #3DDEF5;
+}
+
 .us-noticebox h3 {
   font-size: 24px;
   font-weight: normal;
