@@ -134,6 +134,7 @@ ID: "form.css"
       <input type="text" name="password" placeholder="placeholder" class="us-input" size="17">
       <input type="text" name="xxxx" placeholder="placeholder" class="us-input" size="17">
       <div class="us-form-explain">
+      The characters are not case-sensitive.
       </div>
     </div>
     <div class="us-form-item">
@@ -141,9 +142,9 @@ ID: "form.css"
         <span class="us-label-text">Confirm Password</span>
         <input type="text" class="us-input" placeholder="placeholder" name="password-confirmation" size="42">
       </label>
-      <div class="us-notice us-form-explain">
+      <div class="us-form-explain">
         <span class="us-notice-icon">!</span>
-        Some infomatioin in us-notice. Some infomatioin in us-notice.
+        <span class="us-notice-text">Some infomatioin in us-notice. Some infomatioin in us-notice.</span>
       </div>
     </div>
   </fieldset>
@@ -168,11 +169,10 @@ seajs.use(['arale/validator/0.9.7/validator', 'gallery/placeholders/3.0.1/placeh
     itemErrorClass: 'us-form-item-error',
     itemClass: 'us-form-item',
     showMessage: function (message, element) {
-        message = '<span class="us-notice-icon">!</span> ' + message;
-        this.getExplain(element)
-            .addClass('us-notice')
-            .html(message);
-        this.getItem(element).addClass(this.get('itemErrorClass'));
+      message = '<span class="us-notice-icon">!</span> ' +
+        '<span class="us-notice-text">' + message + '</span>';
+      this.getExplain(element).html(message);
+      this.getItem(element).addClass(this.get('itemErrorClass'));
     }
   });
   validator.addItem({
