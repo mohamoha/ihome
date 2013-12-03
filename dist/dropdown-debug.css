@@ -1,0 +1,53 @@
+/*! define alice/ihome/1.0.0/dropdown-debug.css */
+.us-dropdown {
+  padding:0px;
+  margin:0px;
+  list-style: none;
+  background-color :#00B699;
+  width: 200px;
+}
+
+.us-dropdown-item a {
+  display: block;
+  color: #007C6B;
+  height: 44px;
+  line-height:44px;
+  text-indent: 15px;
+  font-size: 14px;
+  transition: background-color ease 0.3s;
+}
+
+.us-dropdown-item a:hover {
+  color: #fff;
+  background-color:#008C7B;
+}
+
+a.us-dropdown-focus {
+  background-color:#008C7B;
+  color: #F4F7DB;
+  position: relative;
+}
+
+a.us-dropdown-focus:hover {
+  color: #F4F7DB;
+}
+
+a.us-dropdown-focus:after {
+  border-style: solid;
+  border-color: transparent rgba(0,0,0,0.27);
+  border-width: 48px 0 0 48px;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -48px;
+  width: 0;
+  height: 0;
+}
+
+/* ie8 hack */
+@media \0screen {
+  a.us-dropdown-focus:after {
+    border-color: transparent #292929;
+    z-index: -1;
+  }
+}

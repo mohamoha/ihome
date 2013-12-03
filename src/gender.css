@@ -1,0 +1,39 @@
+.us-gender {
+  display: inline-block;
+  width: 112px;
+  height: 48px;
+  border: 2px solid #958572;
+  color: #958572;
+  cursor: pointer;
+  line-height: 48px;
+  text-indent: 20px;
+  position: relative;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.us-gender-check {
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  top: 0;
+  right: 12px;
+}
+
+.us-gender-icon {
+  font-size: 32px;
+}
+
+.us-gender-selected {
+  background: #958572;
+  color: #fff;
+}
+
+.us-gender input[type=radio],
+.us-gender .us-gender-check {
+  display: none;
+}
+
+.us-gender-selected .us-gender-check {
+  display: inline;
+}

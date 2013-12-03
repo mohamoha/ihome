@@ -19,6 +19,7 @@ DPL page for `alipay.us`. We choose `us-` for class prefix. It is compatible wit
 - [Notice](#notice)
 - [Notice Box](#notice-box)
 - [Radio](#radio)
+- [Gender](#gender)
 - [Channel](#channel)
 - [Page Layout](#page-layout)
 - [Money](#money)
@@ -629,34 +630,57 @@ ID: "radio.css"
 <link type="text/css" rel="stylesheet" media="screen" href="src/radio.css">
 
 ````html
-<ul class="us-radio-group">
-  <li>
-    <label>
-      <span class="us-radio us-radio-selected">●</span> 中文（简体）
-      <input type="radio" name="language" />
-    </label>
-  </li>
-  <li>
-    <label>
-      <span class="us-radio">●</span> 中文（繁体）
-      <input type="radio" name="language" />
-    </label>
-  </li>
-  <li>
-    <label>
-      <span class="us-radio">●</span> English
-      <input type="radio" name="language" />
-    </label>
-  </li>
-</ul>
+<label class="us-radio us-radio-selected">
+  <span class="us-radio-dot">●</span> 中文（简体）
+  <input type="radio" name="language" />
+</label>
+<label class="us-radio">
+  <span class="us-radio-dot">●</span> 中文（繁体）
+  <input type="radio" name="language" />
+</label>
+<label class="us-radio">
+  <span class="us-radio-dot">●</span> English
+  <input type="radio" name="language" />
+</label>
 ````
 
 ````js
 seajs.use(['$'], function($) {
-  var options = $('.us-radio-group > li');
+  var options = $('.us-radio');
   options.click(function() {
-    options.find('.us-radio').removeClass('us-radio-selected');
-    $(this).find('.us-radio').addClass('us-radio-selected');
+    options.removeClass('us-radio-selected');
+    $(this).addClass('us-radio-selected');
+  });
+});
+````
+
+## Gender
+
+```js
+ID: "gender.css"
+```
+
+<link type="text/css" rel="stylesheet" media="screen" href="src/gender.css">
+
+````html
+<label class="us-gender us-gender-selected">
+  <span class="us-gender-icon">M</span>
+  <span class="us-gender-check">勾</span>
+  <input type="radio" name="gender" value="male" />
+</label>
+<label class="us-gender">
+  <span class="us-gender-icon">F</span>
+  <span class="us-gender-check">勾</span>
+  <input type="radio" name="gender" value="fmale" />
+</label>
+````
+
+````js
+seajs.use(['$'], function($) {
+  var genders = $('.us-gender');
+  genders.click(function() {
+    genders.removeClass('us-gender-selected');
+    $(this).addClass('us-gender-selected');
   });
 });
 ````

@@ -1,0 +1,31 @@
+/*! define alice/ihome/1.0.0/filter-debug.css */
+.us-filter {
+  font-size: 12px;
+}
+
+.us-filter-item a {
+  font-size: 16px;
+  color: #927e67;
+  display: block;
+  background-color:#ECEAD8;
+  transition: background-color ease 0.3s;
+}
+
+.us-filter-item a:hover {
+  background-color:#958572;
+  color: #fff;
+}
+
+.us-filter-item {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 140px;
+  text-align:center;
+  height: 40px;
+  line-height: 40px;
+}
+
+.us-filter-item-selected a {
+  background-color:#DBD7BA;
+}
