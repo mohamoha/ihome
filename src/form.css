@@ -91,6 +91,7 @@
 
 .us-form-item input[type="text"] + a, 
 .us-form-item input[type="button"] + a,
+.us-form-item input[type="submit"] + a,
 .us-form-item button + a {
   margin-left: 15px;
 }
