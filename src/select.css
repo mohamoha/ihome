@@ -50,6 +50,7 @@ a.ui-select-trigger:hover {
 .ui-select-item-disabled:hover,
 .ui-select-item-disabled a:hover {
   background: #fff;
+  color: #ccc;
 }
 .ui-select-trigger {
   position: relative;
