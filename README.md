@@ -9,6 +9,7 @@ DPL page for `alipay.us`. We choose `us-` for class prefix. It is compatible wit
 - [Tab](#tab)
 - [Dropdown](#dropdown)
 - [Filter](#filter)
+- [Tip](#tip)
 - [Table](#table)
 - [Switch](#switch)
 - [Paging](#paging)
@@ -275,6 +276,36 @@ seajs.use(['$', 'arale/popup/1.1.6/popup'], function($, Popup) {
     this.get('trigger').removeClass('us-dropdown-focus');
   });
 });
+````
+
+## Tip
+
+```js
+ID: "tip.css"
+```
+
+<link type="text/css" rel="stylesheet" media="screen" href="src/tip.css">
+
+<style>
+.us-tip {
+  margin-bottom: 20px;
+  width: 300px;
+}
+</style>
+
+````html
+<div class="us-tip us-tip-1">us-tip-1</div>
+<div class="us-tip us-tip-2">us-tip-2</div>
+<div class="us-tip us-tip-4">us-tip-4</div>
+<div class="us-tip us-tip-5">us-tip-5</div>
+<div class="us-tip us-tip-7">us-tip-7</div>
+<div class="us-tip us-tip-8">us-tip-8</div>
+<div class="us-tip us-tip-10">us-tip-10</div>
+<div class="us-tip us-tip-11">us-tip-11</div>
+````
+
+````html
+<div class="us-tip us-tip-brown us-tip-10">us-tip-11</div>
 ````
 
 ## Filter

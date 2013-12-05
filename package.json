@@ -21,6 +21,7 @@
     "output": [
       "index.css",
       "tab.css",
+      "tip.css",
       "form.css",
       "dropdown.css",
       "filter.css",
