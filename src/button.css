@@ -80,3 +80,9 @@ a.us-button-border {
 a.us-button-border:hover {
   background-color: #958572;
 }
+
+.us-button-disable {
+  background-color: #aaa;
+  border-color: #777;
+  cursor: default!important;
+}

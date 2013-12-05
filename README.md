@@ -109,6 +109,10 @@ ID: "button.css"
 <a class="us-button us-button-border">(46s) resend an email</a>
 ````
 
+````html
+<input type="button" class="us-button us-button-disable" value="Continue">
+````
+
 ## Form
 
 ```js
