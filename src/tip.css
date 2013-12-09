@@ -1,0 +1,80 @@
+.us-tip {
+  background-color: #00B699;
+  color: #fff;
+  font-size: 14px;
+  padding: 8px 10px;
+  position: relative;
+}
+
+.us-tip:before {
+  border-style: solid;
+  content: "";
+  height: 0;
+  position: absolute;
+  width: 0;
+}
+
+.us-tip-1:before {
+  border-color: transparent #00B699;
+  border-width: 12px 12px 0 0;
+  right: 0;
+  top: -12px;
+}
+
+.us-tip-2:before {
+  border-color: transparent #00B699;
+  border-width: 0 0 12px 12px;
+  right: -12px;
+  top: 0;
+}
+
+.us-tip-4:before {
+  border-color: transparent #00B699;
+  border-width: 12px  0 0 12px;
+  right: -12px;
+  bottom: 0;
+}
+
+.us-tip-5:before {
+  border-color: transparent #00B699;
+  border-width: 0 12px 12px 0;
+  bottom: -12px;
+  right: 0;
+}
+
+.us-tip-7:before {
+  border-color: transparent #00B699;
+  border-width: 0 0 12px 12px;
+  left: 0;
+  bottom: -12px;
+}
+
+.us-tip-8:before {
+  border-color: transparent #00B699;
+  border-width: 12px 12px 0 0;
+  left: -12px;
+  bottom: 0;
+}
+
+.us-tip-10:before {
+  border-color: transparent #00B699;
+  border-width: 0 12px 12px 0;
+  left: -12px;
+  top: 0;
+}
+
+.us-tip-11:before {
+  border-color: transparent #00B699;
+  border-width: 12px 0 0 12px;
+  left: 0;
+  top: -12px;
+}
+
+.us-tip-brown {
+  background: #ECEAD8;
+  color: #958572;
+}
+
+.us-tip-brown:before {
+  border-color: transparent #ECEAD8;
+}
