@@ -70,7 +70,7 @@ a.us-button-border {
   color: #958572;
   height: 40px;
   line-height: 40px;
-  padding: 0 12px;
+  padding: 0 15px;
 }
 
 a.us-button-border {
@@ -86,3 +86,12 @@ a.us-button-border:hover {
   border-color: #777;
   cursor: default!important;
 }
+
+a.us-button-border.us-button-disable,
+a.us-button-border.us-button-disable:hover {
+  border-color: #DBD7BA;
+  cursor: default;
+  color: #BCAD8E;
+  background: transparent;
+}
+
