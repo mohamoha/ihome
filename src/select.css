@@ -66,6 +66,14 @@ a.ui-select-trigger:hover {
   position: relative;
 }
 
+.ui-select-trigger span {
+  display: block;
+  line-height: 46px;
+  height: 46px;
+  border: 1px solid #DBD7BA;
+  border-right: none;
+}
+
 .ui-select-arrow {
   position: absolute;
   height: 30px;
@@ -109,6 +117,10 @@ a.ui-select-trigger:hover {
   -o-transform: rotate(135deg);
   -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=-0.7071067811865477, M12=-0.7071067811865475, M21=0.7071067811865475, M22=-0.7071067811865477, SizingMethod='auto expand')";
   transform: rotate(135deg);
+}
+
+.ui-select-trigger-focus span {
+  border-color: #fff;
 }
 
 .ui-select .ui-select-trigger {
