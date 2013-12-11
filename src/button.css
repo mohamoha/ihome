@@ -62,7 +62,8 @@ a.us-button:hover {
   border-color: #674F34;
 }
 
-a.us-button-border {
+a.us-button-border, 
+button.us-button-border {
   text-align: center;
   font-size: 18px;
   border: 2px solid #958572;
@@ -73,14 +74,17 @@ a.us-button-border {
   padding: 0 15px;
 }
 
-a.us-button-border {
+a.us-button-border, 
+button.us-button-border {
   color: #958572;
 }
 
-a.us-button-border:hover {
+a.us-button-border:hover,
+button.us-button-border:hover {
   background-color: #958572;
 }
 
+.us-button-disable,
 .us-button-disable {
   background-color: #aaa;
   border-color: #777;
@@ -88,7 +92,9 @@ a.us-button-border:hover {
 }
 
 a.us-button-border.us-button-disable,
-a.us-button-border.us-button-disable:hover {
+button.us-button-border.us-button-disable,
+a.us-button-border.us-button-disable:hover,
+button.us-button-border.us-button-disable:hover {
   border-color: #DBD7BA;
   cursor: default;
   color: #BCAD8E;
