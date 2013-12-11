@@ -74,7 +74,11 @@ button.us-button-border {
   padding: 0 15px;
 }
 
-a.us-button-border, 
+button.us-button-border {
+  line-height: normal;
+}
+
+a.us-button-border,
 button.us-button-border {
   color: #958572;
 }
