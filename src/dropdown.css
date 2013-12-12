@@ -37,7 +37,8 @@ a.us-dropdown-focus i {
   color: #F4F7DB;
 }
 
-a.us-dropdown-focus:hover {
+a.us-dropdown-focus:hover,
+a.us-dropdown-focus:hover i {
   color: #F4F7DB;
 }
 
