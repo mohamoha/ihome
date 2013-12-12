@@ -811,7 +811,7 @@ ID: "channel.css"
       <div class="us-channel-item-left">
         <span class="us-radio-dot">●</span>
         <span class="us-channel-item-icon">
-          <i class="iconfont" title="日历/日期">&#xF01C;</i>
+          <i class="iconfont" title="日历/日期">&#x3440;</i>
         </span>
       </div>
       <span class="us-channel-item-text">Webmoney</span>
@@ -826,7 +826,7 @@ ID: "channel.css"
       <div class="us-channel-item-left">
         <span class="us-radio-dot">●</span>
         <span class="us-channel-item-icon">
-          <i class="iconfont" title="日历/日期">&#xF01C;</i>
+          <i class="iconfont" title="日历/日期">&#x3440;</i>
         </span>
       </div>
       <span class="us-channel-item-text">Webmoney</span>
@@ -841,7 +841,7 @@ ID: "channel.css"
       <div class="us-channel-item-left">
         <span class="us-radio-dot">●</span>
         <span class="us-channel-item-icon">
-          <i class="iconfont" title="日历/日期">&#xF01C;</i>
+          <i class="iconfont" title="日历/日期">&#x3440;</i>
         </span>
       </div>
       <span class="us-channel-item-text">Webmoney</span>
@@ -880,10 +880,10 @@ seajs.use(['$'], function($) {
   <div class="container-990">
     <div class="us-header-right">
       <a class="us-header-item us-header-name" href="javascript:;">Hello, Sheldon Smith</a>
-      <a class="us-header-item" href="javascript:;">Settings</a>
+      <a class="us-header-item" href="javascript:;">Settings<i class="iconfont">&#x3442;</i></a>
       <a class="us-header-item" href="javascript:;">Sign Out</a>
       <a class="us-header-item" href="javascript:;">Help Center</a>
-      <a class="us-header-item" href="javascript:;">English</a>
+      <a class="us-header-item" href="javascript:;">English<i class="iconfont">&#x3442;</i></a>
     </div>
   </div>
 </div>

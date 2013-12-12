@@ -14,7 +14,19 @@ a.us-header-item {
   color: #F4F7DB;
 }
 
-a.us-header-item:hover {
+a.us-header-item i {
+  font-size: 7px;
+  vertical-align: top;
+  margin-top: 1px;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 7px;
+  color: #F4F7DB;
+  transition: transform 0.3s ease!important;
+}
+
+a.us-header-item:hover,
+a.us-header-item:hover i {
   color: #43C8B1;
 }
 
