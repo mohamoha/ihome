@@ -5,8 +5,8 @@
   border: 2px solid #958572;
   color: #958572;
   cursor: pointer;
-  line-height: 48px;
-  text-indent: 20px;
+  line-height: 46px;
+  text-indent: 16px;
   position: relative;
   margin-right: 5px;
   vertical-align: middle;
@@ -14,14 +14,14 @@
 
 .us-gender-check {
   color: #fff;
-  font-size: 20px;
+  font-size: 30px;
   position: absolute;
   top: 0;
-  right: 12px;
+  right: 8px;
 }
 
 .us-gender-icon {
-  font-size: 32px;
+  font-size: 26px;
 }
 
 .us-gender-selected {

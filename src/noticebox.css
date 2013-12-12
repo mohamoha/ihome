@@ -29,13 +29,14 @@
 }
 
 .us-noticebox-icon {
-  font-size: 40px;
-  left: 60px;
+  font-size: 36px;
+  left: 55px;
   line-height: 1;
   position: absolute;
-  top: 46px;
+  top: 50px;
   color: #00AE93;
   z-index: 1;
+  text-shadow: 5px 5px 1px #fff;
 }
 
 .us-noticebox-icon:before {
@@ -44,9 +45,10 @@
   content: "●";
   font-family: arial;
   font-size: 112px;
-  left: -22px;
-  top: -40px;
+  left: -16px;
+  top: -46px;
   z-index: -1;
+  text-shadow: none;
 }
 
 .us-noticebox-mainlink {

@@ -21,6 +21,7 @@ DPL page for `alipay.us`. We choose `us-` for class prefix.
 - [Select](#select)
 - [Notice](#notice)
 - [Notice Box](#notice-box)
+- [Checkbox](#checkbox)
 - [Radio](#radio)
 - [Gender](#gender)
 - [Channel](#channel)
@@ -129,7 +130,7 @@ seajs.use(['$', 'arale/tip/1.2.1/tip'], function($, Tip) {
   new Tip({
     trigger: $('#iconfont ~ .nico-insert-code').find('> .iconfont'),
     effect: 'fade',
-    width: 310
+    width: 320
   }).before('show', function() {
     var value = escape(this.activeTrigger.html()).replace('%u', '&#38;&#35;x') + ';';
     this.set('content', '<code>&lt;i class="iconfont"&gt;' + value + '&lt;/i&gt;</code>');
@@ -707,7 +708,7 @@ ID: "noticebox.css"
 
 ````html
 <div class="us-noticebox">
-  <span class="us-noticebox-icon">✔︎</span>
+  <span class="us-noticebox-icon iconfont">&#x3437;</span>
   <div class="us-noticebox-content">
     <h3>Your Alipay account has been set up successfully!</h3>
     <p>You can now add funds to your Alipay account and use it to pay for AliExpress orders.</p>
@@ -721,6 +722,15 @@ ID: "noticebox.css"
   </div>
 </div>
 ````
+
+## Checkbox
+
+```js
+ID: "checkbox.css"
+```
+
+<link type="text/css" rel="stylesheet" media="screen" href="src/checkbox.css">
+
 
 ## Radio
 
@@ -765,13 +775,13 @@ ID: "gender.css"
 
 ````html
 <label class="us-gender us-gender-selected">
-  <span class="us-gender-icon">M</span>
-  <span class="us-gender-check">勾</span>
+  <span class="us-gender-icon iconfont">&#x3435;</span>
+  <span class="us-gender-check iconfont">&#x3437;</span>
   <input type="radio" name="gender" value="male" />
 </label>
 <label class="us-gender">
-  <span class="us-gender-icon">F</span>
-  <span class="us-gender-check">勾</span>
+  <span class="us-gender-icon iconfont">&#x3436;</span>
+  <span class="us-gender-check iconfont">&#x3437;</span>
   <input type="radio" name="gender" value="fmale" />
 </label>
 ````
