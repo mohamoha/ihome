@@ -2,8 +2,10 @@
 
 ---
 
-DPL page for `alipay.us`. We choose `us-` for class prefix. It is compatible with normal browsers and `IE8+`.
+DPL page for `alipay.us`. We choose `us-` for class prefix.
 
+- [Reset](#reset)
+- [Iconfont](#iconfont)
 - [Button](#button)
 - [Form](#form)
 - [Tab](#tab)
@@ -24,6 +26,8 @@ DPL page for `alipay.us`. We choose `us-` for class prefix. It is compatible wit
 - [Channel](#channel)
 - [Page Layout](#page-layout)
 - [Money](#money)
+
+It is compatible with normal browsers and `IE8+`.
 
 ---
 
@@ -73,6 +77,65 @@ For some JavaScript code, you should just copy it to your projects.
   display: none;
 }
 </style>
+
+## Reset
+
+We choose [normalize.css](http://necolas.github.io/normalize.css/) as a global reset.
+
+## Iconfont
+
+<link type="text/css" rel="stylesheet" media="screen" href="src/iconfont.css">
+
+<style>
+.nico-insert-code > .iconfont {
+  font-size: 32px;
+  display: inline-block;
+  margin: 5px 10px;
+  cursor: pointer;
+}
+.nico-insert-code > .iconfont:hover {
+  color: #F99A0C;
+}
+.ui-poptip-content {
+  font-size: 16px;
+}
+</style>
+
+`````html
+<i class="iconfont">&#x3432;</i>
+<i class="iconfont">&#x3434;</i>
+<i class="iconfont">&#x3435;</i>
+<i class="iconfont">&#x3436;</i>
+<i class="iconfont">&#x3437;</i>
+<i class="iconfont">&#x3438;</i>
+<i class="iconfont">&#x3439;</i>
+<i class="iconfont">&#x343a;</i>
+<i class="iconfont">&#x343b;</i>
+<i class="iconfont">&#x343c;</i>
+<i class="iconfont">&#x343d;</i>
+<i class="iconfont">&#x343f;</i>
+<i class="iconfont">&#x3440;</i>
+<i class="iconfont">&#x3441;</i>
+<i class="iconfont">&#x3442;</i>
+<i class="iconfont">&#x3443;</i>
+<i class="iconfont">&#x3444;</i>
+<i class="iconfont">&#x3445;</i>
+<i class="iconfont">&#x3446;</i>
+<i class="iconfont">&#x3447;</i>
+`````
+
+<script>
+seajs.use(['$', 'arale/tip/1.2.1/tip'], function($, Tip) {
+  new Tip({
+    trigger: $('#iconfont ~ .nico-insert-code').find('> .iconfont'),
+    effect: 'fade',
+    width: 310
+  }).before('show', function() {
+    var value = escape(this.activeTrigger.html()).replace('%u', '&#38;&#35;x') + ';';
+    this.set('content', '<code>&lt;i class="iconfont"&gt;' + value + '&lt;/i&gt;</code>');
+  });
+});
+</script>
 
 ## Button
 
