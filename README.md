@@ -28,7 +28,7 @@ DPL page for `alipay.us`. We choose `us-` for class prefix.
 - [Page Layout](#page-layout)
 - [Money](#money)
 
-It is compatible with normal browsers and `IE8+`.
+Based on https://aliceui.org, and it is compatible with normal browsers and `IE8+`.
 
 ---
 
