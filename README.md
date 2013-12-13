@@ -728,6 +728,16 @@ ID: "noticebox.css"
 </div>
 ````
 
+````html
+<div class="us-noticebox us-noticebox-error">
+  <span class="us-noticebox-icon">!</span>
+  <div class="us-noticebox-content">
+    <h3>Your Alipay account has been set up successfully!</h3>
+    <p>You can now add funds to your Alipay account and use it to pay for AliExpress orders.</p>
+  </div>
+</div>
+````
+
 ## Checkbox
 
 ```js
