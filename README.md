@@ -746,6 +746,26 @@ ID: "checkbox.css"
 
 <link type="text/css" rel="stylesheet" media="screen" href="src/checkbox.css">
 
+````html
+<label class="us-checkbox us-checkbox-checked">
+  <span class="us-radio-check iconfont">&#x3437;</span> this option who want to be check
+  <input type="checkbox" name="language" value="this">
+</label>
+<label class="us-checkbox">
+  <span class="us-radio-check iconfont">&#x3437;</span> that option who want to be check
+  <input type="checkbox" name="language" value="that">
+</label>
+````
+
+````js
+seajs.use(['$'], function($) {
+  var options = $('.us-checkbox');
+  options.click(function() {
+    options.removeClass('us-checkbox-checked');
+    $(this).addClass('us-checkbox-checked');
+  });
+});
+````
 
 ## Radio
 
