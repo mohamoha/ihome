@@ -748,11 +748,11 @@ ID: "checkbox.css"
 
 ````html
 <label class="us-checkbox us-checkbox-checked">
-  <span class="us-radio-check iconfont">&#x3437;</span> this option who want to be check
+  <span class="us-checkbox-check iconfont">&#x3437;</span> this option who want to be check
   <input type="checkbox" name="language" value="this">
 </label>
 <label class="us-checkbox">
-  <span class="us-radio-check iconfont">&#x3437;</span> that option who want to be check
+  <span class="us-checkbox-check iconfont">&#x3437;</span> that option who want to be check
   <input type="checkbox" name="language" value="that">
 </label>
 ````
