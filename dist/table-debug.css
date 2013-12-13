@@ -1,0 +1,22 @@
+/*! define alice/ihome/1.0.0/table-debug.css */
+.us-table {
+  border-collapse:collapse;
+  background: #fff;
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+}
+
+.us-table thead {
+  background-color: #DBD7BA;
+  font-size: 16px;
+}
+
+.us-table td,
+.us-table th {
+  padding: 15px;
+}
+
+.us-table tbody tr {
+  border-bottom: 1px solid #E5E2DD;
+}

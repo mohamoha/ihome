@@ -182,6 +182,7 @@ ID: "button.css"
 
 ````html
 <input type="button" class="us-button us-button-disable" value="Continue">
+<a class="us-button us-button-primary us-button-disable">Continue</a>
 ````
 
 ## Form

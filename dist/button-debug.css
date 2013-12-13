@@ -1,3 +1,4 @@
+/*! define alice/ihome/1.0.0/button-debug.css */
 .us-button {
   color: #fff;
   font-size: 22px;
@@ -6,8 +7,7 @@
   border-width: 0 0 2px 0;
   cursor: pointer;
   border-style: solid;
-  padding: 20px 36px;
-  line-height: 28px;
+  padding: 18px 36px;
   text-align: center;
   transition: background-color ease 0.3s;
 }
@@ -34,14 +34,12 @@ a.us-button:hover {
 .us-button-middle {
   border-width: 0 0 1px 0;
   font-size: 18px;
-  line-height: 23px;
-  padding: 12px 24px;
+  padding: 10px 24px;
 }
 
 .us-button-small {
   border-width: 0 0 1px 0;
   font-size: 14px;
-  line-height: 18px;
   padding: 6px 18px;
 }
 
@@ -92,7 +90,7 @@ button.us-button-border:hover {
 }
 
 .us-button-disable,
-.us-button-disable:hover {
+.us-button-disable {
   background-color: #aaa;
   border-color: #777;
   cursor: default!important;
@@ -107,4 +105,3 @@ button.us-button-border.us-button-disable:hover {
   color: #BCAD8E;
   background: transparent;
 }
-
