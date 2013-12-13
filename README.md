@@ -2,7 +2,7 @@
 
 ---
 
-DPL page for `alipay.us`. We choose `us-` for class prefix.
+DPL page for `alipay.us`, based on http://aliceui.org .
 
 - [Reset](#reset)
 - [Iconfont](#iconfont)
@@ -28,7 +28,7 @@ DPL page for `alipay.us`. We choose `us-` for class prefix.
 - [Page Layout](#page-layout)
 - [Money](#money)
 
-Based on https://aliceui.org, and it is compatible with normal browsers and `IE8+`.
+`us-` is choosen as class prefix. It is compatible with normal browsers and `IE8+`.
 
 ---
 
