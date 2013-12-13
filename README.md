@@ -98,7 +98,7 @@ We choose [normalize.css](http://necolas.github.io/normalize.css/) as a global r
   color: #F99A0C;
 }
 .ui-poptip-content {
-  font-size: 16px;
+  font-size: 14px;
 }
 </style>
 
@@ -109,7 +109,6 @@ We choose [normalize.css](http://necolas.github.io/normalize.css/) as a global r
 <i class="iconfont">&#x3436;</i>
 <i class="iconfont">&#x3437;</i>
 <i class="iconfont">&#x3438;</i>
-<i class="iconfont">&#x3439;</i>
 <i class="iconfont">&#x343a;</i>
 <i class="iconfont">&#x343b;</i>
 <i class="iconfont">&#x343c;</i>
@@ -123,6 +122,12 @@ We choose [normalize.css](http://necolas.github.io/normalize.css/) as a global r
 <i class="iconfont">&#x3445;</i>
 <i class="iconfont">&#x3446;</i>
 <i class="iconfont">&#x3447;</i>
+<i class="iconfont">&#x3448;</i>
+<i class="iconfont">&#x3449;</i>
+<i class="iconfont">&#x344a;</i>
+<i class="iconfont">&#x344b;</i>
+<i class="iconfont">&#x344c;</i>
+<i class="iconfont">&#x344d;</i>
 `````
 
 <script>
@@ -130,7 +135,7 @@ seajs.use(['$', 'arale/tip/1.2.1/tip'], function($, Tip) {
   new Tip({
     trigger: $('#iconfont ~ .nico-insert-code').find('> .iconfont'),
     effect: 'fade',
-    width: 320
+    width: 284
   }).before('show', function() {
     var value = escape(this.activeTrigger.html()).replace('%u', '&#38;&#35;x') + ';';
     this.set('content', '<code>&lt;i class="iconfont"&gt;' + value + '&lt;/i&gt;</code>');
