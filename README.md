@@ -759,10 +759,16 @@ ID: "checkbox.css"
 
 ````js
 seajs.use(['$'], function($) {
-  var options = $('.us-checkbox');
-  options.click(function() {
-    options.removeClass('us-checkbox-checked');
-    $(this).addClass('us-checkbox-checked');
+  $('.us-checkbox').click(function(e) {
+    if (e.target.tagName === "INPUT") {
+      return;
+    }
+    var item = $(this);
+    if (item.hasClass('us-checkbox-checked')) {
+      item.removeClass('us-checkbox-checked');
+    } else {
+      item.addClass('us-checkbox-checked');
+    }
   });
 });
 ````
