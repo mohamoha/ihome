@@ -49,7 +49,7 @@ ul.us-channel {
 
 .us-channel-item-selected .us-channel-item-left {
   padding-top: 6px;
-  height: 85px;
+  height: 60px;
   border-right: 0;
   background-color:#958572;
   margin-top: 0;
@@ -57,10 +57,9 @@ ul.us-channel {
 }
 
 .us-channel-item-icon {
-  font-size: 40px;
-  left: -24px;
+  font-size: 36px;
   position: relative;
-  top: -1px;
+  top: -7px;
 }
 
 .us-channel-item-box {
@@ -81,7 +80,7 @@ ul.us-channel {
   text-indent: -10px;
   width: 48px;
   color: #958572;
-  margin: 10px 25px 0 30px;
+  margin: 10px 3px 0 30px;
   vertical-align: baseline;
 }
 

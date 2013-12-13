@@ -825,9 +825,7 @@ ID: "channel.css"
     <div class="us-channel-item-header">
       <div class="us-channel-item-left">
         <span class="us-radio-dot">●</span>
-        <span class="us-channel-item-icon">
-          <i class="iconfont" title="日历/日期">&#x3440;</i>
-        </span>
+        <span class="us-channel-item-icon iconfont">&#x3440;</span>
       </div>
       <span class="us-channel-item-text">Webmoney</span>
       <span class="us-channel-item-text us-money">$</span>
@@ -840,9 +838,7 @@ ID: "channel.css"
     <div class="us-channel-item-header">
       <div class="us-channel-item-left">
         <span class="us-radio-dot">●</span>
-        <span class="us-channel-item-icon">
-          <i class="iconfont" title="日历/日期">&#x3440;</i>
-        </span>
+        <span class="us-channel-item-icon iconfont">&#x3440;</span>
       </div>
       <span class="us-channel-item-text">Webmoney</span>
       <span class="us-channel-item-text us-money">¥</span>
@@ -855,9 +851,7 @@ ID: "channel.css"
     <div class="us-channel-item-header">
       <div class="us-channel-item-left">
         <span class="us-radio-dot">●</span>
-        <span class="us-channel-item-icon">
-          <i class="iconfont" title="日历/日期">&#x3440;</i>
-        </span>
+        <span class="us-channel-item-icon iconfont">&#x3440;</span>
       </div>
       <span class="us-channel-item-text">Webmoney</span>
       <span class="us-channel-item-text us-money">¥</span>
