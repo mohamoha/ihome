@@ -189,7 +189,117 @@ ID: "button.css"
 
 ```js
 ID: "form.css"
-``dropdown.css"
+```
+
+<link type="text/css" rel="stylesheet" media="screen" href="src/form.css">
+
+````html
+<form class="us-form" id="test-form">
+  <fieldset>
+    <legend>Health information</legend>
+    <div class="us-form-item">
+      <label class="us-label">
+        <span class="us-label-text">Account Name</span>
+        <span>xingmin.zhu@alipay.com</span>
+      </label>
+    </div>
+    <div class="us-form-item">
+      <label class="us-label">
+        <span class="us-label-text">Sign in Password</span>
+      </label>
+      <input type="text" name="password" placeholder="placeholder" class="us-input" size="17">
+      <input type="text" name="xxxx" placeholder="placeholder" class="us-input" size="17">
+      <div class="us-form-explain">
+      The characters are not case-sensitive.
+      </div>
+    </div>
+    <div class="us-form-item">
+      <label class="us-label">
+        <span class="us-label-text">Confirm Password</span>
+        <input type="text" class="us-input" placeholder="placeholder" name="password-confirmation" size="42">
+      </label>
+      <div class="us-form-explain">
+        <span class="us-notice-icon">!</span>
+        <span class="us-form-explain-text">
+        Some infomatioin in us-notice. Some infomatioin in us-notice.
+        </span>
+      </div>
+    </div>
+  </fieldset>
+  <div class="us-form-item">
+    <div class="us-form-explain">
+    By clicking the button, I agree to the Alipay User Agreement
+    </div>
+  </div>
+  <div class="us-form-item">
+    <span class="us-label-text"></span>
+    <input type="submit" class="us-button us-button-primary" value="Submit">
+    <a href="#">Change</a>
+  </div>
+</form>
+````
+
+````js
+seajs.use(['arale/validator/0.9.7/validator', 'gallery/placeholders/3.0.1/placeholders'], function(Validator) {
+  var validator = new Validator({
+    element: '#test-form',
+    explainClass: 'us-form-explain',
+    itemErrorClass: 'us-form-item-error',
+    itemClass: 'us-form-item',
+    showMessage: function (message, element) {
+      message = '<span class="us-notice-icon">!</span> ' +
+        '<span class="us-form-explain-text">' + message + '</span>';
+      this.getExplain(element).html(message);
+      this.getItem(element).addClass(this.get('itemErrorClass'));
+    }
+  });
+  validator.addItem({
+    element: '[name=password]',
+    required: true
+  });
+  validator.addItem({
+    element: '[name=password-confirmation]',
+    required: true,
+    rule: 'confirmation{target: "[name=password]"}'
+  });
+});
+````
+
+
+## Tab
+
+```js
+ID: "tab.css"
+```
+
+<link type="text/css" rel="stylesheet" media="screen" href="src/tab.css">
+
+````html
+<ul class="us-tab">
+  <li class="us-tab-item us-tab-item-current">
+    <a href="javascript:;">Transaction Records</a>
+  </li>
+  <li class="us-tab-item">
+    <a href="javascript:;">Adjustment Records</a>
+  </li>
+</ul>
+````
+
+````html
+<ul class="us-tab">
+  <li class="us-tab-item">
+    <a href="javascript:;">Transaction Records</a>
+  </li>
+  <li class="us-tab-item us-tab-item-current">
+    <a href="javascript:;">Adjustment Records</a>
+  </li>
+</ul>
+````
+
+## Dropdown
+
+```js
+ID: "dropdown.css"
 ```
 
 <link type="text/css" rel="stylesheet" media="screen" href="src/layout.css">
