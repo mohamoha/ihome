@@ -107,3 +107,11 @@
   margin-left: 200px;
   color: #958572;
 }
+
+.us-form-item-inline {
+  display: inline-block;
+  vertical-align: top;
+}
+.us-form-item-inline + .us-form-item-inline .us-form-explain {
+  margin-left: 0;
+}
