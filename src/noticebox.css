@@ -28,9 +28,14 @@
   margin: 0 0 10px 0;
 }
 
-.us-noticebox-icon:after {
+.us-noticebox-icon {
+  position: absolute;
+  top: 42px;
+  left: 50px;
+}
+
+.us-noticebox-circle {
   color: #fff;
-  content: "●";
   font-family: arial;
   font-size: 112px;
   left: -9px;
@@ -39,26 +44,21 @@
   text-indent: 0;
   text-shadow: none;
   top: -37px;
-  z-index: -1;
 }
-.us-noticebox-icon {
+
+.us-noticebox-icon .us-noticebox-text {
   border-radius: 50px;
   color: #00AE93;
   font-size: 30px;
   height: 50px;
   font-weight: bold;
-  left: 50px;
   line-height: 52px;
   overflow: hidden;
-  position: absolute;
+  font-style: normal;
   text-align: center;
-  top: 42px;
   width: 50px;
-  z-index: 1;
+  position: absolute;
   text-shadow: 1px 1px rgb(186, 228, 209), 2px 2px rgb(186, 228, 209), 3px 3px rgb(186, 228, 209), 4px 4px rgb(186, 228, 209), 5px 5px rgb(186, 228, 209), 6px 6px rgb(186, 228, 209), 7px 7px rgb(186, 228, 209), 8px 8px rgb(186, 228, 209), 9px 9px rgb(186, 228, 209), 10px 10px #BCE6D3, 11px 11px #BCE6D3, 12px 12px #BCE6D3, 13px 13px #BCE6D3, 14px 14px #BCE6D3;
-  /* ie8 实在搞不定啊 */
-  background: url(https://i.alipayobjects.com/e/201312/1h1t4CZdbJ.png) no-repeat 0 2px\0;
-  text-indent: -999px\0;
 }
 
 .us-noticebox-icon:after {
@@ -93,8 +93,7 @@
   background-color: #757B81;
 }
 
-.us-noticebox-error .us-noticebox-icon {
+.us-noticebox-error .us-noticebox-text {
   color: #757B81;
   text-shadow: 1px 1px #D5DDE0, 2px 2px #D5DDE0, 3px 3px #D5DDE0, 4px 4px #D5DDE0, 5px 5px #D5DDE0, 6px 6px #D5DDE0, 7px 7px #D5DDE0, 8px 8px #D5DDE0, 9px 9px #D5DDE0, 10px 10px #D5DDE0, 11px 11px #D5DDE0, 12px 12px #D5DDE0, 13px 13px #D5DDE0, 14px 14px #D5DDE0, 15px 15px #D5DDE0, 16px 16px #D5DDE0, 17px 17px #D5DDE0, 18px 18px #D5DDE0;
-  background: url(https://i.alipayobjects.com/e/201312/1h1t4CZdbJ.png) no-repeat 0 -48px\0;
 }

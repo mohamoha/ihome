@@ -712,7 +712,10 @@ ID: "noticebox.css"
 
 ````html
 <div class="us-noticebox">
-  <span class="us-noticebox-icon iconfont">&#x3437;</span>
+  <span class="us-noticebox-icon">
+    <i class="us-noticebox-circle">●</i>
+    <i class="us-noticebox-text iconfont">&#x3437;</i>
+  </span>
   <div class="us-noticebox-content">
     <h3>Your Alipay account has been set up successfully!</h3>
     <p>You can now add funds to your Alipay account and use it to pay for AliExpress orders.</p>
@@ -729,7 +732,10 @@ ID: "noticebox.css"
 
 ````html
 <div class="us-noticebox us-noticebox-error">
-  <span class="us-noticebox-icon">!</span>
+  <span class="us-noticebox-icon">
+    <i class="us-noticebox-circle">●</i>
+    <i class="us-noticebox-text">!</i>
+  </span>
   <div class="us-noticebox-content">
     <h3>Your Alipay account has been set up successfully!</h3>
     <p>You can now add funds to your Alipay account and use it to pay for AliExpress orders.</p>
