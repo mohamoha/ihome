@@ -33,6 +33,12 @@ a:hover {
   display:none;
 }
 
+.fn-text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 ol, ul, li, p, h1, h2, h3, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
