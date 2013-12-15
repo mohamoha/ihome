@@ -28,7 +28,7 @@
   margin: 0 0 10px 0;
 }
 
-.us-noticebox-icon:before {
+.us-noticebox-icon:after {
   color: #fff;
   content: "●";
   font-family: arial;

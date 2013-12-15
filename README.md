@@ -733,6 +733,13 @@ ID: "noticebox.css"
   <div class="us-noticebox-content">
     <h3>Your Alipay account has been set up successfully!</h3>
     <p>You can now add funds to your Alipay account and use it to pay for AliExpress orders.</p>
+    <div class="us-noticebox-mainlink">
+      <a href="#">Go to my Alipay ></a>
+    </div>
+    <p>To remove your daily spend limit, additional identity verification is needed.</p>
+    <p>
+      <a href="#">Remove Spend Limit</a>
+    </p>
   </div>
 </div>
 ````
@@ -893,13 +900,13 @@ seajs.use(['$'], function($) {
   $('.us-channel-item').click(function() {
     $('.us-channel-item').removeClass('us-channel-item-selected');
     $(this).addClass('us-channel-item-selected');
- 
+
     $('.us-channel-item .us-channel-item-box').hide();
     $(this).find('.us-channel-item-box').hide().slideDown(600);
 
     // For IE8 reflow problem
     $('.us-channel-item-left').each(function(index, item) {
-      //item.innerHTML += '';
+      item.innerHTML += '';
     });
   });
 });
@@ -957,7 +964,7 @@ seajs.use(['$'], function($) {
 ````html
 <style>
 .us-money {
-  font-family: Arial;
+  font-family: arial;
   font-size: 44px;
 }
 </style>
