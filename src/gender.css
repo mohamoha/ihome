@@ -1,12 +1,12 @@
 .us-gender {
   display: inline-block;
   width: 112px;
-  height: 48px;
+  height: 40px;
   border: 2px solid #958572;
   color: #958572;
   cursor: pointer;
-  line-height: 46px;
-  text-indent: 16px;
+  line-height: 42px;
+  text-indent: 12px;
   position: relative;
   margin-right: 5px;
   vertical-align: middle;
@@ -14,14 +14,14 @@
 
 .us-gender-check {
   color: #fff;
-  font-size: 30px;
+  font-size: 28px;
   position: absolute;
   top: 0;
   right: 8px;
 }
 
 .us-gender-icon {
-  font-size: 26px;
+  font-size: 22px;
 }
 
 .us-gender-selected {

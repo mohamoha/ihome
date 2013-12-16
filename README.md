@@ -63,7 +63,7 @@ For some JavaScript code, you should just copy it to your projects.
 .nico-insert-code {
   background: #F5F4E9;
   padding: 20px;
-  font: 16px/1.5 tahoma, Verdana, arial, sans-serif;
+  font: 14px/1.5 tahoma, Verdana, arial, sans-serif;
   color: #908a80;
   overflow: auto;
 }
@@ -219,7 +219,7 @@ ID: "form.css"
         <input type="text" class="us-input" placeholder="placeholder" name="password-confirmation" size="42">
       </label>
       <div class="us-form-explain">
-        <span class="us-notice-icon">!</span>
+        <span class="us-notice-icon iconfont">&#x343D;</span>
         <span class="us-form-explain-text">
         Some infomatioin in us-notice. Some infomatioin in us-notice.
         </span>
@@ -247,7 +247,7 @@ seajs.use(['arale/validator/0.9.7/validator', 'gallery/placeholders/3.0.1/placeh
     itemErrorClass: 'us-form-item-error',
     itemClass: 'us-form-item',
     showMessage: function (message, element) {
-      message = '<span class="us-notice-icon">!</span> ' +
+      message = '<span class="us-notice-icon iconfont">&#x343D;</span> ' +
         '<span class="us-form-explain-text">' + message + '</span>';
       this.getExplain(element).html(message);
       this.getItem(element).addClass(this.get('itemErrorClass'));
@@ -697,7 +697,7 @@ ID: "notice.css"
 
 ````html
 <div class="us-notice">
-  <span class="us-notice-icon">i</span>
+  <span class="us-notice-icon iconfont">&#x343D;</span>
   Some infomatioin in us-notice. Some infomatioin in us-notice.
 </div>
 ````
