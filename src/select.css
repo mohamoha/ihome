@@ -57,43 +57,34 @@ a.ui-select-trigger:hover {
   display: inline-block;
   *display: inline;
   *zoom: 1;
-  line-height: 48px;
+  line-height: 42px;
   width: 200px;
-  height:48px;
+  height:42px;
   background: #fff;
-  border-right: 48px solid #BCAD8E;
-  text-indent: 15px;
+  border-right: 42px solid #BCAD8E;
   position: relative;
 }
 
 .ui-select-trigger span {
   display: block;
-  line-height: 46px;
-  height: 46px;
+  line-height: 40px;
+  height: 40px;
   border: 1px solid #DBD7BA;
   border-right: none;
+  text-indent: 15px;
 }
 
 .ui-select-arrow {
+  color: #FFFFFF;
+  display: block;
+  font-size: 18px;
+  height: 42px;
+  line-height: 42px;
   position: absolute;
-  height: 30px;
-  line-height:30px;
-  width: 30px;
-  font-size: 26px;
-  font-family: arial;
-  font-weight: normal;
-  font-style: normal;
-  top: 8px;
-  right: -37px;
-  color: #fff;
-  text-align:center;
-  text-indent: 6px;
-  display:block;
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.7071067811865483, M12=0.7071067811865467, M21=-0.7071067811865467, M22=0.7071067811865483, SizingMethod='auto expand')";
-  transform: rotate(-45deg);
+  right: -42px;
+  text-align: center;
+  top: 0;
+  width: 40px;
 }
 
 .ui-select-trigger:hover {
@@ -109,14 +100,11 @@ a.ui-select-trigger:hover {
 }
 
 .ui-select-trigger-focus .ui-select-arrow {
-  top: 15px;
-  right: -40px;
-  text-indent: 0;
-  -webkit-transform: rotate(135deg);
-  -moz-transform: rotate(135deg);
-  -o-transform: rotate(135deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
   -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=-0.7071067811865477, M12=-0.7071067811865475, M21=0.7071067811865475, M22=-0.7071067811865477, SizingMethod='auto expand')";
-  transform: rotate(135deg);
+  transform: rotate(180deg);
 }
 
 .ui-select-trigger-focus span {

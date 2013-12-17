@@ -667,7 +667,7 @@ seajs.use(['$', 'arale/select/0.9.8/select'], function($, Select) {
   $(function() {
     var sel = new Select({
       trigger: '#country',
-      triggerTpl: '<a href="#"><span data-role="trigger-content"></span><i class="ui-select-arrow">∟</i></a>',
+      triggerTpl: '<a href="#"><span data-role="trigger-content"></span><i class="ui-select-arrow iconfont">&#x3442;</i></a>',
       width: 250
     }).render();
 
