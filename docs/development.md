@@ -54,7 +54,7 @@ when your project is ready being published.
 
 ```bash
 $ spm doc publish -s spmjs
-$ spm publish
+$ spm publish -s spmjs
 ```
 
 ## 9. Up to alipay cdn.
