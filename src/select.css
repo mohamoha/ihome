@@ -103,7 +103,7 @@ a.ui-select-trigger:hover {
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   -o-transform: rotate(180deg);
-  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=-0.7071067811865477, M12=-0.7071067811865475, M21=0.7071067811865475, M22=-0.7071067811865477, SizingMethod='auto expand')";
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
   transform: rotate(180deg);
 }
 
@@ -122,16 +122,4 @@ a.ui-select-trigger:hover {
 
 .ui-select-selected {
   background: #ECEAD8;
-}
-
-/* ie8 hack */
-@media \0screen {
-  .ui-select-arrow {
-    top: 2px;
-    right: -31px;
-  }
-  .ui-select-trigger-focus .ui-select-arrow {
-    top: 9px;
-    right: -35px;
-  }
 }
