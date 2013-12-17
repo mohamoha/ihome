@@ -48,7 +48,7 @@ $ git push origin master
 $ git push origin x.x.x
 ```
 
-## 8. publish this module
+## 8. Publish this module
 
 when your project is ready being published.
 
