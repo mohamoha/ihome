@@ -53,7 +53,7 @@ $ git push origin x.x.x
 when your project is ready being published.
 
 ```bash
-$ spm doc publish
+$ spm doc publish -s spmjs
 $ spm publish
 ```
 
