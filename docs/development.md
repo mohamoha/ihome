@@ -48,7 +48,9 @@ $ git push origin master
 $ git push origin x.x.x
 ```
 
-## 8. Finish your development, publish this module when your project is ready being published.
+## 8. publish this module
+
+when your project is ready being published.
 
 ```bash
 $ spm doc publish
