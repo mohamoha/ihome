@@ -74,10 +74,6 @@
   color: #D05656;
 }
 
-.us-form-item-error .us-form-explain .us-notice-icon {
-  color: #FA4D3C;
-}
-
 .us-form-item input[type="text"] + a,
 .us-form-item input[type="button"] + a,
 .us-form-item input[type="submit"] + a,

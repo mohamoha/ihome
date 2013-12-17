@@ -247,7 +247,7 @@ seajs.use(['arale/validator/0.9.7/validator', 'gallery/placeholders/3.0.1/placeh
     itemErrorClass: 'us-form-item-error',
     itemClass: 'us-form-item',
     showMessage: function (message, element) {
-      message = '<span class="us-notice-icon iconfont">&#x343D;</span> ' +
+      message = '<span class="us-notice-icon iconfont">&#x3450;</span> ' +
         '<span class="us-form-explain-text">' + message + '</span>';
       this.getExplain(element).html(message);
       this.getItem(element).addClass(this.get('itemErrorClass'));
