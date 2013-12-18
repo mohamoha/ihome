@@ -13,15 +13,14 @@ a.us-header-item {
   color: #F4F7DB;
 }
 
-a.us-header-item i {
+a.us-header-item i.iconfont {
   font-size: 7px;
   vertical-align: top;
-  margin-top: 1px;
   font-weight: bold;
-  display: inline-block;
   margin-left: 7px;
   color: #F4F7DB;
-  transition: transform 0.3s ease!important;
+  display: inline-block;
+  transition: transform 0.3s ease;
 }
 
 a.us-header-item:hover,
@@ -147,20 +146,4 @@ a.us-header-name {
   font-size: 38px;
   font-weight: normal;
   margin: 30px 0;
-}
-
-::-webkit-input-placeholder {
-  color: #beb1a2;
-}
-:-moz-placeholder {
-  color: #beb1a2;
-}
-::-moz-placeholder {
-  color: #beb1a2;
-}
-:-ms-input-placeholder {
-  color: #beb1a2;
-}
-.placeholdersjs {
-  color: #beb1a2;
 }

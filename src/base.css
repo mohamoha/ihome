@@ -45,6 +45,23 @@ ol, ul, li, p, h1, h2, h3, h3, h4, h5, h6 {
   list-style :none;
 }
 
+/* placeholder color */
 .placeholdersjs {
-  color: #ccc!important;
+  color: #beb1a2!important;
+}
+
+::-webkit-input-placeholder {
+  color: #beb1a2;
+}
+:-moz-placeholder {
+  color: #beb1a2;
+}
+::-moz-placeholder {
+  color: #beb1a2;
+}
+:-ms-input-placeholder {
+  color: #beb1a2;
+}
+.placeholdersjs {
+  color: #beb1a2;
 }
