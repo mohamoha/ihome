@@ -61,33 +61,26 @@ a.ui-select-trigger:hover {
   display: inline-block;
   *display: inline;
   *zoom: 1;
-  line-height: 40px;
-  width: 240px;
-  height:40px;
-  position: relative;
-  border: 2px solid transparent;
-}
-
-.ui-select-trigger span {
-  display: block;
   line-height: 38px;
-  height: 38px;
-  border: 1px solid #DBD7BA;
-  border-right: none;
-  text-indent: 12px;
+  width: 240px;
+  height:38px;
+  position: relative;
+  text-indent: 11px;
+  padding: 0 1px;
   background: #fff;
+  border: 1px solid #DBD7BA;
 }
 
 .ui-select-arrow {
   color: #FFFFFF;
-  display: block;
-  font-size: 18px;
+  font-size: 16px;
   height: 40px;
   line-height: 40px;
   position: absolute;
-  right: 0;
+  text-indent: 0;
   text-align: center;
-  top: 0;
+  top: -1px;
+  right: -1px;
   width: 40px;
   background: #BCAD8E;
 }
@@ -98,6 +91,10 @@ a.ui-select-trigger:hover {
 
 .ui-select-trigger-focus {
   border: 2px solid #957E65;
+  border-bottom-color: #DBD7BA;
+  height: 36px;
+  line-height: 36px;
+  padding: 0;
 }
 
 .ui-select-trigger-focus:hover .ui-select-arrow {
@@ -110,15 +107,12 @@ a.ui-select-trigger:hover {
   -o-transform: rotate(180deg);
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
   transform: rotate(180deg);
+  top: 0px;
+  right: 0px;
+  width: 38px;
+  line-height: 42px;
 }
 
-.ui-select-trigger-focus span {
-  border-color: #fff;
-}
-
-.ui-select .ui-select-trigger {
-  display: block;
-}
 .ui-select-disabled,
 .ui-select .ui-select-disabled {
   color: #aaa;

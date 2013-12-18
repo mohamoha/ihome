@@ -67,7 +67,7 @@
 }
 
 .us-form-item-error .ui-select-trigger {
-  outline: 2px solid #C30000;
+  border: 2px solid #C30000;
 }
 
 .us-form-item-error .us-form-explain,
