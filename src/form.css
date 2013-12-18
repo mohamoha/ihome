@@ -8,6 +8,9 @@
   margin-right: 4px;
   transition: border-color ease 0.3s;
   color: #625647;
+}
+
+.us-input {
   height: 16px;
 }
 
