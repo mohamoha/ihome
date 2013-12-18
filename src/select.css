@@ -14,6 +14,7 @@ a.ui-select-trigger:hover {
   *zoom: 1;
   background: #fff;
   color: #958572;
+  font-size: 14px;
 }
 .ui-select-content {
   margin: -1px 0 0;
@@ -22,6 +23,9 @@ a.ui-select-trigger:hover {
   height: 100%;
   list-style: none;
   _float: left;
+  border: 2px solid #957E65;
+  border-top: 0;
+  padding-bottom: 10px;
 }
 .ui-select-content ul {
   list-style: none;
@@ -30,7 +34,9 @@ a.ui-select-trigger:hover {
 }
 .ui-select-item {
   display: block;
-  padding: 12px 15px;
+  padding: 0 15px;
+  height: 30px;
+  line-height: 30px;
   cursor: pointer;
   overflow: hidden;
   white-space: nowrap;
@@ -56,11 +62,10 @@ a.ui-select-trigger:hover {
   *display: inline;
   *zoom: 1;
   line-height: 40px;
-  width: 200px;
+  width: 240px;
   height:40px;
-  background: #fff;
-  border-right: 40px solid #BCAD8E;
   position: relative;
+  border: 2px solid transparent;
 }
 
 .ui-select-trigger span {
@@ -70,6 +75,7 @@ a.ui-select-trigger:hover {
   border: 1px solid #DBD7BA;
   border-right: none;
   text-indent: 12px;
+  background: #fff;
 }
 
 .ui-select-arrow {
@@ -79,22 +85,23 @@ a.ui-select-trigger:hover {
   height: 40px;
   line-height: 40px;
   position: absolute;
-  right: -40px;
+  right: 0;
   text-align: center;
   top: 0;
   width: 40px;
+  background: #BCAD8E;
 }
 
-.ui-select-trigger:hover {
-  border-color: #957E65;
+.ui-select-trigger:hover .ui-select-arrow {
+  background: #957E65;
 }
 
 .ui-select-trigger-focus {
-  outline: 2px solid #957E65!important;
+  border: 2px solid #957E65;
 }
 
-.ui-select-trigger-focus:hover {
-  border-color: #BCAD8E;
+.ui-select-trigger-focus:hover .ui-select-arrow {
+  background: #BCAD8E;
 }
 
 .ui-select-trigger-focus .ui-select-arrow {
@@ -119,5 +126,6 @@ a.ui-select-trigger:hover {
 }
 
 .ui-select-selected {
-  background: #ECEAD8;
+  color: #3AA890;
+  font-weight: bold;
 }
