@@ -707,19 +707,15 @@ ID: "notice.css"
 
 ````html
 <div class="us-notice-box">
-  <div class="us-notice">
-    <span class="us-notice-icon iconfont">&#x343D;</span>
-    Some infomatioin in us-notice. Some infomatioin in us-notice.
-  </div>
+  <span class="us-notice-icon iconfont">&#x343D;</span>
+  Some infomatioin in us-notice. Some infomatioin in us-notice.
 </div>
 ````
 
 ````html
 <div class="us-notice-box us-notice-box-error">
-  <div class="us-notice">
-    <span class="us-notice-icon iconfont">&#x3450;</span>
-    Some infomatioin in us-notice. Some infomatioin in us-notice.
-  </div>
+  <span class="us-notice-icon iconfont">&#x3450;</span>
+  Some infomatioin in us-notice. Some infomatioin in us-notice.
 </div>
 ````
 

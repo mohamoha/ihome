@@ -11,6 +11,7 @@
   padding: 25px 25px 25px 75px;
   border: 1px solid #958572;
   position: relative;
+  font-size: 16px;
 }
 
 .us-notice-box .us-notice-icon {
@@ -22,11 +23,7 @@
 
 .us-notice-box-error {
   border: 2px solid #C30000;
-}
-
-.us-notice-box-error .us-notice {
   color: #CC3F43;
-  font-size: 16px;
 }
 
 .us-notice-box-error .us-notice-icon {
