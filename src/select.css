@@ -15,6 +15,9 @@ a.ui-select-trigger:hover {
   background: #fff;
   color: #958572;
   font-size: 14px;
+  border: 2px solid #957E65;
+  border-top: 0;
+  padding-bottom: 10px;
 }
 .ui-select-content {
   margin: -1px 0 0;
@@ -23,9 +26,6 @@ a.ui-select-trigger:hover {
   height: 100%;
   list-style: none;
   _float: left;
-  border: 2px solid #957E65;
-  border-top: 0;
-  padding-bottom: 10px;
 }
 .ui-select-content ul {
   list-style: none;
