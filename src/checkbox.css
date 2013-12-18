@@ -1,16 +1,17 @@
 .us-checkbox .us-checkbox-check {
   cursor: pointer;
-  width: 24px;
-  height: 24px;
+  width: 22px;
+  height: 22px;
   background-color: #958572;
   color: #958572;
   display: inline-block;
   text-align: center;
-  line-height: 24px;
-  font-size: 18px;
+  line-height: 22px;
+  font-size: 16px;
   -moz-user-select: none;
   -webkit-user-select: none;
   user-select: none;
+  margin-right: 2px;
 }
 
 .us-checkbox-checked .us-checkbox-check {

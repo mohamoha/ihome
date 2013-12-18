@@ -130,6 +130,7 @@ We choose [normalize.css](http://necolas.github.io/normalize.css/) as a global r
 <i class="iconfont">&#x344e;</i>
 <i class="iconfont">&#x344f;</i>
 <i class="iconfont">&#x3450;</i>
+<i class="iconfont">&#x3451;</i>
 `````
 
 <script>
