@@ -20,7 +20,7 @@ DPL page for `alipay.us`, based on http://aliceui.org .
 - [Step](#step)
 - [Select](#select)
 - [Notice](#notice)
-- [Notice Box](#notice-box)
+- [Result](#result)
 - [Checkbox](#checkbox)
 - [Radio](#radio)
 - [Gender](#gender)
@@ -723,24 +723,24 @@ ID: "notice.css"
 </div>
 ````
 
-## Notice Box
+## Result
 
 ```js
-ID: "noticebox.css"
+ID: "result.css"
 ```
 
-<link type="text/css" rel="stylesheet" media="screen" href="src/noticebox.css">
+<link type="text/css" rel="stylesheet" media="screen" href="src/result.css">
 
 ````html
-<div class="us-noticebox">
-  <span class="us-noticebox-icon">
-    <i class="us-noticebox-circle">●</i>
-    <i class="us-noticebox-text iconfont">&#x3437;</i>
+<div class="us-result">
+  <span class="us-result-icon">
+    <i class="us-result-circle">●</i>
+    <i class="us-result-text iconfont">&#x3437;</i>
   </span>
-  <div class="us-noticebox-content">
+  <div class="us-result-content">
     <h3>Your Alipay account has been set up successfully!</h3>
     <p>You can now add funds to your Alipay account and use it to pay for AliExpress orders.</p>
-    <div class="us-noticebox-mainlink">
+    <div class="us-result-mainlink">
       <a href="#">Go to my Alipay ></a>
     </div>
     <p>To remove your daily spend limit, additional identity verification is needed.</p>
@@ -752,15 +752,15 @@ ID: "noticebox.css"
 ````
 
 ````html
-<div class="us-noticebox us-noticebox-error">
-  <span class="us-noticebox-icon">
-    <i class="us-noticebox-circle">●</i>
-    <i class="us-noticebox-text">!</i>
+<div class="us-result us-result-error">
+  <span class="us-result-icon">
+    <i class="us-result-circle">●</i>
+    <i class="us-result-text">!</i>
   </span>
-  <div class="us-noticebox-content">
+  <div class="us-result-content">
     <h3>Your Alipay account has been set up successfully!</h3>
     <p>You can now add funds to your Alipay account and use it to pay for AliExpress orders.</p>
-    <div class="us-noticebox-mainlink">
+    <div class="us-result-mainlink">
       <a href="#">Go to my Alipay ></a>
     </div>
     <p>To remove your daily spend limit, additional identity verification is needed.</p>

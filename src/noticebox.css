@@ -1,4 +1,4 @@
-.us-noticebox {
+.us-result {
   background-color: #00B699;
   color: #fff;
   padding: 35px 40px 40px 125px;
@@ -6,35 +6,35 @@
   font-size: 14px;
 }
 
-.us-noticebox a {
+.us-result a {
   color: #fff;
   text-decoration: underline;
 }
 
-.us-noticebox a:hover {
+.us-result a:hover {
   color: #3DDEF5;
 }
 
-.us-noticebox h3 {
+.us-result h3 {
   font-size: 24px;
   font-weight: normal;
 }
 
-.us-noticebox h3 {
+.us-result h3 {
   margin: 0;
 }
 
-.us-noticebox p {
+.us-result p {
   margin: 0 0 10px 0;
 }
 
-.us-noticebox-icon {
+.us-result-icon {
   position: absolute;
   top: 42px;
   left: 50px;
 }
 
-.us-noticebox-circle {
+.us-result-circle {
   color: #fff;
   font-family: arial;
   font-size: 112px;
@@ -46,7 +46,7 @@
   top: -37px;
 }
 
-.us-noticebox-icon .us-noticebox-text {
+.us-result-icon .us-result-text {
   border-radius: 50px;
   color: #00AE93;
   font-size: 30px;
@@ -61,27 +61,27 @@
   text-shadow: 1px 1px rgb(186, 228, 209), 2px 2px rgb(186, 228, 209), 3px 3px rgb(186, 228, 209), 4px 4px rgb(186, 228, 209), 5px 5px rgb(186, 228, 209), 6px 6px rgb(186, 228, 209), 7px 7px rgb(186, 228, 209), 8px 8px rgb(186, 228, 209), 9px 9px rgb(186, 228, 209), 10px 10px #BCE6D3, 11px 11px #BCE6D3, 12px 12px #BCE6D3, 13px 13px #BCE6D3, 14px 14px #BCE6D3;
 }
 
-.us-noticebox-icon:after {
+.us-result-icon:after {
   display: none\0;
 }
 
-.us-noticebox-icon.iconfont {
+.us-result-icon.iconfont {
   font-weight: normal;
 }
 
-.us-noticebox-mainlink {
+.us-result-mainlink {
   margin: 15px 0;
   padding-bottom: 15px;
   border-bottom: 1px solid #fff;
 }
 
-.us-noticebox-mainlink a {
+.us-result-mainlink a {
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
 }
 
-.us-noticebox-content hr {
+.us-result-content hr {
   background-color: #fff;
   border: none;
   display: block;
@@ -89,11 +89,11 @@
   margin: 20px 0;
 }
 
-.us-noticebox-error {
+.us-result-error {
   background-color: #757B81;
 }
 
-.us-noticebox-error .us-noticebox-text {
+.us-result-error .us-result-text {
   color: #757B81;
   text-shadow: 1px 1px #D5DDE0, 2px 2px #D5DDE0, 3px 3px #D5DDE0, 4px 4px #D5DDE0, 5px 5px #D5DDE0, 6px 6px #D5DDE0, 7px 7px #D5DDE0, 8px 8px #D5DDE0, 9px 9px #D5DDE0, 10px 10px #D5DDE0, 11px 11px #D5DDE0, 12px 12px #D5DDE0, 13px 13px #D5DDE0, 14px 14px #D5DDE0, 15px 15px #D5DDE0, 16px 16px #D5DDE0, 17px 17px #D5DDE0, 18px 18px #D5DDE0;
 }

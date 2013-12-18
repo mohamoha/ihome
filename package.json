@@ -1,4 +1,4 @@
-{
+
   "family": "alice",
   "name": "ihome",
   "version": "1.0.0",
@@ -33,7 +33,7 @@
       "switch.css",
       "layout.css",
       "notice.css",
-      "noticebox.css",
+      "result.css",
       "select.css",
       "radio.css",
       "checkbox.css",
