@@ -739,6 +739,7 @@ ID: "result.css"
     <div class="us-result-mainlink">
       <a href="#">Go to my Alipay ></a>
     </div>
+    <hr>
     <p>To remove your daily spend limit, additional identity verification is needed.</p>
     <p>
       <a href="#">Remove Spend Limit</a>
@@ -759,6 +760,7 @@ ID: "result.css"
     <div class="us-result-mainlink">
       <a href="#">Go to my Alipay ></a>
     </div>
+    <hr>
     <p>To remove your daily spend limit, additional identity verification is needed.</p>
     <p>
       <a href="#">Remove Spend Limit</a>
