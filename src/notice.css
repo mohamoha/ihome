@@ -1,8 +1,34 @@
 .us-notice {
-  color: #908a80;
+  color: #968472;
 }
 
 .us-notice-icon {
   font-size: 16px;
   margin-right: 2px;
+}
+
+.us-notice-box {
+  padding: 25px 25px 25px 75px;
+  border: 1px solid #958572;
+  position: relative;
+}
+
+.us-notice-box .us-notice-icon {
+  font-size: 32px;
+  position: absolute;
+  top: 13px;
+  left: 30px;
+}
+
+.us-notice-box-error {
+  border: 2px solid #C30000;
+}
+
+.us-notice-box-error .us-notice {
+  color: #CC3F43;
+  font-size: 16px;
+}
+
+.us-notice-box-error .us-notice-icon {
+  color: #CC3F43;
 }
