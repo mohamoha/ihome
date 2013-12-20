@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'iconfont-ihome';
-  src: url('http://at.alicdn.com/t/font_1387283834_0965633.eot'); /* IE9*/
-  src: url('http://at.alicdn.com/t/font_1387283834_0965633.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('http://at.alicdn.com/t/font_1387283834_2506528.woff') format('woff'), /* chrome、firefox */
-  url('http://at.alicdn.com/t/font_1387283834_0175908.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-  url('http://at.alicdn.com/t/font_1387283834_2849374.svg#svgFontName') format('svg'); /* iOS 4.1- */
+  src: url('http://at.alicdn.com/t/font_1387529862_9025013.eot'); /* IE9*/
+  src: url('http://at.alicdn.com/t/font_1387529862_9025013.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('http://at.alicdn.com/t/font_1387529862_942871.woff') format('woff'), /* chrome、firefox */
+  url('http://at.alicdn.com/t/font_1387529862_8089797.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('http://at.alicdn.com/t/font_1387529863_0347297.svg#svgFontName') format('svg'); /* iOS 4.1- */
 }
 
 .iconfont {
@@ -13,4 +13,121 @@
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconfont-pendingbalance:before {
+  content: "㐴";
+}
+
+.iconfont-male:before {
+  content: "㐵";
+}
+
+.iconfont-female:before {
+  content: "㐶";
+}
+
+.iconfont-selected:before {
+  content: "㐷";
+}
+
+.iconfont-user:before {
+  content: "㐴";
+}
+
+.iconfont-income:before {
+  content: "㐺";
+}
+
+.iconfont-chargeoff:before {
+  content: "㐻";
+}
+
+.iconfont-help:before {
+  content: "㐼";
+}
+
+.iconfont-note:before {
+  content: "㐽";
+}
+
+.iconfont-boleto:before {
+  content: "㐿";
+}
+
+.iconfont-webmoney:before {
+  content: "㑀";
+}
+
+.iconfont-secured:before {
+  content: "㑁";
+}
+
+.iconfont-downarrow:before {
+  content: "㑂";
+}
+
+.iconfont-uparrow:before {
+  content: "㑃";
+}
+
+.iconfont-edit:before {
+  content: "㑇";
+}
+
+.iconfont-qiwi:before {
+  content: "㑎";
+}
+
+.iconfont-refresh:before {
+  content: "㑏";
+}
+
+.iconfont-error:before {
+  content: "㑐";
+}
+
+.iconfont-alert:before {
+  content: "㑑";
+}
+
+.iconfont-verified:before {
+  content: "㑊";
+}
+
+.iconfont-bindmobile:before {
+  content: "㑍";
+}
+
+.iconfont-mobile:before {
+  content: "㑒";
+}
+
+.iconfont-createprofile:before {
+  content: "㑋";
+}
+
+.iconfont-editprofile:before {
+  content: "㑌";
+}
+
+.iconfont-verify:before {
+  content: "㑓";
+}
+
+.iconfont-back:before {
+  content: "㑔";
+}
+
+.iconfont-home:before {
+  content: "㑕";
+}
+
+.iconfont-refund:before {
+  content: "㑖";
+}
+
+.iconfont-refused:before {
+  content: "㑗";
 }

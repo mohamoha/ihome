@@ -89,7 +89,7 @@ We choose [normalize.css](http://necolas.github.io/normalize.css/) as a global r
 
 <style>
 .nico-insert-code > .iconfont {
-  font-size: 32px;
+  font-size: 36px;
   display: inline-block;
   margin: 5px 10px;
   cursor: pointer;
@@ -103,34 +103,35 @@ We choose [normalize.css](http://necolas.github.io/normalize.css/) as a global r
 </style>
 
 `````html
-<i class="iconfont">&#x3432;</i>
-<i class="iconfont">&#x3434;</i>
-<i class="iconfont">&#x3435;</i>
-<i class="iconfont">&#x3436;</i>
-<i class="iconfont">&#x3437;</i>
-<i class="iconfont">&#x3438;</i>
-<i class="iconfont">&#x343a;</i>
-<i class="iconfont">&#x343b;</i>
-<i class="iconfont">&#x343c;</i>
-<i class="iconfont">&#x343d;</i>
-<i class="iconfont">&#x343f;</i>
-<i class="iconfont">&#x3440;</i>
-<i class="iconfont">&#x3441;</i>
-<i class="iconfont">&#x3442;</i>
-<i class="iconfont">&#x3443;</i>
-<i class="iconfont">&#x3444;</i>
-<i class="iconfont">&#x3445;</i>
-<i class="iconfont">&#x3446;</i>
-<i class="iconfont">&#x3447;</i>
-<i class="iconfont">&#x3448;</i>
-<i class="iconfont">&#x3449;</i>
-<i class="iconfont">&#x344b;</i>
-<i class="iconfont">&#x344c;</i>
-<i class="iconfont">&#x344d;</i>
-<i class="iconfont">&#x344e;</i>
-<i class="iconfont">&#x344f;</i>
-<i class="iconfont">&#x3450;</i>
-<i class="iconfont">&#x3451;</i>
+<i class="iconfont iconfont-pendingbalance"></i>
+<i class="iconfont iconfont-male"></i>
+<i class="iconfont iconfont-female"></i>
+<i class="iconfont iconfont-selected"></i>
+<i class="iconfont iconfont-user"></i>
+<i class="iconfont iconfont-income"></i>
+<i class="iconfont iconfont-chargeoff"></i>
+<i class="iconfont iconfont-help"></i>
+<i class="iconfont iconfont-note"></i>
+<i class="iconfont iconfont-boleto"></i>
+<i class="iconfont iconfont-webmoney"></i>
+<i class="iconfont iconfont-secured"></i>
+<i class="iconfont iconfont-downarrow"></i>
+<i class="iconfont iconfont-uparrow"></i>
+<i class="iconfont iconfont-edit"></i>
+<i class="iconfont iconfont-qiwi"></i>
+<i class="iconfont iconfont-refresh"></i>
+<i class="iconfont iconfont-error"></i>
+<i class="iconfont iconfont-alert"></i>
+<i class="iconfont iconfont-verified"></i>
+<i class="iconfont iconfont-bindmobile"></i>
+<i class="iconfont iconfont-mobile"></i>
+<i class="iconfont iconfont-createprofile"></i>
+<i class="iconfont iconfont-editprofile"></i>
+<i class="iconfont iconfont-verify"></i>
+<i class="iconfont iconfont-back"></i>
+<i class="iconfont iconfont-home"></i>
+<i class="iconfont iconfont-refund"></i>
+<i class="iconfont iconfont-refused"></i>
 `````
 
 <script>
@@ -138,10 +139,10 @@ seajs.use(['$', 'arale/tip/1.2.1/tip'], function($, Tip) {
   new Tip({
     trigger: $('#iconfont ~ .nico-insert-code').find('> .iconfont'),
     effect: 'fade',
-    width: 284
+    width: 300
   }).before('show', function() {
-    var value = escape(this.activeTrigger.html()).replace('%u', '&#38;&#35;x') + ';';
-    this.set('content', '<code>&lt;i class="iconfont"&gt;' + value + '&lt;/i&gt;</code>');
+    var value = escape(this.activeTrigger.html());
+    this.set('content', '<code>&lt;i class="' + this.activeTrigger[0].className + '"&gt;' + value + '&lt;/i&gt;</code>');
   });
 });
 </script>
@@ -222,7 +223,7 @@ ID: "form.css"
         <input type="text" class="us-input" placeholder="placeholder" name="password-confirmation" size="42">
       </label>
       <div class="us-form-explain">
-        <span class="us-notice-icon iconfont">&#x343D;</span>
+        <span class="us-notice-icon iconfont iconfont-alert"></span>
         <span class="us-form-explain-text">
         Some infomatioin in us-notice. Some infomatioin in us-notice.
         </span>
@@ -250,7 +251,7 @@ seajs.use(['arale/validator/0.9.7/validator', 'gallery/placeholders/3.0.1/placeh
     itemErrorClass: 'us-form-item-error',
     itemClass: 'us-form-item',
     showMessage: function (message, element) {
-      message = '<span class="us-notice-icon iconfont">&#x3450;</span> ' +
+      message = '<span class="us-notice-icon iconfont iconfont-error"></span> ' +
         '<span class="us-form-explain-text">' + message + '</span>';
       this.getExplain(element).html(message);
       this.getItem(element).addClass(this.get('itemErrorClass'));
@@ -668,7 +669,7 @@ seajs.use(['$', 'arale/select/0.9.8/select'], function($, Select) {
   $(function() {
     var sel = new Select({
       trigger: '#country',
-      triggerTpl: '<a href="#"><span data-role="trigger-content"></span><i class="ui-select-arrow iconfont">&#x3442;</i></a>',
+      triggerTpl: '<a href="#"><span data-role="trigger-content"></span><i class="ui-select-arrow iconfont iconfont-downarrow"></i></a>',
       width: 250
     }).render();
 
@@ -700,21 +701,21 @@ ID: "notice.css"
 
 ````html
 <div class="us-notice">
-  <span class="us-notice-icon iconfont">&#x343D;</span>
+  <span class="us-notice-icon iconfont iconfont-note"></span>
   Some infomatioin in us-notice. Some infomatioin in us-notice.
 </div>
 ````
 
 ````html
 <div class="us-notice-box">
-  <span class="us-notice-icon iconfont">&#x343D;</span>
+  <span class="us-notice-icon iconfont  iconfont-note"></span>
   Some infomatioin in us-notice. Some infomatioin in us-notice.
 </div>
 ````
 
 ````html
 <div class="us-notice-box us-notice-box-error">
-  <span class="us-notice-icon iconfont">&#x3450;</span>
+  <span class="us-notice-icon iconfont iconfont-error"></span>
   Some infomatioin in us-notice. Some infomatioin in us-notice.
 </div>
 ````
@@ -731,7 +732,7 @@ ID: "result.css"
 <div class="us-result">
   <span class="us-result-icon">
     <i class="us-result-circle">●</i>
-    <i class="us-result-text iconfont">&#x3437;</i>
+    <i class="us-result-text iconfont iconfont-selected"></i>
   </span>
   <div class="us-result-content">
     <h3>Your Alipay account has been set up successfully!</h3>
@@ -779,11 +780,11 @@ ID: "checkbox.css"
 
 ````html
 <label class="us-checkbox us-checkbox-checked">
-  <span class="us-checkbox-check iconfont">&#x3437;</span> this option who want to be check
+  <span class="us-checkbox-check iconfont iconfont-selected"></span> this option who want to be check
   <input type="checkbox" name="language" value="this">
 </label>
 <label class="us-checkbox">
-  <span class="us-checkbox-check iconfont">&#x3437;</span> that option who want to be check
+  <span class="us-checkbox-check iconfont iconfont-selected"></span> that option who want to be check
   <input type="checkbox" name="language" value="that">
 </label>
 ````
@@ -847,13 +848,13 @@ ID: "gender.css"
 
 ````html
 <label class="us-gender us-gender-selected">
-  <span class="us-gender-icon iconfont">&#x3435;</span>
-  <span class="us-gender-check iconfont">&#x3437;</span>
+  <span class="us-gender-icon iconfont iconfont-male"></span>
+  <span class="us-gender-check iconfont iconfont-selected"></span>
   <input type="radio" name="gender" value="male" />
 </label>
 <label class="us-gender">
-  <span class="us-gender-icon iconfont">&#x3436;</span>
-  <span class="us-gender-check iconfont">&#x3437;</span>
+  <span class="us-gender-icon iconfont iconfont-male"></span>
+  <span class="us-gender-check iconfont iconfont-selected"></span>
   <input type="radio" name="gender" value="fmale" />
 </label>
 ````
@@ -882,7 +883,7 @@ ID: "channel.css"
     <div class="us-channel-item-header">
       <div class="us-channel-item-left">
         <span class="us-radio-dot">●</span>
-        <span class="us-channel-item-icon iconfont">&#x3440;</span>
+        <span class="us-channel-item-icon iconfont iconfont-boleto"></span>
       </div>
       <span class="us-channel-item-text">Webmoney</span>
       <span class="us-channel-item-text us-money">$</span>
@@ -895,7 +896,7 @@ ID: "channel.css"
     <div class="us-channel-item-header">
       <div class="us-channel-item-left">
         <span class="us-radio-dot">●</span>
-        <span class="us-channel-item-icon iconfont">&#x3440;</span>
+        <span class="us-channel-item-icon iconfont iconfont-boleto"></span>
       </div>
       <span class="us-channel-item-text">Webmoney</span>
       <span class="us-channel-item-text us-money">¥</span>
@@ -908,7 +909,7 @@ ID: "channel.css"
     <div class="us-channel-item-header">
       <div class="us-channel-item-left">
         <span class="us-radio-dot">●</span>
-        <span class="us-channel-item-icon iconfont">&#x3440;</span>
+        <span class="us-channel-item-icon iconfont iconfont-boleto"></span>
       </div>
       <span class="us-channel-item-text">Webmoney</span>
       <span class="us-channel-item-text us-money">¥</span>
@@ -946,10 +947,10 @@ seajs.use(['$'], function($) {
   <div class="container-990">
     <div class="us-header-right">
       <a class="us-header-item us-header-name" href="javascript:;">Hello, Sheldon Smith</a>
-      <a class="us-header-item" href="javascript:;">Settings<i class="iconfont">&#x3442;</i></a>
+      <a class="us-header-item" href="javascript:;">Settings<i class="iconfont iconfont-downarrow"></i></a>
       <a class="us-header-item" href="javascript:;">Sign Out</a>
       <a class="us-header-item" href="javascript:;">Help Center</a>
-      <a class="us-header-item" href="javascript:;">English<i class="iconfont">&#x3442;</i></a>
+      <a class="us-header-item" href="javascript:;">English<i class="iconfont iconfont-downarrow"></i></a>
     </div>
   </div>
 </div>
