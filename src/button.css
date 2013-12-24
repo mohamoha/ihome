@@ -79,4 +79,5 @@ a.us-button-counting:hover {
   background-color: #e7e2cb;
   border-color: #e7e2cb;
   color: #927e67;
+  cursor: wait;
 }
