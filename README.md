@@ -180,8 +180,7 @@ ID: "button.css"
 ````
 
 ````html
-<a class="us-button us-button-border">(46s) resend an email</a>
-<a class="us-button us-button-border us-button-disable">(46s) resend an email</a>
+<a class="us-button us-button-middle us-button-counting">(46s) resend an email</a>
 ````
 
 ````html

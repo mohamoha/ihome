@@ -65,32 +65,6 @@ a.us-button:hover {
   border-color: #674F34;
 }
 
-a.us-button-border, 
-button.us-button-border {
-  text-align: center;
-  font-size: 18px;
-  border: 2px solid #958572;
-  background-color: transparent;
-  color: #958572;
-  height: 40px;
-  line-height: 40px;
-  padding: 0 15px;
-}
-
-button.us-button-border {
-  line-height: normal;
-}
-
-a.us-button-border,
-button.us-button-border {
-  color: #958572;
-}
-
-a.us-button-border:hover,
-button.us-button-border:hover {
-  background-color: #958572;
-}
-
 .us-button-disable,
 .us-button-disable:hover {
   background-color: #aaa;
@@ -98,13 +72,11 @@ button.us-button-border:hover {
   cursor: default!important;
 }
 
-a.us-button-border.us-button-disable,
-button.us-button-border.us-button-disable,
-a.us-button-border.us-button-disable:hover,
-button.us-button-border.us-button-disable:hover {
-  border-color: #DBD7BA;
-  cursor: default;
-  color: #BCAD8E;
-  background: transparent;
+.us-button-counting,
+a.us-button-counting,
+.us-button-counting:hover,
+a.us-button-counting:hover {
+  background-color: #e7e2cb;
+  border-color: #e7e2cb;
+  color: #927e67;
 }
-
