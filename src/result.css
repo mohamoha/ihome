@@ -88,10 +88,10 @@
 }
 
 .us-result-error {
-  background-color: #757B81;
+  background-color: #BCAD8E;
 }
 
 .us-result-error .us-result-text {
-  color: #757B81;
-  text-shadow: 1px 1px #D5DDE0, 2px 2px #D5DDE0, 3px 3px #D5DDE0, 4px 4px #D5DDE0, 5px 5px #D5DDE0, 6px 6px #D5DDE0, 7px 7px #D5DDE0, 8px 8px #D5DDE0, 9px 9px #D5DDE0, 10px 10px #D5DDE0, 11px 11px #D5DDE0, 12px 12px #D5DDE0, 13px 13px #D5DDE0, 14px 14px #D5DDE0, 15px 15px #D5DDE0, 16px 16px #D5DDE0, 17px 17px #D5DDE0, 18px 18px #D5DDE0;
+  color: #B9AB8E;
+  text-shadow: 1px 1px #E8E4D1, 2px 2px #E8E4D1, 3px 3px #E8E4D1, 4px 4px #E8E4D1, 5px 5px #E8E4D1, 6px 6px #E8E4D1, 7px 7px #E8E4D1, 8px 8px #E8E4D1, 9px 9px #E8E4D1, 10px 10px #E8E4D1, 11px 11px #E8E4D1, 12px 12px #E8E4D1, 13px 13px #E8E4D1, 14px 14px #E8E4D1, 15px 15px #E8E4D1, 16px 16px #E8E4D1, 17px 17px #E8E4D1, 18px 18px #E8E4D1;
 }
