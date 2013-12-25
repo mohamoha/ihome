@@ -1,7 +1,11 @@
+.us-header,
+.us-footer {
+  background: #585858;
+}
+
 .us-header {
   height: 48px;
   line-height: 48px;
-  background: #585858;
   border-bottom: 3px solid #43C8B1;
 }
 
@@ -49,7 +53,6 @@ a.us-header-name {
   padding-top: 20px;
   margin-top: 20px;
   font-size: 14px;
-  background-color: #393836;
   color: #ACACAC;
 }
 
