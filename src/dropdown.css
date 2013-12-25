@@ -49,7 +49,7 @@ a.us-dropdown-focus:hover i {
 
 a.us-dropdown-focus:after {
   border-style: solid;
-  border-color: transparent rgba(0,0,0,0.27);
+  border-color: transparent rgba(0,0,0,0.12);
   border-width: 48px 0 0 48px;
   content: "";
   position: absolute;

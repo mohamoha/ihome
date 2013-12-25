@@ -1,7 +1,7 @@
 .us-header {
   height: 48px;
   line-height: 48px;
-  background: #393836;
+  background: #585858;
   border-bottom: 3px solid #43C8B1;
 }
 
@@ -114,7 +114,7 @@ a.us-header-name {
   right: -28px;
   width: 0;
   height: 0;
-  border-color: transparent #292929;
+  border-color: transparent #4D4D4D;
 }
 
 .us-header.single-task {
