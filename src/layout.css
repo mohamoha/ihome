@@ -2,6 +2,9 @@
 .us-footer {
   background: #585858;
 }
+#ServerNum {
+  color: #585858;
+}
 
 .us-header {
   height: 48px;
