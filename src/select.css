@@ -73,7 +73,7 @@ a.ui-select-trigger:hover {
   overflow:hidden;
   text-overflow:ellipsis;
   white-space:nowrap;
-  vertical-align: bottom;
+  vertical-align: middle;
 }
 
 .ui-select-arrow {
