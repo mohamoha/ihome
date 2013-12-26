@@ -1,5 +1,6 @@
-.us-notice {
-  color: #968472;
+.us-notice,
+.us-notice-box {
+  color: #958572;
 }
 
 .us-notice-icon {
@@ -8,17 +9,30 @@
 }
 
 .us-notice-box {
-  padding: 24px 20px 24px 75px;
+  padding: 16px 20px 17px 75px;
   border: 1px solid #958572;
   position: relative;
-  font-size: 16px;
+}
+
+.us-notice-box h3,
+.us-notice-box ul,
+.us-notice-box ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.us-notice-box h3 {
+  font-weight: normal;
+  color: #625647;
+  margin-bottom: 5px;
 }
 
 .us-notice-box .us-notice-icon {
   font-size: 32px;
+  left: 23px;
   position: absolute;
-  top: 13px;
-  left: 30px;
+  top: 6px;
 }
 
 .us-notice-box-error {

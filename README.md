@@ -707,8 +707,12 @@ ID: "notice.css"
 
 ````html
 <div class="us-notice-box">
-  <span class="us-notice-icon iconfont  iconfont-note"></span>
-  Some infomatioin in us-notice. Some infomatioin in us-notice.
+  <span class="us-notice-icon iconfont iconfont-note"></span>
+  <h3>Why is verification important?</h3>
+  <ul>
+    <li>• This verification helps ensure your account will be secured.</li>
+    <li>• Verified account-holders enjoy unlimited transactions.</li>
+  </ul>
 </div>
 ````
 
