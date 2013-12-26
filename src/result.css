@@ -1,18 +1,18 @@
 .us-result {
   background-color: #00B699;
   color: #fff;
-  padding: 35px 40px 40px 125px;
+  padding: 35px 50px 40px 128px;
   position: relative;
   font-size: 14px;
 }
 
 .us-result a {
   color: #fff;
-  text-decoration: underline;
 }
 
 .us-result a:hover {
-  color: #3DDEF5;
+  color: #fff;
+  text-decoration: underline;
 }
 
 .us-result h3 {
@@ -22,15 +22,16 @@
 
 .us-result h3 {
   margin: 0;
+  margin-bottom: 15px;
 }
 
 .us-result p {
-  margin: 0 0 10px 0;
+  margin: 10px 0 0 0;
 }
 
 .us-result-icon {
   position: absolute;
-  top: 42px;
+  top: 30px;
   left: 50px;
 }
 
@@ -69,14 +70,10 @@
   font-weight: normal;
 }
 
-.us-result-mainlink {
-  margin: 15px 0;
-}
-
-.us-result-mainlink a {
-  text-decoration: none;
+a.us-result-mainlink {
+  display: block;
+  margin: 16px 0 30px;
   font-size: 18px;
-  font-weight: bold;
 }
 
 .us-result-content hr {
@@ -84,7 +81,7 @@
   border: none;
   display: block;
   height: 1px;
-  margin: 20px 0;
+  margin: 30px 0;
 }
 
 .us-result-error {

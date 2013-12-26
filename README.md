@@ -738,11 +738,9 @@ ID: "result.css"
     <i class="us-result-text iconfont iconfont-selected"></i>
   </span>
   <div class="us-result-content">
-    <h3>Your Alipay account has been set up successfully!</h3>
+    <h3>Your Account has been set up!</h3>
     <p>You can now add funds to your Alipay account and use it to pay for AliExpress orders.</p>
-    <div class="us-result-mainlink">
-      <a href="#">Go to my Alipay ></a>
-    </div>
+    <a href="#" class="us-result-mainlink">Go to my Alipay ></a>
     <hr>
     <p>To remove your daily spend limit, additional identity verification is needed.</p>
     <p>
@@ -759,11 +757,9 @@ ID: "result.css"
     <i class="us-result-text">!</i>
   </span>
   <div class="us-result-content">
-    <h3>Your Alipay account has been set up successfully!</h3>
-    <p>You can now add funds to your Alipay account and use it to pay for AliExpress orders.</p>
-    <div class="us-result-mainlink">
-      <a href="#">Go to my Alipay ></a>
-    </div>
+    <h3>Bad message!</h3>
+    <p>You can now add funds to your Alipay account and use it.</p>
+    <a href="#" class="us-result-mainlink">Go to my Alipay ></a>
     <hr>
     <p>To remove your daily spend limit, additional identity verification is needed.</p>
     <p>
