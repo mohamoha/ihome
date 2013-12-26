@@ -18,6 +18,10 @@
   font-weight: normal;
 }
 
+.us-table th {
+  padding: 13px 15px;
+}
+
 .us-table tbody tr {
   border-bottom: 1px solid #E5E2DD;
 }
