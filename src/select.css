@@ -63,7 +63,7 @@ a.ui-select-trigger:hover {
   *display: inline;
   *zoom: 1;
   line-height: 38px;
-  width: 240px;
+  min-width: 100px;
   height:38px;
   position: relative;
   text-indent: 11px;
