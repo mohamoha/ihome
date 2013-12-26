@@ -98,6 +98,9 @@
 
 .us-step-mini {
   background: none;
+  color: #BCAD8E;
+  border-top: 1px solid #BCAD8E;
+  border-bottom: 1px solid #BCAD8E;
 }
 
 .us-step-mini li {
@@ -116,9 +119,10 @@
   right: -15px;
   content: "›";
   width: auto;
-  color: #BCAD8E;
+  color: #D2BD95;
   font-size: 22px;
   border-width: 0;
+  font-family: Times New Roman;
 }
 
 .us-step-mini li.us-step-active {
@@ -147,4 +151,23 @@
 .us-step-mini li.us-step-done {
   color: #E0DCC4;
   background: none;
+}
+
+.us-step-mini li.us-step-start:before,
+.us-step-mini li.us-step-end:after {
+  border: none;
+  background: #BCAD8E;
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: block;
+}
+
+.us-step-mini li.us-step-start:before {
+  left: 0;
+}
+
+.us-step-mini li.us-step-end:after {
+  right: 0;
 }

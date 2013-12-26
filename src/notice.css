@@ -9,7 +9,7 @@
 }
 
 .us-notice-box {
-  padding: 16px 20px 17px 75px;
+  padding: 17px 20px 17px 75px;
   border: 1px solid #958572;
   position: relative;
 }
@@ -30,9 +30,9 @@
 
 .us-notice-box .us-notice-icon {
   font-size: 32px;
-  left: 23px;
+  left: 25px;
   position: absolute;
-  top: 6px;
+  top: 5px;
 }
 
 .us-notice-box-error {
