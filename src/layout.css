@@ -1,3 +1,6 @@
+body {
+  min-height: 660px;
+}
 .us-header,
 .us-footer {
   background: #585858;
