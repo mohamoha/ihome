@@ -29,7 +29,13 @@
   color: #fff;
 }
 
-.us-gender input[type=radio],
+/* display:none or visibility:hidden could not trigger input checkbox when click label */
+.us-gender input[type=radio] {
+  position: absolute;
+  z-index: -1;
+  width: 0;
+}
+
 .us-gender .us-gender-check {
   display: none;
 }

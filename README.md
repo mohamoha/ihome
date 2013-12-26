@@ -784,7 +784,7 @@ ID: "checkbox.css"
 ````html
 <label class="us-checkbox us-checkbox-checked">
   <span class="us-checkbox-check iconfont iconfont-selected"></span> this option who want to be check
-  <input type="checkbox" name="language" value="this">
+  <input type="checkbox" name="language" checked value="this">
 </label>
 <label class="us-checkbox">
   <span class="us-checkbox-check iconfont iconfont-selected"></span> that option who want to be check
@@ -804,6 +804,9 @@ seajs.use(['$'], function($) {
     } else {
       item.addClass('us-checkbox-checked');
     }
+    // ie8 reflow
+    item[0].style.display = 'none';
+    item[0].style.display = '';
   });
 });
 ````

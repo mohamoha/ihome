@@ -18,6 +18,9 @@
   color: #F5F4E9;
 }
 
+/* display:none or visibility:hidden could not trigger input checkbox when click label */
 .us-checkbox input[type=checkbox] {
-  display: none;
+  position: absolute;
+  z-index: -1;
+  width: 0;
 }
