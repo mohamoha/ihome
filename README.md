@@ -859,9 +859,9 @@ ID: "gender.css"
   <input type="radio" name="gender" value="male" />
 </label>
 <label class="us-gender">
-  <span class="us-gender-icon iconfont iconfont-male"></span>
+  <span class="us-gender-icon iconfont iconfont-female"></span>
   <span class="us-gender-check iconfont iconfont-selected"></span>
-  <input type="radio" name="gender" value="fmale" />
+  <input type="radio" name="gender" value="female" />
 </label>
 ````
 
