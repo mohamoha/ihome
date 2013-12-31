@@ -25,7 +25,7 @@ $ cd ihome
 $ spm doc watch
 ```
 
-Then open http://127.0.0.1:8000, browser the demos.
+Then open http://127.0.0.1:8000, browse the demos.
 
 ## 4. Update version if need
 
