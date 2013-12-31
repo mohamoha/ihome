@@ -185,7 +185,9 @@ ID: "button.css"
 
 ````html
 <input type="button" class="us-button us-button-disable" value="Continue">
+<button class="us-button us-button-disable">Search</button>
 <a class="us-button us-button-primary us-button-disable">Continue</a>
+<a class="us-button us-button-info us-button-disable">Continue</a>
 ````
 
 ## Form

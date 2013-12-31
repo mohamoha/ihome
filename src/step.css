@@ -115,14 +115,6 @@
 }
 
 .us-step-mini li:after {
-  top: -2px;
-  right: -15px;
-  content: "›";
-  width: auto;
-  color: #D2BD95;
-  font-size: 22px;
-  border-width: 0;
-  font-family: Times New Roman;
 }
 
 .us-step-mini li.us-step-active {

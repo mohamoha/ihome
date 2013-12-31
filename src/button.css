@@ -67,9 +67,27 @@ a.us-button:hover {
 
 .us-button-disable,
 .us-button-disable:hover {
-  background-color: #aaa;
-  border-color: #777;
   cursor: default!important;
+}
+
+.us-button-disable:active {
+  position: static;
+}
+
+.us-button-disable,
+a.us-button-disable,
+.us-button-disable:hover,
+a.us-button-disable:hover {
+  background-color: #43C8B1;
+  border-color: #43C8B1;
+  color: #B5E5DA;
+}
+
+.us-button-info.us-button-disable,
+.us-button-info.us-button-disable:hover {
+  background-color: #BCAD8E;
+  border-color: #BCAD8E;
+  color: #DFD9CB;
 }
 
 .us-button-counting,
