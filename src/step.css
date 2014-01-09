@@ -135,6 +135,7 @@
 
 .us-step-mini li.us-step-active:before {
   border-left-color: #F5F4E9;
+  left: 0;
 }
 
 .us-step-mini li.us-step-active:after {
