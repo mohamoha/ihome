@@ -132,6 +132,7 @@ We choose [normalize.css](http://necolas.github.io/normalize.css/) as a global r
 <i class="iconfont iconfont-home"></i>
 <i class="iconfont iconfont-refund"></i>
 <i class="iconfont iconfont-refused"></i>
+<i class="iconfont iconfont-westunion"></i>
 `````
 
 <script>
