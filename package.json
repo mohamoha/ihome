@@ -42,7 +42,7 @@
       "button.css"
     ],
     "alias": {
-      "nomalize.css": "gallery/normalize/2.1.3/normalize.css",
+      "normalize.css": "gallery/normalize/2.1.3/normalize.css",
       "ui-dialog": "arale/dialog/1.2.4/dialog.css"
     },
     "noIconfont": true,
