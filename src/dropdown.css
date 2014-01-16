@@ -62,7 +62,7 @@ a.us-dropdown-focus:after {
 /* ie8 hack */
 @media \0screen {
   a.us-dropdown-focus:after {
-    border-color: transparent #292929;
+    border-color: transparent #4D4D4D;
     z-index: -1;
   }
 }
