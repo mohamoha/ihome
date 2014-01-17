@@ -104,6 +104,8 @@ We choose [normalize.css](http://necolas.github.io/normalize.css/) as a global r
 
 `````html
 <i class="iconfont iconfont-pendingbalance"></i>
+<i class="iconfont iconfont-man"></i>
+<i class="iconfont iconfont-woman"></i>
 <i class="iconfont iconfont-male"></i>
 <i class="iconfont iconfont-female"></i>
 <i class="iconfont iconfont-selected"></i>

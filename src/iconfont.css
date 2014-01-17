@@ -1,137 +1,117 @@
 @font-face {
-  font-family: 'iconfont-ihome';
-  src: url('http://at.alicdn.com/t/font_1389192584_9769726.eot'); /* IE9*/
-  src: url('http://at.alicdn.com/t/font_1389192584_9769726.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('http://at.alicdn.com/t/font_1389192585_0511916.woff') format('woff'), /* chrome、firefox */
-  url('http://at.alicdn.com/t/font_1389192584_8468401.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-  url('http://at.alicdn.com/t/font_1389192585_1092644.svg#svgFontName') format('svg'); /* iOS 4.1- */
+    font-family:'iconfont-ihome';
+    src: url('http://at.alicdn.com/t/font_1389192584_9769726.eot');
+    /* IE9*/
+    src: url('http://at.alicdn.com/t/font_1389192584_9769726.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('http://at.alicdn.com/t/font_1389192585_0511916.woff') format('woff'),
+    /* chrome、firefox */
+    url('http://at.alicdn.com/t/font_1389192584_8468401.ttf') format('truetype'),
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('http://at.alicdn.com/t/font_1389192585_1092644.svg#svgFontName') format('svg');
+    /* iOS 4.1- */
 }
-
 .iconfont {
-  font-family: 'iconfont-ihome';
-  font-style: normal;
-  font-weight: normal;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-stroke-width: 0.2px;
-  -moz-osx-font-smoothing: grayscale;
+    font-family:'iconfont-ihome';
+    font-style: normal;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
 }
-
 .iconfont-pendingbalance:before {
-  content: "㐴";
+    content:"㐴";
 }
-
+.iconfont-man:before {
+    content:"㑙";
+}
+.iconfont-woman:before {
+    content:"㑚";
+}
 .iconfont-male:before {
-  content: "㐵";
+    content:"㐵";
 }
-
 .iconfont-female:before {
-  content: "㐶";
+    content:"㐶";
 }
-
 .iconfont-selected:before {
-  content: "㐷";
+    content:"㐷";
 }
-
 .iconfont-user:before {
-  content: "㐸";
+    content:"㐸";
 }
-
 .iconfont-income:before {
-  content: "㐺";
+    content:"㐺";
 }
-
 .iconfont-chargeoff:before {
-  content: "㐻";
+    content:"㐻";
 }
-
 .iconfont-help:before {
-  content: "㐼";
+    content:"㐼";
 }
-
 .iconfont-note:before {
-  content: "㐽";
+    content:"㐽";
 }
-
 .iconfont-boleto:before {
-  content: "㐿";
+    content:"㐿";
 }
-
 .iconfont-webmoney:before {
-  content: "㑀";
+    content:"㑀";
 }
-
 .iconfont-secured:before {
-  content: "㑘";
+    content:"㑘";
 }
-
 .iconfont-downarrow:before {
-  content: "㑂";
+    content:"㑂";
 }
-
 .iconfont-uparrow:before {
-  content: "㑃";
+    content:"㑃";
 }
-
 .iconfont-edit:before {
-  content: "㑇";
+    content:"㑇";
 }
-
 .iconfont-qiwi:before {
-  content: "㑎";
+    content:"㑎";
 }
-
 .iconfont-refresh:before {
-  content: "㑏";
+    content:"㑏";
 }
-
 .iconfont-error:before {
-  content: "㑐";
+    content:"㑐";
 }
-
 .iconfont-alert:before {
-  content: "㑑";
+    content:"㑑";
 }
-
 .iconfont-verified:before {
-  content: "㑊";
+    content:"㑊";
 }
-
 .iconfont-bindmobile:before {
-  content: "㑍";
+    content:"㑍";
 }
-
 .iconfont-mobile:before {
-  content: "㑒";
+    content:"㑒";
 }
-
 .iconfont-createprofile:before {
-  content: "㑋";
+    content:"㑋";
 }
-
 .iconfont-editprofile:before {
-  content: "㑌";
+    content:"㑌";
 }
-
 .iconfont-verify:before {
-  content: "㑓";
+    content:"㑓";
 }
-
 .iconfont-back:before {
-  content: "㑔";
+    content:"㑔";
 }
-
 .iconfont-home:before {
-  content: "㑕";
+    content:"㑕";
 }
-
 .iconfont-refund:before {
-  content: "㑖";
+    content:"㑖";
 }
-
 .iconfont-refused:before {
-  content: "㑗";
+    content:"㑗";
 }
-
 .iconfont-westunion:before {
-  content: "㑛";
+    content:"㑛";
 }
